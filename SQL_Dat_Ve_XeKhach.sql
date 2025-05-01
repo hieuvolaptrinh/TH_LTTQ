@@ -37,12 +37,12 @@ CREATE TABLE TUYENDUONG (
 
 -- Bảng xe khach
 CREATE TABLE XEKHACH (
-    id_XeKhach INT PRIMARY KEY IDENTITY(1,1),
+    id_XeKhach INT PRIMARY KEY IDENTITY(1,1) ,
     bien_So VARCHAR(20) UNIQUE NOT NULL, 
     ten_XeKhach NVARCHAR(100) NOT NULL,
 	gio_Di DATETIME NOT NULL,
     gio_Den DATETIME NOT NULL,
-	 id_TuyenDuong INT ,
+	id_TuyenDuong INT ,
 	  FOREIGN KEY (id_TuyenDuong) REFERENCES TUYENDUONG(id_TuyenDuong),
 );
 
