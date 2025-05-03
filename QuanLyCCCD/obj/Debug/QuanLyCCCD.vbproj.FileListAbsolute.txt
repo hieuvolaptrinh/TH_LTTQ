@@ -19,3 +19,25 @@ D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\L�
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.TichHopGiayTo.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.DieuKhien.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.DanhSachXeBuyt.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\bin\Debug\QuanLyCCCD.exe.config
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\bin\Debug\QuanLyCCCD.exe
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\bin\Debug\QuanLyCCCD.pdb
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\bin\Debug\QuanLyCCCD.xml
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\bin\Debug\Guna.UI2.dll
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.vbproj.AssemblyReference.cache
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.DanhSachXeBuyt.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.DieuKhien.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.Form1.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.Home.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.HoSoLienQuan.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.Resources.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.QuanLy.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.ThongKe.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.TichHopGiayTo.resources
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.vbproj.GenerateResource.cache
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.vbproj.CoreCompileInputs.cache
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.vbproj.Up2Date
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.exe
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.xml
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.pdb
+D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyCCCD\obj\Debug\QuanLyCCCD.themTuyenDuong.resources

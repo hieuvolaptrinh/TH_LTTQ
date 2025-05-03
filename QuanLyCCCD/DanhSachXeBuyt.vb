@@ -197,4 +197,8 @@
             MessageBox.Show("Không tìm thấy xe khách với biển số này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
+
+    Private Sub Guna2CustomGradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2CustomGradientPanel1.Paint
+
+    End Sub
 End Class

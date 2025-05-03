@@ -132,6 +132,13 @@
     <Compile Include="QuanLy.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="themTuyenDuong.Designer.vb">
+      <DependentUpon>themTuyenDuong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="themTuyenDuong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemTuyenDuongDAO.vb" />
     <Compile Include="ThongKe.Designer.vb">
       <DependentUpon>ThongKe.vb</DependentUpon>
     </Compile>
@@ -170,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLy.resx">
       <DependentUpon>QuanLy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themTuyenDuong.resx">
+      <DependentUpon>themTuyenDuong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThongKe.resx">
       <DependentUpon>ThongKe.vb</DependentUpon>
