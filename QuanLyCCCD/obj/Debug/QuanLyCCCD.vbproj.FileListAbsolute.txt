@@ -18,3 +18,4 @@ D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\L�
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.HoSoLienQuan.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.TichHopGiayTo.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.DieuKhien.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Lập trình trực quan\QuanLyCCCD\QuanLyCCCD\obj\Debug\QuanLyCCCD.DanhSachXeBuyt.resources
