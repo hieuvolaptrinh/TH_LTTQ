@@ -83,6 +83,9 @@
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="BT3.vb" />
     <Compile Include="CongDan.vb" />
+    <Compile Include="DangKi.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DanhSachXeBuyt.Designer.vb">
       <DependentUpon>DanhSachXeBuyt.vb</DependentUpon>
     </Compile>
@@ -90,6 +93,8 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DanhSachXeBuytDAO.vb" />
+    <Compile Include="DatabaseHelper.vb" />
+    <Compile Include="DatabaseHelper1.vb" />
     <Compile Include="DieuKhien.Designer.vb">
       <DependentUpon>DieuKhien.vb</DependentUpon>
     </Compile>
@@ -114,6 +119,7 @@
     <Compile Include="HoSoLienQuan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Models.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
@@ -126,6 +132,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NguoiDung.vb" />
     <Compile Include="QuanLy.Designer.vb">
       <DependentUpon>QuanLy.vb</DependentUpon>
     </Compile>
@@ -150,6 +157,9 @@
       <DependentUpon>TichHopGiayTo.vb</DependentUpon>
     </Compile>
     <Compile Include="TichHopGiayTo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuyenDuong.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
