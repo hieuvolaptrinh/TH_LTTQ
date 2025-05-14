@@ -1,6 +1,6 @@
 ﻿Public Class TrangChu
     Private Sub TrangChu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
+    End Sub
 End Class

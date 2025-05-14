@@ -42,6 +42,7 @@ CREATE TABLE XEKHACH (
     ten_XeKhach NVARCHAR(100) NOT NULL,
 	gio_Di DATETIME NOT NULL,
     gio_Den DATETIME NOT NULL,
+    gia_Ve MONEY,
 	id_TuyenDuong INT ,
 	  FOREIGN KEY (id_TuyenDuong) REFERENCES TUYENDUONG(id_TuyenDuong),
 );
