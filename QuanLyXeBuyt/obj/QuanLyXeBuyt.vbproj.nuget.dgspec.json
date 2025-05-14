@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\QuanLyXeBuyt\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {}
+    "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH LTTQ CK\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {}
   },
   "projects": {
-    "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\QuanLyXeBuyt\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {
+    "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH LTTQ CK\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\QuanLyXeBuyt\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
+        "projectUniqueName": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH LTTQ CK\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
         "projectName": "QuanLyXeBuyt",
-        "projectPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\QuanLyXeBuyt\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
+        "projectPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH LTTQ CK\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
         "packagesPath": "C:\\Users\\vndhi\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\QuanLyXeBuyt\\QuanLyXeBuyt\\obj\\",
+        "outputPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH LTTQ CK\\QuanLyXeBuyt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

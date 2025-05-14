@@ -4,9 +4,6 @@
     <Compile Update="DanhSachXeBuyt.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="DatVe.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="DatVeNe.vb">
       <SubType>Form</SubType>
     </Compile>
