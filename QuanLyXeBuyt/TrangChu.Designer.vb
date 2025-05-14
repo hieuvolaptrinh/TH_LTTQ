@@ -22,6 +22,7 @@ Partial Class TrangChu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Public Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -92,6 +93,7 @@ Partial Class TrangChu
         btnDatVeNhanh = New Guna.UI2.WinForms.Guna2GradientButton()
         btnThemTuyen = New Guna.UI2.WinForms.Guna2GradientButton()
         btnThemXe = New Guna.UI2.WinForms.Guna2GradientButton()
+        Timer1 = New Timer(components)
         pnlNavigation.SuspendLayout()
         pnlVeHuy.SuspendLayout()
         pnlTongTuyen.SuspendLayout()
@@ -262,15 +264,15 @@ Partial Class TrangChu
         pnlHeader.Location = New Point(250, 0)
         pnlHeader.Name = "pnlHeader"
         pnlHeader.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        pnlHeader.Size = New Size(1150, 80)
+        pnlHeader.Size = New Size(1150, 99)
         pnlHeader.TabIndex = 1
         ' 
         ' lblWelcome
         ' 
         lblWelcome.BackColor = Color.Transparent
-        lblWelcome.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
+        lblWelcome.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(163))
         lblWelcome.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        lblWelcome.Location = New Point(273, 12)
+        lblWelcome.Location = New Point(310, 13)
         lblWelcome.Name = "lblWelcome"
         lblWelcome.Size = New Size(554, 56)
         lblWelcome.TabIndex = 0
@@ -305,10 +307,10 @@ Partial Class TrangChu
         pnlMainContent.Controls.Add(pnlBottom)
         pnlMainContent.CustomizableEdges = CustomizableEdges33
         pnlMainContent.Dock = DockStyle.Fill
-        pnlMainContent.Location = New Point(250, 80)
+        pnlMainContent.Location = New Point(250, 99)
         pnlMainContent.Name = "pnlMainContent"
         pnlMainContent.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        pnlMainContent.Size = New Size(1150, 720)
+        pnlMainContent.Size = New Size(1150, 701)
         pnlMainContent.TabIndex = 2
         ' 
         ' pnlBottom
@@ -334,7 +336,7 @@ Partial Class TrangChu
         pnlBottom.Location = New Point(0, 0)
         pnlBottom.Name = "pnlBottom"
         pnlBottom.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        pnlBottom.Size = New Size(1150, 720)
+        pnlBottom.Size = New Size(1150, 701)
         pnlBottom.TabIndex = 2
         ' 
         ' timKiem
@@ -351,11 +353,11 @@ Partial Class TrangChu
         timKiem.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         timKiem.ForeColor = Color.FromArgb(CByte(192), CByte(64), CByte(0))
         timKiem.Image = My.Resources.Resources.find
-        timKiem.Location = New Point(920, 404)
+        timKiem.Location = New Point(920, 379)
         timKiem.Margin = New Padding(3, 2, 3, 2)
         timKiem.Name = "timKiem"
         timKiem.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        timKiem.Size = New Size(172, 56)
+        timKiem.Size = New Size(172, 45)
         timKiem.TabIndex = 24
         timKiem.Text = "Tìm Kiếm"
         ' 
@@ -376,7 +378,7 @@ Partial Class TrangChu
         txtBienSo.Font = New Font("Segoe UI", 9F)
         txtBienSo.ForeColor = Color.Black
         txtBienSo.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBienSo.Location = New Point(362, 404)
+        txtBienSo.Location = New Point(362, 379)
         txtBienSo.Margin = New Padding(3, 5, 3, 5)
         txtBienSo.Name = "txtBienSo"
         txtBienSo.PlaceholderForeColor = Color.Black
@@ -559,7 +561,7 @@ Partial Class TrangChu
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
         Guna2HtmlLabel1.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Guna2HtmlLabel1.Location = New Point(30, 401)
+        Guna2HtmlLabel1.Location = New Point(30, 373)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(260, 56)
         Guna2HtmlLabel1.TabIndex = 3
@@ -568,7 +570,7 @@ Partial Class TrangChu
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(20, 472)
+        DataGridView1.Location = New Point(20, 453)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.Size = New Size(1110, 236)
@@ -649,7 +651,7 @@ Partial Class TrangChu
         btnThemTuyen.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         btnThemTuyen.Size = New Size(207, 62)
         btnThemTuyen.TabIndex = 2
-        btnThemTuyen.Text = "Thêm Vé Xe"
+        btnThemTuyen.Text = "Xem chi tiết vé"
         ' 
         ' btnThemXe
         ' 
@@ -670,6 +672,9 @@ Partial Class TrangChu
         btnThemXe.Size = New Size(217, 62)
         btnThemXe.TabIndex = 1
         btnThemXe.Text = "Thêm Xe Mới"
+        ' 
+        ' Timer1
+        ' 
         ' 
         ' TrangChu
         ' 
@@ -707,7 +712,6 @@ Partial Class TrangChu
 
     Private pnlHeader As Guna.UI2.WinForms.Guna2Panel
     Private picLogo As Guna.UI2.WinForms.Guna2PictureBox
-    Private lblClock As Guna.UI2.WinForms.Guna2HtmlLabel
 
     Private pnlMainContent As Guna.UI2.WinForms.Guna2Panel
     Private lblWelcome As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -746,5 +750,7 @@ Partial Class TrangChu
     Friend WithEvents TextBoxBienSo As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents timKiem As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents txtBienSo As Guna.UI2.WinForms.Guna2TextBox
+    Private WithEvents lblClock As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Timer1 As Timer
     '// [END] Control Declarations
 End Class
