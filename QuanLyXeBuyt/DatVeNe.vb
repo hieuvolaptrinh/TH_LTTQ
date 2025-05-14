@@ -1,5 +1,10 @@
 ﻿Public Class DatVeNe
-    Private Sub txtSoDienThoai_TextChanged(sender As Object, e As EventArgs) Handles txtSoDienThoai.TextChanged
+
+    Private Sub DatVeNe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnDatVe_Click(sender As Object, e As EventArgs) Handles btnDatVe.Click
 
     End Sub
 End Class

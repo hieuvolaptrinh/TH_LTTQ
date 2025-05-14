@@ -28,6 +28,8 @@ Partial Class DatVeNe
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -36,29 +38,27 @@ Partial Class DatVeNe
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlCard = New Guna.UI2.WinForms.Guna2ShadowPanel()
         btnHuy = New Guna.UI2.WinForms.Guna2GradientButton()
         btnDatVe = New Guna.UI2.WinForms.Guna2GradientButton()
         pnlCol2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblTongTien = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblTongTienValue = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblSoLuongVe = New Guna.UI2.WinForms.Guna2HtmlLabel()
         numSoLuongVe = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        lblTongTienValue = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        lblTongTien = New Guna.UI2.WinForms.Guna2HtmlLabel()
         txtSoDienThoai = New Guna.UI2.WinForms.Guna2TextBox()
         lblSoDienThoai = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlCol1 = New Guna.UI2.WinForms.Guna2Panel()
+        DataGridView1 = New DataGridView()
         cboXeKhach = New Guna.UI2.WinForms.Guna2ComboBox()
-        lblTitle = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblXeKhach = New Guna.UI2.WinForms.Guna2HtmlLabel()
         cboTuyenDuong = New Guna.UI2.WinForms.Guna2ComboBox()
         lblTuyenDuong = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        DataGridView1 = New DataGridView()
+        lblTitle = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblWelcome = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlCard.SuspendLayout()
         pnlCol2.SuspendLayout()
@@ -143,6 +143,63 @@ Partial Class DatVeNe
         pnlCol2.Size = New Size(412, 509)
         pnlCol2.TabIndex = 2
         ' 
+        ' Guna2TextBox1
+        ' 
+        Guna2TextBox1.BackColor = Color.Transparent
+        Guna2TextBox1.BorderRadius = 10
+        Guna2TextBox1.Cursor = Cursors.IBeam
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges5
+        Guna2TextBox1.DefaultText = ""
+        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Font = New Font("Segoe UI", 10F)
+        Guna2TextBox1.ForeColor = Color.Black
+        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Location = New Point(37, 160)
+        Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox1.Name = "Guna2TextBox1"
+        Guna2TextBox1.PlaceholderText = "Nhập số điện thoại"
+        Guna2TextBox1.SelectedText = ""
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2TextBox1.Size = New Size(340, 36)
+        Guna2TextBox1.TabIndex = 7
+        ' 
+        ' Guna2HtmlLabel1
+        ' 
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Guna2HtmlLabel1.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        Guna2HtmlLabel1.Location = New Point(37, 123)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(55, 30)
+        Guna2HtmlLabel1.TabIndex = 6
+        Guna2HtmlLabel1.Text = "Email"
+        ' 
+        ' lblTongTien
+        ' 
+        lblTongTien.BackColor = Color.Transparent
+        lblTongTien.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        lblTongTien.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        lblTongTien.Location = New Point(34, 452)
+        lblTongTien.Name = "lblTongTien"
+        lblTongTien.Size = New Size(99, 30)
+        lblTongTien.TabIndex = 0
+        lblTongTien.Text = "Tổng tiền:"
+        ' 
+        ' lblTongTienValue
+        ' 
+        lblTongTienValue.BackColor = Color.Transparent
+        lblTongTienValue.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        lblTongTienValue.ForeColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
+        lblTongTienValue.Location = New Point(294, 452)
+        lblTongTienValue.Name = "lblTongTienValue"
+        lblTongTienValue.Size = New Size(65, 30)
+        lblTongTienValue.TabIndex = 1
+        lblTongTienValue.Text = "0 VNĐ"
+        ' 
         ' lblSoLuongVe
         ' 
         lblSoLuongVe.BackColor = Color.Transparent
@@ -170,28 +227,6 @@ Partial Class DatVeNe
         numSoLuongVe.Size = New Size(340, 36)
         numSoLuongVe.TabIndex = 1
         numSoLuongVe.Value = New Decimal(New Integer() {1, 0, 0, 0})
-        ' 
-        ' lblTongTienValue
-        ' 
-        lblTongTienValue.BackColor = Color.Transparent
-        lblTongTienValue.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        lblTongTienValue.ForeColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        lblTongTienValue.Location = New Point(294, 452)
-        lblTongTienValue.Name = "lblTongTienValue"
-        lblTongTienValue.Size = New Size(65, 30)
-        lblTongTienValue.TabIndex = 1
-        lblTongTienValue.Text = "0 VNĐ"
-        ' 
-        ' lblTongTien
-        ' 
-        lblTongTien.BackColor = Color.Transparent
-        lblTongTien.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        lblTongTien.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        lblTongTien.Location = New Point(34, 452)
-        lblTongTien.Name = "lblTongTien"
-        lblTongTien.Size = New Size(99, 30)
-        lblTongTien.TabIndex = 0
-        lblTongTien.Text = "Tổng tiền:"
         ' 
         ' txtSoDienThoai
         ' 
@@ -243,6 +278,15 @@ Partial Class DatVeNe
         pnlCol1.Size = New Size(698, 462)
         pnlCol1.TabIndex = 1
         ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Location = New Point(13, 219)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(668, 229)
+        DataGridView1.TabIndex = 4
+        ' 
         ' cboXeKhach
         ' 
         cboXeKhach.BackColor = Color.Transparent
@@ -260,52 +304,6 @@ Partial Class DatVeNe
         cboXeKhach.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         cboXeKhach.Size = New Size(340, 36)
         cboXeKhach.TabIndex = 3
-        ' 
-        ' lblTitle
-        ' 
-        lblTitle.BackColor = Color.Transparent
-        lblTitle.Font = New Font("Segoe UI", 20F, FontStyle.Bold)
-        lblTitle.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        lblTitle.Location = New Point(48, 23)
-        lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(260, 47)
-        lblTitle.TabIndex = 0
-        lblTitle.Text = "Đặt Vé Xe Khách"
-        ' 
-        ' Guna2TextBox1
-        ' 
-        Guna2TextBox1.BackColor = Color.Transparent
-        Guna2TextBox1.BorderRadius = 10
-        Guna2TextBox1.Cursor = Cursors.IBeam
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges5
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 10F)
-        Guna2TextBox1.ForeColor = Color.Black
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(37, 160)
-        Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PlaceholderText = "Nhập số điện thoại"
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox1.Size = New Size(340, 36)
-        Guna2TextBox1.TabIndex = 7
-        ' 
-        ' Guna2HtmlLabel1
-        ' 
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Guna2HtmlLabel1.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Guna2HtmlLabel1.Location = New Point(37, 123)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(55, 30)
-        Guna2HtmlLabel1.TabIndex = 6
-        Guna2HtmlLabel1.Text = "Email"
         ' 
         ' lblXeKhach
         ' 
@@ -347,14 +345,16 @@ Partial Class DatVeNe
         lblTuyenDuong.TabIndex = 0
         lblTuyenDuong.Text = "Tuyến đường"
         ' 
-        ' DataGridView1
+        ' lblTitle
         ' 
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(13, 219)
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(668, 229)
-        DataGridView1.TabIndex = 4
+        lblTitle.BackColor = Color.Transparent
+        lblTitle.Font = New Font("Segoe UI", 20F, FontStyle.Bold)
+        lblTitle.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        lblTitle.Location = New Point(48, 23)
+        lblTitle.Name = "lblTitle"
+        lblTitle.Size = New Size(260, 47)
+        lblTitle.TabIndex = 0
+        lblTitle.Text = "Đặt Vé Xe Khách"
         ' 
         ' lblWelcome
         ' 
