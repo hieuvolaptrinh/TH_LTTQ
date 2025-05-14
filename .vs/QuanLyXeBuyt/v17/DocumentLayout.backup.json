@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\TH_LTTQ\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\th_lttq\\quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -13,6 +14,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\th_lttq\\quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th lttq ck\\quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th lttq ck\\quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\trangchu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+>>>>>>> 8e99ac5cd1125d94b71605bb2d1adfc70187eaa8
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +31,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
+<<<<<<< HEAD
           "SelectedChildIndex": 5,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> 8e99ac5cd1125d94b71605bb2d1adfc70187eaa8
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +51,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "TrangChu.vb",
               "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu.vb",
@@ -47,11 +61,23 @@
               "ViewState": "AgIAACcAAAAAAAAAAAAmwDMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-14T15:58:38.291Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "TrangChu.vb",
+              "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH LTTQ CK\\QuanLyXeBuyt\\TrangChu.vb",
+              "RelativeDocumentMoniker": "QuanLyXeBuyt\\TrangChu.vb",
+              "ToolTip": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH LTTQ CK\\QuanLyXeBuyt\\TrangChu.vb",
+              "RelativeToolTip": "QuanLyXeBuyt\\TrangChu.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T15:48:01.398Z",
+>>>>>>> 8e99ac5cd1125d94b71605bb2d1adfc70187eaa8
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "TrangChuDAO.vb",
               "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\sql\\TrangChuDAO.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\sql\\TrangChuDAO.vb",
@@ -64,6 +90,8 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+=======
+>>>>>>> 8e99ac5cd1125d94b71605bb2d1adfc70187eaa8
               "Title": "TrangChu.vb [Design]",
               "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\TrangChu.vb",

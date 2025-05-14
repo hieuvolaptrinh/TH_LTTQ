@@ -482,7 +482,7 @@ Partial Class TrangChu
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.Red
-        Label5.Location = New Point(30, 86)
+        Label5.Location = New Point(36, 86)
         Label5.Name = "Label5"
         Label5.Size = New Size(152, 31)
         Label5.TabIndex = 16
