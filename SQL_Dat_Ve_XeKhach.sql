@@ -22,7 +22,6 @@ CREATE TABLE NGUOIDUNG (
     id_NguoiDung INT PRIMARY KEY IDENTITY(1,1),
     ten_TaiKhoan VARCHAR(50) UNIQUE NOT NULL,
     ho_Ten NVARCHAR(100) NOT NULL, 
-    email VARCHAR(100) UNIQUE NOT NULL,
     so_Dien_Thoai CHAR(10), 
     mat_Khau VARCHAR(255) NOT NULL,
  
@@ -55,7 +54,7 @@ CREATE TABLE VE (
     id_NguoiDung INT NOT NULL,
     id_XeKhach INT NOT NULL,
     ngay_Dat DATETIME DEFAULT GETDATE(), 
-    trang_Thai VARCHAR(20) CHECK (trang_Thai IN ('Đã đặt', 'Đã hủy')) DEFAULT 'Đã đặt',
+    trang_Thai NVARCHAR(20) CHECK (trang_Thai IN (N'Đã đặt', N'Đã hủy')) DEFAULT N'Đã đặt',
     FOREIGN KEY (id_NguoiDung) REFERENCES NGUOIDUNG(id_NguoiDung),
     FOREIGN KEY (id_XeKhach) REFERENCES XEKHACH(id_XeKhach)
 );
@@ -63,12 +62,12 @@ go
 GO
 
 -- Thêm dữ liệu vào bảng NGUOIDUNG
-INSERT INTO NGUOIDUNG (ten_TaiKhoan, ho_Ten, email, so_Dien_Thoai, mat_Khau) VALUES
-('user1', N'Nguyễn Văn An', 'an.nguyen@gmail.com', '0901234567', 'password123'),
-('user2', N'Trần Thị Bình', 'binh.tran@gmail.com', '0912345678', 'pass456'),
-('user3', N'Lê Minh Cường', 'cuong.le@gmail.com', '0923456789', 'secure789'),
-('user4', N'Phạm Thị Dung', 'dung.pham@gmail.com', '0934567890', 'dung2023'),
-('user5', N'Hoàng Văn Em', 'em.hoang@gmail.com', '0945678901', 'em456pass');
+INSERT INTO NGUOIDUNG (ten_TaiKhoan, ho_Ten, so_Dien_Thoai, mat_Khau) VALUES
+('user1', N'Nguyễn Văn An', '0901234567', 'password123'),
+('user2', N'Trần Thị Bình', '0912345678', 'pass456'),
+('user3', N'Lê Minh Cường', '0923456789', 'secure789'),
+('user4', N'Phạm Thị Dung',  '0934567890', 'dung2023'),
+('user5', N'Hoàng Văn Em', '0945678901', 'em456pass');
 go
 -- Thêm dữ liệu vào bảng TUYENDUONG
 INSERT INTO TUYENDUONG (khoang_Cach_Km, diem_di, diem_den) VALUES
@@ -88,10 +87,10 @@ INSERT INTO XEKHACH (bien_So, ten_XeKhach, gio_Di, gio_Den, id_TuyenDuong) VALUE
 go
 -- Thêm dữ liệu vào bảng VE
 INSERT INTO VE (id_NguoiDung, id_XeKhach, ngay_Dat, trang_Thai) VALUES
-(1, 1, '2025-05-01 10:00:00', 'Đã đặt'),
-(2, 2, '2025-05-01 11:30:00', 'Đã đặt'),
-(3, 3, '2025-05-01 12:00:00', 'Đã hủy'),
-(4, 4, '2025-05-01 13:15:00', 'Đã đặt'),
-(5, 5, '2025-05-01 14:00:00', 'Đã đặt'),
-(1, 3, '2025-05-01 15:00:00', 'Đã đặt'),
-(2, 4, '2025-05-01 16:00:00', 'Đã hủy');
+(1, 1, '2025-05-01 10:00:00', N'Đã đặt'),
+(2, 2, '2025-05-01 11:30:00', N'Đã đặt'),
+(3, 3, '2025-05-01 12:00:00', N'Đã hủy'),
+(4, 4, '2025-05-01 13:15:00', N'Đã đặt'),
+(5, 5, '2025-05-01 14:00:00', N'Đã đặt'),
+(1, 3, '2025-05-01 15:00:00', N'Đã đặt'),
+(2, 4, '2025-05-01 16:00:00', N'Đã hủy');
