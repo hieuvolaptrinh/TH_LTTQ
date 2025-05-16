@@ -23,40 +23,41 @@ Partial Class AdminTrangChu
     <System.Diagnostics.DebuggerStepThrough()>
     Public Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminTrangChu))
         Timer1 = New Timer(components)
         PanelContainer = New Panel()
         Label2 = New Label()
         lblClock = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlBottom = New Guna.UI2.WinForms.Guna2Panel()
+        btnChiTietVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Label10 = New Label()
         timKiem = New Guna.UI2.WinForms.Guna2Button()
         txtBienSo = New Guna.UI2.WinForms.Guna2TextBox()
@@ -72,9 +73,8 @@ Partial Class AdminTrangChu
         TextBoxBienSo = New Guna.UI2.WinForms.Guna2TextBox()
         DataGridView1 = New DataGridView()
         pnlQuickActions = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        btnXemLichTrinh = New Guna.UI2.WinForms.Guna2GradientButton()
+        Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         btnXoaVe = New Guna.UI2.WinForms.Guna2GradientButton()
-        btnChiTietVe = New Guna.UI2.WinForms.Guna2GradientButton()
         btnThemXe = New Guna.UI2.WinForms.Guna2GradientButton()
         pnlNavigation = New Guna.UI2.WinForms.Guna2Panel()
         pnlVeHuy = New Guna.UI2.WinForms.Guna2ShadowPanel()
@@ -98,10 +98,6 @@ Partial Class AdminTrangChu
         LịchTrìnhVàTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
         DanhSáchXeBuýtToolStripMenuItem = New ToolStripMenuItem()
         BổSungTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
-        GiớiThiệuToolStripMenuItem = New ToolStripMenuItem()
-        CôngTyAToolStripMenuItem = New ToolStripMenuItem()
-        GiấyChứngNhậnHợpQuyToolStripMenuItem = New ToolStripMenuItem()
-        TuyểnDụngNhânSựToolStripMenuItem = New ToolStripMenuItem()
         TrangChủToolStripMenuItem = New ToolStripMenuItem()
         PanelContainer.SuspendLayout()
         pnlBottom.SuspendLayout()
@@ -134,7 +130,7 @@ Partial Class AdminTrangChu
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label2.Location = New Point(492, 36)
+        Label2.Location = New Point(478, 12)
         Label2.Name = "Label2"
         Label2.Size = New Size(735, 60)
         Label2.TabIndex = 8
@@ -156,6 +152,7 @@ Partial Class AdminTrangChu
         pnlBottom.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         pnlBottom.AutoSize = True
         pnlBottom.BackColor = Color.Transparent
+        pnlBottom.Controls.Add(btnChiTietVe)
         pnlBottom.Controls.Add(Label10)
         pnlBottom.Controls.Add(timKiem)
         pnlBottom.Controls.Add(txtBienSo)
@@ -171,12 +168,32 @@ Partial Class AdminTrangChu
         pnlBottom.Controls.Add(TextBoxBienSo)
         pnlBottom.Controls.Add(DataGridView1)
         pnlBottom.Controls.Add(pnlQuickActions)
-        pnlBottom.CustomizableEdges = CustomizableEdges43
+        pnlBottom.CustomizableEdges = CustomizableEdges23
         pnlBottom.Location = New Point(232, 99)
         pnlBottom.Name = "pnlBottom"
-        pnlBottom.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        pnlBottom.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pnlBottom.Size = New Size(1168, 670)
         pnlBottom.TabIndex = 6
+        ' 
+        ' btnChiTietVe
+        ' 
+        btnChiTietVe.BorderRadius = 15
+        btnChiTietVe.CustomizableEdges = CustomizableEdges1
+        btnChiTietVe.DisabledState.BorderColor = Color.DarkGray
+        btnChiTietVe.DisabledState.CustomBorderColor = Color.DarkGray
+        btnChiTietVe.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnChiTietVe.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnChiTietVe.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnChiTietVe.FillColor = Color.LimeGreen
+        btnChiTietVe.FillColor2 = Color.ForestGreen
+        btnChiTietVe.Font = New Font("Segoe UI", 12F)
+        btnChiTietVe.ForeColor = Color.White
+        btnChiTietVe.Location = New Point(36, 302)
+        btnChiTietVe.Name = "btnChiTietVe"
+        btnChiTietVe.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnChiTietVe.Size = New Size(217, 60)
+        btnChiTietVe.TabIndex = 4
+        btnChiTietVe.Text = "Tất cả vé"
         ' 
         ' Label10
         ' 
@@ -193,7 +210,7 @@ Partial Class AdminTrangChu
         ' 
         timKiem.BackColor = Color.Transparent
         timKiem.BorderRadius = 20
-        timKiem.CustomizableEdges = CustomizableEdges29
+        timKiem.CustomizableEdges = CustomizableEdges3
         timKiem.DisabledState.BorderColor = Color.Black
         timKiem.DisabledState.CustomBorderColor = Color.DarkGray
         timKiem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -203,10 +220,10 @@ Partial Class AdminTrangChu
         timKiem.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         timKiem.ForeColor = Color.FromArgb(CByte(192), CByte(64), CByte(0))
         timKiem.Image = My.Resources.Resources.find
-        timKiem.Location = New Point(920, 379)
+        timKiem.Location = New Point(938, 379)
         timKiem.Margin = New Padding(3, 2, 3, 2)
         timKiem.Name = "timKiem"
-        timKiem.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        timKiem.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         timKiem.Size = New Size(172, 45)
         timKiem.TabIndex = 24
         timKiem.Text = "Tìm Kiếm"
@@ -218,7 +235,7 @@ Partial Class AdminTrangChu
         txtBienSo.BorderRadius = 20
         txtBienSo.BorderThickness = 2
         txtBienSo.Cursor = Cursors.IBeam
-        txtBienSo.CustomizableEdges = CustomizableEdges31
+        txtBienSo.CustomizableEdges = CustomizableEdges5
         txtBienSo.DefaultText = ""
         txtBienSo.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtBienSo.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -228,54 +245,54 @@ Partial Class AdminTrangChu
         txtBienSo.Font = New Font("Segoe UI", 9F)
         txtBienSo.ForeColor = Color.Black
         txtBienSo.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBienSo.Location = New Point(362, 379)
+        txtBienSo.Location = New Point(337, 379)
         txtBienSo.Margin = New Padding(3, 5, 3, 5)
         txtBienSo.Name = "txtBienSo"
         txtBienSo.PlaceholderForeColor = Color.Black
         txtBienSo.PlaceholderText = "Biển số xe"
         txtBienSo.SelectedText = ""
-        txtBienSo.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        txtBienSo.Size = New Size(479, 45)
+        txtBienSo.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtBienSo.Size = New Size(385, 45)
         txtBienSo.TabIndex = 23
         ' 
         ' DateTimePickerNgayDen
         ' 
         DateTimePickerNgayDen.Checked = True
-        DateTimePickerNgayDen.CustomizableEdges = CustomizableEdges33
+        DateTimePickerNgayDen.CustomizableEdges = CustomizableEdges7
         DateTimePickerNgayDen.FillColor = Color.FromArgb(CByte(255), CByte(255), CByte(128))
         DateTimePickerNgayDen.Font = New Font("Segoe UI", 9F)
         DateTimePickerNgayDen.Format = DateTimePickerFormat.Long
-        DateTimePickerNgayDen.Location = New Point(292, 205)
+        DateTimePickerNgayDen.Location = New Point(220, 205)
         DateTimePickerNgayDen.Margin = New Padding(3, 2, 3, 2)
         DateTimePickerNgayDen.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         DateTimePickerNgayDen.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         DateTimePickerNgayDen.Name = "DateTimePickerNgayDen"
-        DateTimePickerNgayDen.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        DateTimePickerNgayDen.Size = New Size(204, 58)
+        DateTimePickerNgayDen.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        DateTimePickerNgayDen.Size = New Size(276, 58)
         DateTimePickerNgayDen.TabIndex = 19
         DateTimePickerNgayDen.Value = New Date(2025, 3, 21, 17, 2, 4, 677)
         ' 
         ' DateTimePickerNgayDi
         ' 
         DateTimePickerNgayDi.Checked = True
-        DateTimePickerNgayDi.CustomizableEdges = CustomizableEdges35
+        DateTimePickerNgayDi.CustomizableEdges = CustomizableEdges9
         DateTimePickerNgayDi.FillColor = Color.FromArgb(CByte(255), CByte(255), CByte(128))
         DateTimePickerNgayDi.Font = New Font("Segoe UI", 9F)
         DateTimePickerNgayDi.Format = DateTimePickerFormat.Long
-        DateTimePickerNgayDi.Location = New Point(292, 130)
+        DateTimePickerNgayDi.Location = New Point(220, 130)
         DateTimePickerNgayDi.Margin = New Padding(3, 2, 3, 2)
         DateTimePickerNgayDi.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         DateTimePickerNgayDi.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         DateTimePickerNgayDi.Name = "DateTimePickerNgayDi"
-        DateTimePickerNgayDi.ShadowDecoration.CustomizableEdges = CustomizableEdges36
-        DateTimePickerNgayDi.Size = New Size(204, 56)
+        DateTimePickerNgayDi.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        DateTimePickerNgayDi.Size = New Size(276, 56)
         DateTimePickerNgayDi.TabIndex = 20
         DateTimePickerNgayDi.Value = New Date(2025, 3, 21, 17, 2, 4, 677)
         ' 
         ' ComboBoxMaTuyenDuong
         ' 
         ComboBoxMaTuyenDuong.BackColor = Color.Transparent
-        ComboBoxMaTuyenDuong.CustomizableEdges = CustomizableEdges37
+        ComboBoxMaTuyenDuong.CustomizableEdges = CustomizableEdges11
         ComboBoxMaTuyenDuong.DrawMode = DrawMode.OwnerDrawFixed
         ComboBoxMaTuyenDuong.DropDownStyle = ComboBoxStyle.DropDownList
         ComboBoxMaTuyenDuong.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -283,10 +300,10 @@ Partial Class AdminTrangChu
         ComboBoxMaTuyenDuong.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ComboBoxMaTuyenDuong.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         ComboBoxMaTuyenDuong.ItemHeight = 30
-        ComboBoxMaTuyenDuong.Location = New Point(269, 272)
+        ComboBoxMaTuyenDuong.Location = New Point(547, 75)
         ComboBoxMaTuyenDuong.Margin = New Padding(3, 4, 3, 4)
         ComboBoxMaTuyenDuong.Name = "ComboBoxMaTuyenDuong"
-        ComboBoxMaTuyenDuong.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        ComboBoxMaTuyenDuong.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         ComboBoxMaTuyenDuong.Size = New Size(227, 36)
         ComboBoxMaTuyenDuong.TabIndex = 18
         ' 
@@ -296,7 +313,7 @@ Partial Class AdminTrangChu
         Label8.BackColor = Color.Transparent
         Label8.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.Red
-        Label8.Location = New Point(36, 277)
+        Label8.Location = New Point(547, 23)
         Label8.Name = "Label8"
         Label8.Size = New Size(193, 31)
         Label8.TabIndex = 13
@@ -308,7 +325,7 @@ Partial Class AdminTrangChu
         Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.Red
-        Label7.Location = New Point(36, 205)
+        Label7.Location = New Point(30, 205)
         Label7.Name = "Label7"
         Label7.Size = New Size(98, 31)
         Label7.TabIndex = 14
@@ -320,7 +337,7 @@ Partial Class AdminTrangChu
         Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.Red
-        Label6.Location = New Point(36, 144)
+        Label6.Location = New Point(30, 145)
         Label6.Name = "Label6"
         Label6.Size = New Size(117, 31)
         Label6.TabIndex = 15
@@ -332,7 +349,7 @@ Partial Class AdminTrangChu
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.Red
-        Label5.Location = New Point(36, 86)
+        Label5.Location = New Point(30, 86)
         Label5.Name = "Label5"
         Label5.Size = New Size(152, 31)
         Label5.TabIndex = 16
@@ -346,7 +363,7 @@ Partial Class AdminTrangChu
         TextBoxTenXeKhach.BorderRadius = 15
         TextBoxTenXeKhach.BorderThickness = 2
         TextBoxTenXeKhach.Cursor = Cursors.IBeam
-        TextBoxTenXeKhach.CustomizableEdges = CustomizableEdges39
+        TextBoxTenXeKhach.CustomizableEdges = CustomizableEdges13
         TextBoxTenXeKhach.DefaultText = ""
         TextBoxTenXeKhach.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         TextBoxTenXeKhach.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -356,14 +373,14 @@ Partial Class AdminTrangChu
         TextBoxTenXeKhach.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         TextBoxTenXeKhach.ForeColor = Color.Black
         TextBoxTenXeKhach.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        TextBoxTenXeKhach.Location = New Point(273, 75)
+        TextBoxTenXeKhach.Location = New Point(220, 75)
         TextBoxTenXeKhach.Margin = New Padding(3, 5, 3, 5)
         TextBoxTenXeKhach.Name = "TextBoxTenXeKhach"
         TextBoxTenXeKhach.PlaceholderForeColor = Color.Black
         TextBoxTenXeKhach.PlaceholderText = ""
         TextBoxTenXeKhach.SelectedText = ""
-        TextBoxTenXeKhach.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        TextBoxTenXeKhach.Size = New Size(223, 42)
+        TextBoxTenXeKhach.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        TextBoxTenXeKhach.Size = New Size(276, 42)
         TextBoxTenXeKhach.TabIndex = 11
         ' 
         ' Label1
@@ -386,7 +403,7 @@ Partial Class AdminTrangChu
         TextBoxBienSo.BorderRadius = 15
         TextBoxBienSo.BorderThickness = 2
         TextBoxBienSo.Cursor = Cursors.IBeam
-        TextBoxBienSo.CustomizableEdges = CustomizableEdges41
+        TextBoxBienSo.CustomizableEdges = CustomizableEdges15
         TextBoxBienSo.DefaultText = ""
         TextBoxBienSo.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         TextBoxBienSo.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -396,14 +413,14 @@ Partial Class AdminTrangChu
         TextBoxBienSo.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         TextBoxBienSo.ForeColor = Color.Black
         TextBoxBienSo.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        TextBoxBienSo.Location = New Point(273, 22)
+        TextBoxBienSo.Location = New Point(220, 22)
         TextBoxBienSo.Margin = New Padding(3, 5, 3, 5)
         TextBoxBienSo.Name = "TextBoxBienSo"
         TextBoxBienSo.PlaceholderForeColor = Color.Black
         TextBoxBienSo.PlaceholderText = ""
         TextBoxBienSo.SelectedText = ""
-        TextBoxBienSo.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        TextBoxBienSo.Size = New Size(223, 42)
+        TextBoxBienSo.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        TextBoxBienSo.Size = New Size(151, 42)
         TextBoxBienSo.TabIndex = 12
         ' 
         ' DataGridView1
@@ -418,84 +435,63 @@ Partial Class AdminTrangChu
         ' pnlQuickActions
         ' 
         pnlQuickActions.BackColor = Color.Transparent
-        pnlQuickActions.Controls.Add(btnXemLichTrinh)
+        pnlQuickActions.Controls.Add(Guna2GradientButton1)
         pnlQuickActions.Controls.Add(btnXoaVe)
-        pnlQuickActions.Controls.Add(btnChiTietVe)
         pnlQuickActions.Controls.Add(btnThemXe)
         pnlQuickActions.FillColor = Color.White
-        pnlQuickActions.Location = New Point(590, 66)
+        pnlQuickActions.Location = New Point(851, 22)
         pnlQuickActions.Name = "pnlQuickActions"
         pnlQuickActions.Radius = 10
         pnlQuickActions.ShadowColor = Color.Black
         pnlQuickActions.ShadowDepth = 10
         pnlQuickActions.ShadowShift = 0
-        pnlQuickActions.Size = New Size(540, 195)
+        pnlQuickActions.Size = New Size(279, 329)
         pnlQuickActions.TabIndex = 1
         ' 
-        ' btnXemLichTrinh
+        ' Guna2GradientButton1
         ' 
-        btnXemLichTrinh.BorderRadius = 15
-        btnXemLichTrinh.CustomizableEdges = CustomizableEdges45
-        btnXemLichTrinh.DisabledState.BorderColor = Color.DarkGray
-        btnXemLichTrinh.DisabledState.CustomBorderColor = Color.DarkGray
-        btnXemLichTrinh.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnXemLichTrinh.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnXemLichTrinh.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnXemLichTrinh.FillColor = Color.FromArgb(CByte(156), CByte(39), CByte(176))
-        btnXemLichTrinh.FillColor2 = Color.FromArgb(CByte(156), CByte(39), CByte(176))
-        btnXemLichTrinh.Font = New Font("Segoe UI", 12F)
-        btnXemLichTrinh.ForeColor = Color.White
-        btnXemLichTrinh.Location = New Point(313, 122)
-        btnXemLichTrinh.Name = "btnXemLichTrinh"
-        btnXemLichTrinh.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        btnXemLichTrinh.Size = New Size(207, 60)
-        btnXemLichTrinh.TabIndex = 4
-        btnXemLichTrinh.Text = "Xem Lịch Trình"
+        Guna2GradientButton1.BorderRadius = 15
+        Guna2GradientButton1.CustomizableEdges = CustomizableEdges17
+        Guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray
+        Guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2GradientButton1.FillColor = Color.FromArgb(CByte(156), CByte(39), CByte(176))
+        Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(156), CByte(39), CByte(176))
+        Guna2GradientButton1.Font = New Font("Segoe UI", 12F)
+        Guna2GradientButton1.ForeColor = Color.White
+        Guna2GradientButton1.Location = New Point(34, 123)
+        Guna2GradientButton1.Name = "Guna2GradientButton1"
+        Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Guna2GradientButton1.Size = New Size(217, 60)
+        Guna2GradientButton1.TabIndex = 4
+        Guna2GradientButton1.Text = "Sửa Thông Tin Xe"
         ' 
         ' btnXoaVe
         ' 
         btnXoaVe.BorderRadius = 15
-        btnXoaVe.CustomizableEdges = CustomizableEdges47
+        btnXoaVe.CustomizableEdges = CustomizableEdges19
         btnXoaVe.DisabledState.BorderColor = Color.DarkGray
         btnXoaVe.DisabledState.CustomBorderColor = Color.DarkGray
         btnXoaVe.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnXoaVe.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnXoaVe.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnXoaVe.FillColor = Color.FromArgb(CByte(255), CByte(152), CByte(0))
-        btnXoaVe.FillColor2 = Color.FromArgb(CByte(255), CByte(152), CByte(0))
+        btnXoaVe.FillColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
+        btnXoaVe.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
         btnXoaVe.Font = New Font("Segoe UI", 12F)
         btnXoaVe.ForeColor = Color.White
-        btnXoaVe.Location = New Point(34, 122)
+        btnXoaVe.Location = New Point(34, 213)
         btnXoaVe.Name = "btnXoaVe"
-        btnXoaVe.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        btnXoaVe.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         btnXoaVe.Size = New Size(217, 60)
         btnXoaVe.TabIndex = 3
         btnXoaVe.Text = "Xóa vé xe"
         ' 
-        ' btnChiTietVe
-        ' 
-        btnChiTietVe.BorderRadius = 15
-        btnChiTietVe.CustomizableEdges = CustomizableEdges49
-        btnChiTietVe.DisabledState.BorderColor = Color.DarkGray
-        btnChiTietVe.DisabledState.CustomBorderColor = Color.DarkGray
-        btnChiTietVe.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnChiTietVe.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnChiTietVe.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnChiTietVe.FillColor = Color.FromArgb(CByte(76), CByte(175), CByte(80))
-        btnChiTietVe.FillColor2 = Color.FromArgb(CByte(76), CByte(175), CByte(80))
-        btnChiTietVe.Font = New Font("Segoe UI", 12F)
-        btnChiTietVe.ForeColor = Color.White
-        btnChiTietVe.Location = New Point(313, 20)
-        btnChiTietVe.Name = "btnChiTietVe"
-        btnChiTietVe.ShadowDecoration.CustomizableEdges = CustomizableEdges50
-        btnChiTietVe.Size = New Size(207, 62)
-        btnChiTietVe.TabIndex = 2
-        btnChiTietVe.Text = "Xem chi tiết vé"
-        ' 
         ' btnThemXe
         ' 
         btnThemXe.BorderRadius = 15
-        btnThemXe.CustomizableEdges = CustomizableEdges51
+        btnThemXe.CustomizableEdges = CustomizableEdges21
         btnThemXe.DisabledState.BorderColor = Color.DarkGray
         btnThemXe.DisabledState.CustomBorderColor = Color.DarkGray
         btnThemXe.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -507,7 +503,7 @@ Partial Class AdminTrangChu
         btnThemXe.ForeColor = Color.White
         btnThemXe.Location = New Point(34, 20)
         btnThemXe.Name = "btnThemXe"
-        btnThemXe.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        btnThemXe.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         btnThemXe.Size = New Size(217, 62)
         btnThemXe.TabIndex = 1
         btnThemXe.Text = "Thêm Xe Mới"
@@ -520,11 +516,11 @@ Partial Class AdminTrangChu
         pnlNavigation.Controls.Add(btnDangXuat)
         pnlNavigation.Controls.Add(pnlTongTuyen)
         pnlNavigation.Controls.Add(pnlVeDat)
-        pnlNavigation.CustomizableEdges = CustomizableEdges55
-        pnlNavigation.Location = New Point(0, 31)
+        pnlNavigation.CustomizableEdges = CustomizableEdges27
+        pnlNavigation.Location = New Point(0, 3)
         pnlNavigation.Name = "pnlNavigation"
-        pnlNavigation.ShadowDecoration.CustomizableEdges = CustomizableEdges56
-        pnlNavigation.Size = New Size(233, 738)
+        pnlNavigation.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        pnlNavigation.Size = New Size(233, 766)
         pnlNavigation.TabIndex = 4
         ' 
         ' pnlVeHuy
@@ -566,20 +562,20 @@ Partial Class AdminTrangChu
         ' 
         ' btnDangXuat
         ' 
-        btnDangXuat.BackColor = Color.Transparent
+        btnDangXuat.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(128))
         btnDangXuat.BorderRadius = 10
-        btnDangXuat.CustomizableEdges = CustomizableEdges53
+        btnDangXuat.CustomizableEdges = CustomizableEdges25
         btnDangXuat.DisabledState.BorderColor = Color.DarkGray
         btnDangXuat.DisabledState.CustomBorderColor = Color.DarkGray
         btnDangXuat.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnDangXuat.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnDangXuat.FillColor = Color.Transparent
         btnDangXuat.Font = New Font("Segoe UI", 12F)
-        btnDangXuat.ForeColor = Color.White
-        btnDangXuat.Location = New Point(0, 658)
+        btnDangXuat.ForeColor = Color.Black
+        btnDangXuat.Location = New Point(3, 695)
         btnDangXuat.Name = "btnDangXuat"
         btnDangXuat.Padding = New Padding(20, 0, 0, 0)
-        btnDangXuat.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        btnDangXuat.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         btnDangXuat.Size = New Size(233, 50)
         btnDangXuat.TabIndex = 4
         btnDangXuat.Text = "Đăng xuất"
@@ -664,7 +660,7 @@ Partial Class AdminTrangChu
         MenuStrip1.BackColor = Color.White
         MenuStrip1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         MenuStrip1.ImageScalingSize = New Size(20, 20)
-        MenuStrip1.Items.AddRange(New ToolStripItem() {HỗTrợToolStripMenuItem, TinTứcToolStripMenuItem, QuảnLýXeBuýtToolStripMenuItem, GiớiThiệuToolStripMenuItem, TrangChủToolStripMenuItem})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {HỗTrợToolStripMenuItem, TinTứcToolStripMenuItem, QuảnLýXeBuýtToolStripMenuItem, TrangChủToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.RenderMode = ToolStripRenderMode.System
@@ -738,33 +734,6 @@ Partial Class AdminTrangChu
         BổSungTuyếnĐườngToolStripMenuItem.Size = New Size(272, 26)
         BổSungTuyếnĐườngToolStripMenuItem.Text = "Bổ sung tuyến đường"
         ' 
-        ' GiớiThiệuToolStripMenuItem
-        ' 
-        GiớiThiệuToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CôngTyAToolStripMenuItem, GiấyChứngNhậnHợpQuyToolStripMenuItem, TuyểnDụngNhânSựToolStripMenuItem})
-        GiớiThiệuToolStripMenuItem.Image = My.Resources.Resources.presentation
-        GiớiThiệuToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft
-        GiớiThiệuToolStripMenuItem.Name = "GiớiThiệuToolStripMenuItem"
-        GiớiThiệuToolStripMenuItem.Size = New Size(111, 24)
-        GiớiThiệuToolStripMenuItem.Text = "Giới thiệu"
-        ' 
-        ' CôngTyAToolStripMenuItem
-        ' 
-        CôngTyAToolStripMenuItem.Name = "CôngTyAToolStripMenuItem"
-        CôngTyAToolStripMenuItem.Size = New Size(271, 26)
-        CôngTyAToolStripMenuItem.Text = "Công ty A"
-        ' 
-        ' GiấyChứngNhậnHợpQuyToolStripMenuItem
-        ' 
-        GiấyChứngNhậnHợpQuyToolStripMenuItem.Name = "GiấyChứngNhậnHợpQuyToolStripMenuItem"
-        GiấyChứngNhậnHợpQuyToolStripMenuItem.Size = New Size(271, 26)
-        GiấyChứngNhậnHợpQuyToolStripMenuItem.Text = "Giấy chứng nhận hợp quy"
-        ' 
-        ' TuyểnDụngNhânSựToolStripMenuItem
-        ' 
-        TuyểnDụngNhânSựToolStripMenuItem.Name = "TuyểnDụngNhânSựToolStripMenuItem"
-        TuyểnDụngNhânSựToolStripMenuItem.Size = New Size(271, 26)
-        TuyểnDụngNhânSựToolStripMenuItem.Text = "Tuyển dụng nhân sự"
-        ' 
         ' TrangChủToolStripMenuItem
         ' 
         TrangChủToolStripMenuItem.Image = CType(resources.GetObject("TrangChủToolStripMenuItem.Image"), Image)
@@ -822,9 +791,7 @@ Partial Class AdminTrangChu
     Friend WithEvents TextBoxBienSo As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents DataGridView1 As DataGridView
     Private WithEvents pnlQuickActions As Guna.UI2.WinForms.Guna2ShadowPanel
-    Private WithEvents btnXemLichTrinh As Guna.UI2.WinForms.Guna2GradientButton
     Private WithEvents btnXoaVe As Guna.UI2.WinForms.Guna2GradientButton
-    Private WithEvents btnChiTietVe As Guna.UI2.WinForms.Guna2GradientButton
     Private WithEvents btnThemXe As Guna.UI2.WinForms.Guna2GradientButton
     Private WithEvents pnlNavigation As Guna.UI2.WinForms.Guna2Panel
     Private WithEvents pnlVeHuy As Guna.UI2.WinForms.Guna2ShadowPanel
@@ -843,10 +810,6 @@ Partial Class AdminTrangChu
     Friend WithEvents LịchTrìnhVàTuyếnĐườngToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DanhSáchXeBuýtToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BổSungTuyếnĐườngToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents GiớiThiệuToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CôngTyAToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents GiấyChứngNhậnHợpQuyToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TuyểnDụngNhânSựToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TrangChủToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
@@ -855,5 +818,7 @@ Partial Class AdminTrangChu
     Friend WithEvents Label10 As Label
     Friend WithEvents lblVeHuyValue As Label
     Friend WithEvents lblTongTuyenValue As Label
+    Private WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
+    Private WithEvents btnChiTietVe As Guna.UI2.WinForms.Guna2GradientButton
     '// [END] Control Declarations
 End Class

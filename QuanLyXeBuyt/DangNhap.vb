@@ -37,10 +37,9 @@ Public Class DangNhap
             MessageBox.Show("Đăng nhập thành công với quyền USER!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Me.Hide()
             Dim userId As Integer = GetNguoiDungId(username)
-            Dim frm As New UserTrangChu()
+            Dim frm As New DatVeNe()
             frm.currentNguoiDungId = userId
             frm.Show()
-
         Else
             MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
@@ -71,6 +70,10 @@ Public Class DangNhap
     End Function
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub DangNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

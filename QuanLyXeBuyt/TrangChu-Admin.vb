@@ -11,11 +11,7 @@ Public Class AdminTrangChu
         CapNhatThongKe()
         Timer1.Interval = 1000
         Timer1.Start()
-        AddHandler btnThemXe.Click, AddressOf btnThemXeMoi_Click
-        AddHandler btnChiTietVe.Click, AddressOf btnChiTietVe_Click
-        AddHandler btnXoaVe.Click, AddressOf btnXoaVe_Click
-        AddHandler btnXemLichTrinh.Click, AddressOf btnXemLichTrinh_Click
-        AddHandler timKiem.Click, AddressOf timKiem_Click
+
     End Sub
 
     Private Sub ShowBusList()
@@ -30,31 +26,11 @@ Public Class AdminTrangChu
         ComboBoxMaTuyenDuong.ValueMember = "id_TuyenDuong"
         If dt.Rows.Count > 0 Then ComboBoxMaTuyenDuong.SelectedIndex = 0
     End Sub
-
-    Private Sub timKiem_Click(sender As Object, e As EventArgs)
-        Dim tuKhoa = txtBienSo.Text.Trim
-        DataGridView1.DataSource = dao.TimKiemTheoBienSoCoTuyen(tuKhoa)
-    End Sub
-
-    Private Sub btnThemXeMoi_Click(sender As Object, e As EventArgs)
-        If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
-            MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Return
-        End If
-
-        Dim bienSo As String = TextBoxBienSo.Text.Trim()
-        Dim tenXe As String = TextBoxTenXeKhach.Text.Trim()
-        Dim gioDi As DateTime = DateTimePickerNgayDi.Value
-        Dim gioDen As DateTime = DateTimePickerNgayDen.Value
-        Dim maTuyen As Integer = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
-
-        dao.ThemXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
-        ShowBusList()
-        CapNhatThongKe()
-    End Sub
-    Private Sub btnChiTietVe_Click(sender As Object, e As EventArgs)
+    Private Sub btnChiTietVe_Click_1(sender As Object, e As EventArgs) Handles btnChiTietVe.Click
         LoadAllTickets()
     End Sub
+
+
     Private Sub LoadAllTickets()
         Dim query As String = "
             SELECT VE.id_Ve AS [Mã vé],
@@ -78,7 +54,9 @@ Public Class AdminTrangChu
         End Using
         isViewingTickets = True
     End Sub
-    Private Sub btnXoaVe_Click(sender As Object, e As EventArgs)
+
+
+    Private Sub btnXoaVe_Click_1(sender As Object, e As EventArgs) Handles btnXoaVe.Click
         If Not isViewingTickets Then
             MessageBox.Show("Chức năng xóa vé chỉ dùng khi đang xem danh sách vé!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Return
@@ -93,67 +71,40 @@ Public Class AdminTrangChu
 
         Dim result = MessageBox.Show($"Bạn có chắc chắn muốn xóa vé có mã {maVe}?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         If result = DialogResult.Yes Then
-            DeleteTicket(maVe)
+            dao.XoaXeKhach(maVe)
             MessageBox.Show("Đã xóa vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             LoadAllTickets()
             CapNhatThongKe()
         End If
     End Sub
 
-    Private Sub DeleteTicket(maVe As Object)
-        Dim query As String = "DELETE FROM VE WHERE id_Ve = @id"
-        Using conn As New SqlConnection(connectionString)
-            Using cmd As New SqlCommand(query, conn)
-                cmd.Parameters.AddWithValue("@id", maVe)
-                conn.Open()
-                cmd.ExecuteNonQuery()
-            End Using
-        End Using
-    End Sub
-    Private Sub btnXemLichTrinh_Click(sender As Object, e As EventArgs) Handles btnXemLichTrinh.Click
-        Try
-            baseForm.LoadFormWithFade(New TuyenDuong, PanelContainer)
-        Catch ex As Exception
-            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Lịch Trình: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+    'done
+    Private Sub btnThemXe_Click(sender As Object, e As EventArgs) Handles btnThemXe.Click
+
+        If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
+            MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        Dim bienSo = TextBoxBienSo.Text.Trim
+        Dim tenXe = TextBoxTenXeKhach.Text.Trim
+        Dim gioDi = DateTimePickerNgayDi.Value
+        Dim gioDen = DateTimePickerNgayDen.Value
+        Dim maTuyen = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
+
+        dao.ThemXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
+        ShowBusList()
+        CapNhatThongKe()
+
     End Sub
 
-    Private Sub LịchTrìnhVàTuyếnĐườngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LịchTrìnhVàTuyếnĐườngToolStripMenuItem.Click
-        Try
-            baseForm.LoadFormWithFade(New TuyenDuong(), PanelContainer)
-        Catch ex As Exception
-            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Lịch Trình: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+    'done
+    Private Sub timKiem_Click_1(sender As Object, e As EventArgs) Handles timKiem.Click
+        Dim tuKhoa = txtBienSo.Text.Trim
+        DataGridView1.DataSource = dao.TimKiemTheoBienSoCoTuyen(tuKhoa)
     End Sub
 
-    Private Sub DanhSáchXeBuýtToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DanhSáchXeBuýtToolStripMenuItem.Click
-        Try
-            baseForm.LoadFormWithFade(New DanhSachXeBuyt(), PanelContainer)
-        Catch ex As Exception
-            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Danh Sách Xe Buýt: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    Private Sub TrangChủToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TrangChủToolStripMenuItem.Click
-        Try
-            Me.Controls.Clear()
-            InitializeComponent()
-            AdminTrangChu_Load(sender, e)
-        Catch ex As Exception
-            MessageBox.Show($"Đã xảy ra lỗi khi tải lại form Trang Chủ: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    Private Sub btnDangXuat_Click(sender As Object, e As EventArgs) Handles btnDangXuat.Click
-        Me.Hide()
-        Dim frmLogin As New DangNhap()
-        frmLogin.Show()
-    End Sub
-
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        lblClock.Text = DateTime.Now.ToString("HH:mm:ss")
-    End Sub
-
+    'done
     Private Sub CapNhatThongKe()
         lblVeDatValue.Text = DemVeTheoNgay("Đã đặt").ToString()
         lblVeHuyValue.Text = DemVeTheoNgay("Đã hủy").ToString()
@@ -180,8 +131,39 @@ Public Class AdminTrangChu
             End Using
         End Using
     End Function
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click, Label9.Click
-        ' No action needed
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblClock.Text = DateTime.Now.ToString("HH:mm:ss")
     End Sub
+    Private Sub btnDangXuat_Click(sender As Object, e As EventArgs) Handles btnDangXuat.Click
+        Me.Hide()
+        Dim frmLogin As New DangNhap()
+        frmLogin.Show()
+    End Sub
+
+    Private Sub btnXemLichTrinh_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        Try
+            baseForm.LoadFormWithFade(New TuyenDuong, PanelContainer)
+        Catch ex As Exception
+            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Lịch Trình: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Private Sub LịchTrìnhVàTuyếnĐườngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LịchTrìnhVàTuyếnĐườngToolStripMenuItem.Click
+        Try
+            baseForm.LoadFormWithFade(New TuyenDuong(), PanelContainer)
+        Catch ex As Exception
+            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Lịch Trình: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+    Private Sub TrangChủToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TrangChủToolStripMenuItem.Click
+        Try
+            Me.Controls.Clear()
+            InitializeComponent()
+            AdminTrangChu_Load(sender, e)
+        Catch ex As Exception
+            MessageBox.Show($"Đã xảy ra lỗi khi tải lại form Trang Chủ: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+
 End Class

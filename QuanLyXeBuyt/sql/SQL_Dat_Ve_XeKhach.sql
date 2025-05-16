@@ -43,7 +43,8 @@ CREATE TABLE XEKHACH (
     gio_Den DATETIME NOT NULL,
     gia_Ve MONEY,
 	id_TuyenDuong INT ,
-	  FOREIGN KEY (id_TuyenDuong) REFERENCES TUYENDUONG(id_TuyenDuong),
+	  FOREIGN KEY (id_TuyenDuong) REFERENCES TUYENDUONG(id_TuyenDuong)  ON DELETE CASCADE
+        ON UPDATE CASCADE
 );
 
 
@@ -56,7 +57,8 @@ CREATE TABLE VE (
     ngay_Dat DATETIME DEFAULT GETDATE(), 
     trang_Thai NVARCHAR(20) CHECK (trang_Thai IN (N'Đã đặt', N'Đã hủy')) DEFAULT N'Đã đặt',
     FOREIGN KEY (id_NguoiDung) REFERENCES NGUOIDUNG(id_NguoiDung),
-    FOREIGN KEY (id_XeKhach) REFERENCES XEKHACH(id_XeKhach)
+    FOREIGN KEY (id_XeKhach) REFERENCES XEKHACH(id_XeKhach) ON DELETE CASCADE
+        ON UPDATE CASCADE
 );
 go
 GO
@@ -101,3 +103,4 @@ INSERT INTO VE (id_NguoiDung, id_XeKhach, ngay_Dat, trang_Thai) VALUES
 (2, 4, '2025-05-01 16:00:00', N'Đã hủy');
 
 select * from VE
+select * from TUYENDUONG

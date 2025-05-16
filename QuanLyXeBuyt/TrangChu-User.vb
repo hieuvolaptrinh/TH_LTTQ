@@ -84,13 +84,7 @@ Public Class UserTrangChu
         End Try
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Try
-            baseForm.LoadFormWithFade(New home2(), PanelContainer)
-        Catch ex As Exception
-            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Lịch Trình: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
+
 
     Private Sub ĐăngXuấtToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ĐăngXuấtToolStripMenuItem.Click
         Me.Hide()

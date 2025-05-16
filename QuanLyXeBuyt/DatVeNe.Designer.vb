@@ -145,11 +145,11 @@ Partial Class DatVeNe
         btnNhapLai.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnNhapLai.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnNhapLai.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnNhapLai.FillColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        btnNhapLai.FillColor = Color.Red
         btnNhapLai.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
         btnNhapLai.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         btnNhapLai.ForeColor = Color.White
-        btnNhapLai.Location = New Point(1016, 153)
+        btnNhapLai.Location = New Point(905, 110)
         btnNhapLai.Name = "btnNhapLai"
         btnNhapLai.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnNhapLai.Size = New Size(200, 50)
@@ -251,7 +251,7 @@ Partial Class DatVeNe
         pnlCol1.Controls.Add(lblDiemDi)
         pnlCol1.Controls.Add(lblDiemDen)
         pnlCol1.CustomizableEdges = CustomizableEdges15
-        pnlCol1.Location = New Point(66, 97)
+        pnlCol1.Location = New Point(12, 58)
         pnlCol1.Name = "pnlCol1"
         pnlCol1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         pnlCol1.Size = New Size(833, 462)
@@ -327,7 +327,7 @@ Partial Class DatVeNe
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = SystemColors.Window
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 10F)
-        DataGridViewCellStyle2.ForeColor = Color.Black
+        DataGridViewCellStyle2.ForeColor = Color.DodgerBlue
         DataGridViewCellStyle2.SelectionBackColor = Color.Black
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False

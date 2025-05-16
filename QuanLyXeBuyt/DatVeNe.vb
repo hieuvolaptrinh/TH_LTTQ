@@ -17,7 +17,7 @@ Public Class DatVeNe
         AddHandler btnDiemDi.Click, AddressOf btnDiemDi_Click
         AddHandler btnDiemDen.Click, AddressOf btnDiemDen_Click
         AddHandler btnDatVe.Click, AddressOf btnDatVe_Click
-        AddHandler btnNhapLai.Click, AddressOf btnNhapLai_Click
+
         AddHandler btnHuy.Click, AddressOf btnHuy_Click
         AddHandler numSoLuongVe.ValueChanged, AddressOf numSoLuongVe_ValueChanged
         AddHandler DataGridView1.SelectionChanged, AddressOf DataGridView1_SelectionChanged
@@ -142,14 +142,6 @@ Public Class DatVeNe
         ' lblSoDienThoai.Text = currentSoDienThoai
     End Sub
 
-    Private Sub btnNhapLai_Click(sender As Object, e As EventArgs)
-        numSoLuongVe.Value = 1
-        lblTongTienValue.Text = "0 VNĐ"
-        txtDiemDi.Text = ""
-        txtDiemDen.Text = ""
-        ShowAllTrips()
-    End Sub
-
     Private Sub btnHuy_Click(sender As Object, e As EventArgs)
         If isViewingTrips OrElse DataGridView1.SelectedRows.Count = 0 OrElse Not DataGridView1.Columns.Contains("Mã vé") Then
             MessageBox.Show("Vui lòng chọn vé để hủy!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -179,5 +171,13 @@ Public Class DatVeNe
             cmd.Parameters.AddWithValue("@id", maVe)
             cmd.ExecuteNonQuery()
         End Using
+    End Sub
+
+    Private Sub btnNhapLai_Click_1(sender As Object, e As EventArgs) Handles btnNhapLai.Click
+        numSoLuongVe.Value = 1
+        lblTongTienValue.Text = "0 VNĐ"
+        txtDiemDi.Text = ""
+        txtDiemDen.Text = ""
+        ShowAllTrips()
     End Sub
 End Class
