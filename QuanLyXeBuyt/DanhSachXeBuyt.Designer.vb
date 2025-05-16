@@ -91,26 +91,27 @@ Partial Class DanhSachXeBuyt
         Guna2CustomGradientPanel1.Controls.Add(TextBoxBienSo)
         Guna2CustomGradientPanel1.Controls.Add(Guna2Panel2)
         Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges23
+        Guna2CustomGradientPanel1.Dock = DockStyle.Bottom
         Guna2CustomGradientPanel1.FillColor = Color.WhiteSmoke
         Guna2CustomGradientPanel1.FillColor2 = Color.PowderBlue
         Guna2CustomGradientPanel1.FillColor3 = Color.DeepSkyBlue
         Guna2CustomGradientPanel1.FillColor4 = Color.Blue
-        Guna2CustomGradientPanel1.Location = New Point(0, 0)
+        Guna2CustomGradientPanel1.Location = New Point(0, 31)
         Guna2CustomGradientPanel1.Margin = New Padding(3, 4, 3, 4)
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Guna2CustomGradientPanel1.Size = New Size(1520, 864)
+        Guna2CustomGradientPanel1.Size = New Size(1400, 769)
         Guna2CustomGradientPanel1.TabIndex = 0
         ' 
         ' DataGridViewXeKhach
         ' 
         DataGridViewXeKhach.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewXeKhach.Location = New Point(507, 296)
+        DataGridViewXeKhach.Location = New Point(475, 294)
         DataGridViewXeKhach.Margin = New Padding(3, 4, 3, 4)
         DataGridViewXeKhach.Name = "DataGridViewXeKhach"
         DataGridViewXeKhach.RowHeadersWidth = 51
         DataGridViewXeKhach.RowTemplate.Height = 24
-        DataGridViewXeKhach.Size = New Size(993, 510)
+        DataGridViewXeKhach.Size = New Size(881, 447)
         DataGridViewXeKhach.TabIndex = 26
         ' 
         ' xoaXe
@@ -273,7 +274,7 @@ Partial Class DanhSachXeBuyt
         ComboBoxMaTuyenDuong.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ComboBoxMaTuyenDuong.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         ComboBoxMaTuyenDuong.ItemHeight = 30
-        ComboBoxMaTuyenDuong.Location = New Point(215, 668)
+        ComboBoxMaTuyenDuong.Location = New Point(219, 705)
         ComboBoxMaTuyenDuong.Margin = New Padding(3, 4, 3, 4)
         ComboBoxMaTuyenDuong.Name = "ComboBoxMaTuyenDuong"
         ComboBoxMaTuyenDuong.ShadowDecoration.CustomizableEdges = CustomizableEdges16
@@ -286,7 +287,7 @@ Partial Class DanhSachXeBuyt
         Label8.BackColor = Color.Transparent
         Label8.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.Red
-        Label8.Location = New Point(12, 668)
+        Label8.Location = New Point(13, 705)
         Label8.Name = "Label8"
         Label8.Size = New Size(193, 31)
         Label8.TabIndex = 8
@@ -403,7 +404,7 @@ Partial Class DanhSachXeBuyt
         Guna2Panel2.Controls.Add(Label3)
         Guna2Panel2.Controls.Add(Label2)
         Guna2Panel2.CustomizableEdges = CustomizableEdges21
-        Guna2Panel2.Location = New Point(847, 15)
+        Guna2Panel2.Location = New Point(847, 45)
         Guna2Panel2.Margin = New Padding(3, 4, 3, 4)
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.ShadowDecoration.Color = Color.LawnGreen
@@ -440,7 +441,7 @@ Partial Class DanhSachXeBuyt
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1512, 856)
+        ClientSize = New Size(1400, 800)
         Controls.Add(Guna2CustomGradientPanel1)
         Margin = New Padding(3, 2, 3, 2)
         Name = "DanhSachXeBuyt"

@@ -355,242 +355,248 @@ D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\Qua
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\QuanLyXeBuyt\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXe.3AC19A92.Up2Date
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\QuanLyXeBuyt\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\QuanLyXeBuyt\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.AssemblyReference.cache
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DanhSachXeBuyt.resources
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DatVeNe.resources
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.LichTrinh.resources
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.Resources.resources
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TrangChu.resources
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.GenerateResource.cache
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.GeneratedMSBuildEditorConfig.editorconfig
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfoInputs.cache
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfo.vb
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.CoreCompileInputs.cache
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.sourcelink.json
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\refint\QuanLyXeBuyt.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.pdb
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.exe
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.deps.json
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.runtimeconfig.json
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.pdb
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Core.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Identity.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Guna.UI2.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Common.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.DataVisualization.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Design.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.WinForms.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Types.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.ClientModel.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Configuration.ConfigurationManager.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Diagnostics.EventLog.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Management.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Memory.Data.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXe.3AC19A92.Up2Date
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH LTTQ CK\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TuyenDuong.resources
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.AssemblyReference.cache
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DanhSachXeBuyt.resources
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DatVeNe.resources
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.Resources.resources
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TrangChu.resources
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TuyenDuong.resources
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.GenerateResource.cache
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.GeneratedMSBuildEditorConfig.editorconfig
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfoInputs.cache
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfo.vb
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.CoreCompileInputs.cache
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.sourcelink.json
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.dll
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\refint\QuanLyXeBuyt.dll
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.pdb
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.exe
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.deps.json
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.runtimeconfig.json
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.pdb
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Core.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Identity.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Guna.UI2.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Common.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.DataVisualization.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Design.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.WinForms.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Types.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.ClientModel.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Configuration.ConfigurationManager.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Diagnostics.EventLog.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Management.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Memory.Data.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
-D:\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXe.3AC19A92.Up2Date
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
-D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.AssemblyReference.cache
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DanhSachXeBuyt.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DatVeNe.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.Resources.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.GenerateResource.cache
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfoInputs.cache
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfo.vb
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.CoreCompileInputs.cache
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.sourcelink.json
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\refint\QuanLyXeBuyt.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.pdb
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.exe
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.deps.json
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.runtimeconfig.json
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.pdb
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Core.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Identity.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Guna.UI2.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Common.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Design.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.WinForms.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Types.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.ClientModel.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Configuration.ConfigurationManager.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Diagnostics.EventLog.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Management.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Memory.Data.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXe.3AC19A92.Up2Date
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.BaseForm.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TuyenDuong.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DangNhap.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.home2.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AdminTrangChu.resources
+E:\New folder\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.UserTrangChu.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.exe
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.deps.json
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.runtimeconfig.json
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\QuanLyXeBuyt.pdb
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Core.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Azure.Identity.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Guna.UI2.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Common.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.Design.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.ReportViewer.WinForms.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\Microsoft.SqlServer.Types.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.ClientModel.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Configuration.ConfigurationManager.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Diagnostics.EventLog.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Management.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Memory.Data.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.AssemblyReference.cache
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.BaseForm.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DangNhap.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DanhSachXeBuyt.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DatVeNe.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.home2.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.Resources.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AdminTrangChu.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.UserTrangChu.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TuyenDuong.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.GenerateResource.cache
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfoInputs.cache
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AssemblyInfo.vb
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.CoreCompileInputs.cache
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXe.3AC19A92.Up2Date
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\refint\QuanLyXeBuyt.dll
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.pdb
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll

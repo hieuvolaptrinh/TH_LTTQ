@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {}
+    "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {}
   },
   "projects": {
-    "D:\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {
+    "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
+        "projectUniqueName": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
         "projectName": "QuanLyXeBuyt",
-        "projectPath": "D:\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\TH_LTTQ\\QuanLyXeBuyt\\obj\\",
+        "projectPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH_LTTQ\\QuanLyXeBuyt\\QuanLyXeBuyt.vbproj",
+        "packagesPath": "C:\\Users\\vndhi\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\kì 2\\TH_LTTQ\\QuanLyXeBuyt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VS\\Comp\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vndhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
