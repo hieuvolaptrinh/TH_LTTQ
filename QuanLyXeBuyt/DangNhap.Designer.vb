@@ -22,17 +22,19 @@ Partial Class DangNhap
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DangNhap))
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Label2 = New Label()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -42,6 +44,7 @@ Partial Class DangNhap
         Label1 = New Label()
         Label4 = New Label()
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        btnRegister = New Guna.UI2.WinForms.Guna2GradientButton()
         CType(Guna2CirclePictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2GradientPanel1.SuspendLayout()
         SuspendLayout()
@@ -52,7 +55,7 @@ Partial Class DangNhap
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(192))
-        Label2.Location = New Point(495, 38)
+        Label2.Location = New Point(482, 18)
         Label2.Name = "Label2"
         Label2.Size = New Size(249, 38)
         Label2.TabIndex = 1
@@ -65,7 +68,7 @@ Partial Class DangNhap
         Guna2TextBox1.BorderRadius = 20
         Guna2TextBox1.BorderThickness = 2
         Guna2TextBox1.Cursor = Cursors.IBeam
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges1
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges11
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -75,13 +78,13 @@ Partial Class DangNhap
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.ForeColor = Color.Black
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(473, 230)
+        Guna2TextBox1.Location = New Point(473, 201)
         Guna2TextBox1.Margin = New Padding(3, 5, 3, 5)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PlaceholderForeColor = Color.Black
         Guna2TextBox1.PlaceholderText = "Tên đăng nhập"
         Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2TextBox1.Size = New Size(286, 60)
         Guna2TextBox1.TabIndex = 2
         ' 
@@ -92,7 +95,7 @@ Partial Class DangNhap
         Guna2TextBox2.BorderRadius = 20
         Guna2TextBox2.BorderThickness = 2
         Guna2TextBox2.Cursor = Cursors.IBeam
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges3
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges13
         Guna2TextBox2.DefaultText = ""
         Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -102,20 +105,20 @@ Partial Class DangNhap
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.ForeColor = Color.Black
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(473, 314)
+        Guna2TextBox2.Location = New Point(473, 271)
         Guna2TextBox2.Margin = New Padding(3, 5, 3, 5)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PlaceholderForeColor = Color.Black
         Guna2TextBox2.PlaceholderText = "Mật Khẩu"
         Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2TextBox2.Size = New Size(286, 60)
         Guna2TextBox2.TabIndex = 2
         ' 
         ' Guna2Button1
         ' 
         Guna2Button1.BorderRadius = 20
-        Guna2Button1.CustomizableEdges = CustomizableEdges5
+        Guna2Button1.CustomizableEdges = CustomizableEdges15
         Guna2Button1.DisabledState.BorderColor = Color.Black
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -123,10 +126,10 @@ Partial Class DangNhap
         Guna2Button1.FillColor = Color.FromArgb(CByte(255), CByte(192), CByte(128))
         Guna2Button1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.Black
-        Guna2Button1.Location = New Point(506, 409)
+        Guna2Button1.Location = New Point(506, 364)
         Guna2Button1.Margin = New Padding(3, 2, 3, 2)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2Button1.Size = New Size(225, 56)
         Guna2Button1.TabIndex = 3
         Guna2Button1.Text = "Đăng Nhập"
@@ -142,7 +145,7 @@ Partial Class DangNhap
         Guna2ImageButton1.Margin = New Padding(3, 2, 3, 2)
         Guna2ImageButton1.Name = "Guna2ImageButton1"
         Guna2ImageButton1.PressedState.ImageSize = New Size(64, 64)
-        Guna2ImageButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        Guna2ImageButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         Guna2ImageButton1.Size = New Size(8, 8)
         Guna2ImageButton1.TabIndex = 4
         ' 
@@ -150,10 +153,10 @@ Partial Class DangNhap
         ' 
         Guna2CirclePictureBox1.Image = My.Resources.Resources.user
         Guna2CirclePictureBox1.ImageRotate = 0F
-        Guna2CirclePictureBox1.Location = New Point(549, 98)
+        Guna2CirclePictureBox1.Location = New Point(550, 69)
         Guna2CirclePictureBox1.Margin = New Padding(3, 2, 3, 2)
         Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Guna2CirclePictureBox1.Size = New Size(131, 125)
         Guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -189,16 +192,31 @@ Partial Class DangNhap
         Guna2GradientPanel1.BackgroundImage = CType(resources.GetObject("Guna2GradientPanel1.BackgroundImage"), Image)
         Guna2GradientPanel1.Controls.Add(Label4)
         Guna2GradientPanel1.Controls.Add(Label1)
-        Guna2GradientPanel1.CustomizableEdges = CustomizableEdges9
+        Guna2GradientPanel1.CustomizableEdges = CustomizableEdges19
         Guna2GradientPanel1.FillColor = Color.CornflowerBlue
         Guna2GradientPanel1.FillColor2 = Color.MediumBlue
         Guna2GradientPanel1.GradientMode = Drawing2D.LinearGradientMode.BackwardDiagonal
         Guna2GradientPanel1.Location = New Point(-6, 1)
         Guna2GradientPanel1.Margin = New Padding(3, 2, 3, 2)
         Guna2GradientPanel1.Name = "Guna2GradientPanel1"
-        Guna2GradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2GradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2GradientPanel1.Size = New Size(432, 492)
         Guna2GradientPanel1.TabIndex = 0
+        ' 
+        ' btnRegister
+        ' 
+        btnRegister.BorderRadius = 10
+        btnRegister.CustomizableEdges = CustomizableEdges21
+        btnRegister.FillColor = Color.FromArgb(CByte(255), CByte(192), CByte(255))
+        btnRegister.FillColor2 = Color.Fuchsia
+        btnRegister.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        btnRegister.ForeColor = Color.White
+        btnRegister.Location = New Point(506, 431)
+        btnRegister.Name = "btnRegister"
+        btnRegister.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        btnRegister.Size = New Size(226, 45)
+        btnRegister.TabIndex = 7
+        btnRegister.Text = "Đăng Ký"
         ' 
         ' DangNhap
         ' 
@@ -207,6 +225,7 @@ Partial Class DangNhap
         BackColor = Color.LightBlue
         BackgroundImageLayout = ImageLayout.Center
         ClientSize = New Size(800, 488)
+        Controls.Add(btnRegister)
         Controls.Add(Guna2CirclePictureBox1)
         Controls.Add(Guna2ImageButton1)
         Controls.Add(Guna2Button1)
@@ -233,4 +252,5 @@ Partial Class DangNhap
     Friend WithEvents Label1 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents btnRegister As Guna.UI2.WinForms.Guna2GradientButton
 End Class

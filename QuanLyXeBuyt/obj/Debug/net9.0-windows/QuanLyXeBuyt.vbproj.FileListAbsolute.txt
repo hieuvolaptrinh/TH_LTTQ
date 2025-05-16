@@ -598,4 +598,5 @@ D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.sourcelink.json
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.LichSuDatVe.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.LichSu.resources
+D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DangKiVip.resources

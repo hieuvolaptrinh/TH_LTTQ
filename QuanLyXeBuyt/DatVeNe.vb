@@ -1,8 +1,7 @@
 ﻿Imports Microsoft.Data.SqlClient
 
 Public Class DatVeNe
-    Dim connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"
-    ' This should be set after user login
+    Private ReadOnly connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"
     Public currentNguoiDungId As Integer = -1
     Private Const GIA_VE_MAC_DINH As Decimal = 100000D
     Private isViewingTrips As Boolean = True
@@ -13,55 +12,107 @@ Public Class DatVeNe
             Me.Close()
             Return
         End If
+        SetupDataGridView()
         ShowAllTrips()
-        AddHandler btnDiemDi.Click, AddressOf btnDiemDi_Click
-        AddHandler btnDiemDen.Click, AddressOf btnDiemDen_Click
-        AddHandler btnDatVe.Click, AddressOf btnDatVe_Click
-
-        AddHandler btnHuy.Click, AddressOf btnHuy_Click
-        AddHandler numSoLuongVe.ValueChanged, AddressOf numSoLuongVe_ValueChanged
         AddHandler DataGridView1.SelectionChanged, AddressOf DataGridView1_SelectionChanged
+        AddHandler numSoLuongVe.ValueChanged, AddressOf numSoLuongVe_ValueChanged
+    End Sub
+
+    Private Sub SetupDataGridView()
+        ' Thiết lập style cho DataGridView
+        DataGridView1.EnableHeadersVisualStyles = False
+        DataGridView1.BackgroundColor = Color.White
+
+        ' Style cho header
+        DataGridView1.ColumnHeadersDefaultCellStyle.Font = New Font("Segoe UI", 11, FontStyle.Bold)
+        DataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(33, 150, 243)
+        DataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White
+        DataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
+        DataGridView1.ColumnHeadersHeight = 45
+        DataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+
+        ' Style cho các dòng
+        DataGridView1.RowTemplate.Height = 40
+        DataGridView1.DefaultCellStyle.Font = New Font("Segoe UI", 10)
+        DataGridView1.DefaultCellStyle.ForeColor = Color.Black
+        DataGridView1.DefaultCellStyle.BackColor = Color.White
+        DataGridView1.DefaultCellStyle.SelectionBackColor = Color.FromArgb(33, 150, 243)
+        DataGridView1.DefaultCellStyle.SelectionForeColor = Color.White
+        DataGridView1.DefaultCellStyle.Padding = New Padding(5)
+
+        ' Style cho dòng xen kẽ
+        DataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(240, 244, 247)
+        DataGridView1.AlternatingRowsDefaultCellStyle.Font = New Font("Segoe UI", 10)
+        DataGridView1.AlternatingRowsDefaultCellStyle.ForeColor = Color.Black
+
+        ' Các thuộc tính khác
+        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
+        DataGridView1.MultiSelect = False
+        DataGridView1.AllowUserToAddRows = False
+        DataGridView1.AllowUserToDeleteRows = False
+        DataGridView1.AllowUserToResizeRows = False
+        DataGridView1.ReadOnly = True
+        DataGridView1.RowHeadersVisible = False
+        DataGridView1.BorderStyle = BorderStyle.None
+        DataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        DataGridView1.GridColor = Color.FromArgb(187, 222, 251) ' Màu đường kẻ giữa các dòng
     End Sub
 
     Private Sub ShowAllTrips(Optional diemDi As String = "", Optional diemDen As String = "")
         Using conn As New SqlConnection(connectionString)
             conn.Open()
             Dim sql As String = "
-                SELECT X.id_XeKhach, X.ten_XeKhach, X.bien_So, X.gio_Di, X.gio_Den, 
-                       T.diem_di, T.diem_den, T.khoang_Cach_Km, @giaVe AS [Giá vé]
+                SELECT 
+                    X.id_XeKhach AS [Mã Xe],
+                    X.ten_XeKhach AS [Tên Xe Khách], 
+                    X.bien_So AS [Biển Số], 
+                    FORMAT(X.gio_Di, 'dd/MM/yyyy HH:mm') AS [Giờ Khởi Hành],
+                    FORMAT(X.gio_Den, 'dd/MM/yyyy HH:mm') AS [Giờ Đến], 
+                    T.diem_di AS [Điểm Đi],
+                    T.diem_den AS [Điểm Đến],
+                    T.khoang_Cach_Km AS [Khoảng Cách (km)],
+                    @giaVe AS [Giá Vé]
                 FROM XEKHACH X
                 INNER JOIN TUYENDUONG T ON X.id_TuyenDuong = T.id_TuyenDuong
                 WHERE (T.diem_di LIKE @diemDi OR @diemDi = '')
                   AND (T.diem_den LIKE @diemDen OR @diemDen = '')
             "
-            Dim cmd As New SqlCommand(sql, conn)
-            cmd.Parameters.AddWithValue("@giaVe", GIA_VE_MAC_DINH)
-            cmd.Parameters.AddWithValue("@diemDi", "%" & diemDi & "%")
-            cmd.Parameters.AddWithValue("@diemDen", "%" & diemDen & "%")
-            Dim dt As New DataTable()
-            dt.Load(cmd.ExecuteReader())
-            DataGridView1.DataSource = dt
+            Using cmd As New SqlCommand(sql, conn)
+                cmd.Parameters.AddWithValue("@giaVe", GIA_VE_MAC_DINH)
+                cmd.Parameters.AddWithValue("@diemDi", "%" & diemDi & "%")
+                cmd.Parameters.AddWithValue("@diemDen", "%" & diemDen & "%")
+
+                Dim dt As New DataTable()
+                dt.Load(cmd.ExecuteReader())
+                DataGridView1.DataSource = dt
+
+                ' Ẩn cột Mã Xe (sẽ dùng để đặt vé)
+                If DataGridView1.Columns.Contains("Mã Xe") Then
+                    DataGridView1.Columns("Mã Xe").Visible = False
+                End If
+
+                ' Căn giữa một số cột
+                For Each col As DataGridViewColumn In DataGridView1.Columns
+                    Select Case col.Name
+                        Case "Biển Số", "Giờ Khởi Hành", "Giờ Đến", "Khoảng Cách (km)", "Giá Vé"
+                            col.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
+                    End Select
+                Next
+            End Using
         End Using
         isViewingTrips = True
         numSoLuongVe.Value = 1
-        lblTongTienValue.Text = "0 VNĐ"
+        TinhTongTien()
     End Sub
 
-    Private Sub btnDiemDi_Click(sender As Object, e As EventArgs)
-        ShowAllTrips(txtDiemDi.Text.Trim(), txtDiemDen.Text.Trim())
-    End Sub
-
-    Private Sub btnDiemDen_Click(sender As Object, e As EventArgs)
-        ShowAllTrips(txtDiemDi.Text.Trim(), txtDiemDen.Text.Trim())
-    End Sub
-
-    Private Sub DataGridView1_SelectionChanged(sender As Object, e As EventArgs)
+    Private Sub DataGridView1_SelectionChanged(sender As Object, e As EventArgs) Handles DataGridView1.SelectionChanged
         If isViewingTrips AndAlso DataGridView1.SelectedRows.Count > 0 Then
             TinhTongTien()
         End If
     End Sub
 
-    Private Sub numSoLuongVe_ValueChanged(sender As Object, e As EventArgs)
+    Private Sub numSoLuongVe_ValueChanged(sender As Object, e As EventArgs) Handles numSoLuongVe.ValueChanged
         If isViewingTrips AndAlso DataGridView1.SelectedRows.Count > 0 Then
             TinhTongTien()
         End If
@@ -72,44 +123,30 @@ Public Class DatVeNe
             lblTongTienValue.Text = "0 VNĐ"
             Return
         End If
-        Dim giaVe As Decimal = GIA_VE_MAC_DINH
-        If DataGridView1.SelectedRows(0).Cells("Giá vé") IsNot Nothing Then
-            Decimal.TryParse(DataGridView1.SelectedRows(0).Cells("Giá vé").Value.ToString(), giaVe)
-        End If
-        Dim tongTien As Decimal = giaVe * numSoLuongVe.Value
-        lblTongTienValue.Text = tongTien.ToString("N0") & " VNĐ"
+
+        Try
+            Dim giaVe As Decimal = GIA_VE_MAC_DINH
+            If DataGridView1.SelectedRows(0).Cells("Giá Vé").Value IsNot Nothing Then
+                giaVe = Convert.ToDecimal(DataGridView1.SelectedRows(0).Cells("Giá Vé").Value)
+            End If
+
+            Dim tongTien As Decimal = giaVe * numSoLuongVe.Value
+            lblTongTienValue.Text = String.Format("{0:N0} VNĐ", tongTien)
+            lblTongTienValue.ForeColor = Color.FromArgb(244, 67, 54) ' Màu đỏ cho tổng tiền
+        Catch ex As Exception
+            lblTongTienValue.Text = "0 VNĐ"
+        End Try
     End Sub
 
     Private Sub InsertVe(idNguoiDung As Integer, idXeKhach As Integer)
         Using conn As New SqlConnection(connectionString)
             conn.Open()
-            Dim cmd As New SqlCommand("INSERT INTO VE (id_NguoiDung, id_XeKhach, trang_Thai) VALUES (@nd, @xk, N'Đã đặt')", conn)
-            cmd.Parameters.AddWithValue("@nd", idNguoiDung)
-            cmd.Parameters.AddWithValue("@xk", idXeKhach)
-            cmd.ExecuteNonQuery()
+            Using cmd As New SqlCommand("INSERT INTO VE (id_NguoiDung, id_XeKhach, trang_Thai) VALUES (@nd, @xk, N'Đã đặt')", conn)
+                cmd.Parameters.AddWithValue("@nd", idNguoiDung)
+                cmd.Parameters.AddWithValue("@xk", idXeKhach)
+                cmd.ExecuteNonQuery()
+            End Using
         End Using
-    End Sub
-
-    Private Sub btnDatVe_Click(sender As Object, e As EventArgs)
-        If Not isViewingTrips Then
-            MessageBox.Show("Vui lòng chuyển về chế độ xem chuyến đi để đặt vé mới!")
-            Return
-        End If
-        If DataGridView1.SelectedRows.Count = 0 Then
-            MessageBox.Show("Vui lòng chọn chuyến đi để đặt vé!")
-            Return
-        End If
-        If currentNguoiDungId <= 0 Then
-            MessageBox.Show("Bạn cần đăng nhập trước khi đặt vé!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Me.Close()
-            Return
-        End If
-        Dim idXeKhach As Integer = CInt(DataGridView1.SelectedRows(0).Cells("id_XeKhach").Value)
-        For i = 1 To numSoLuongVe.Value
-            InsertVe(currentNguoiDungId, idXeKhach)
-        Next
-        MessageBox.Show("Đặt vé thành công!")
-        ShowUserTickets()
     End Sub
 
     Private Sub ShowUserTickets()
@@ -142,47 +179,57 @@ Public Class DatVeNe
         ' lblSoDienThoai.Text = currentSoDienThoai
     End Sub
 
-    Private Sub btnHuy_Click(sender As Object, e As EventArgs)
-        If isViewingTrips OrElse DataGridView1.SelectedRows.Count = 0 OrElse Not DataGridView1.Columns.Contains("Mã vé") Then
-            MessageBox.Show("Vui lòng chọn vé để hủy!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+
+    Private Sub btnTImKiem_Click(sender As Object, e As EventArgs) Handles btnTImKiem.Click
+        Dim diemDi As String = txtDiemDi.Text.Trim()
+        Dim diemDen As String = txtDiemDen.Text.Trim()
+
+        If String.IsNullOrEmpty(diemDi) AndAlso String.IsNullOrEmpty(diemDen) Then
+            MessageBox.Show("Vui lòng nhập ít nhất một điểm đi hoặc điểm đến!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Return
         End If
-        Dim row = DataGridView1.SelectedRows(0)
-        Dim maVe = row.Cells("Mã vé").Value
-        Dim trangThai = row.Cells("Trạng thái").Value.ToString
-        If trangThai = "Đã hủy" Then
-            MessageBox.Show("Vé này đã bị hủy rồi!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Return
-        End If
-        If trangThai = "Đã đặt" Then
-            Dim result = MessageBox.Show("Bạn có chắc chắn muốn hủy vé này?", "Xác nhận hủy", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-            If result = DialogResult.Yes Then
-                HuyVe(maVe)
-                MessageBox.Show("Đã hủy vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                If currentNguoiDungId > 0 Then ShowUserTickets()
-            End If
-        End If
-    End Sub
 
-    Private Sub HuyVe(maVe As Object)
-        Using conn As New SqlConnection(connectionString)
-            conn.Open()
-            Dim cmd As New SqlCommand("UPDATE VE SET trang_Thai = N'Đã hủy' WHERE id_Ve = @id", conn)
-            cmd.Parameters.AddWithValue("@id", maVe)
-            cmd.ExecuteNonQuery()
-        End Using
+        ShowAllTrips(diemDi, diemDen)
     End Sub
-
-    Private Sub btnNhapLai_Click_1(sender As Object, e As EventArgs) Handles btnNhapLai.Click
-        numSoLuongVe.Value = 1
-        lblTongTienValue.Text = "0 VNĐ"
-        txtDiemDi.Text = ""
-        txtDiemDen.Text = ""
-        ShowAllTrips()
+    Private Sub AllVe_Click(sender As Object, e As EventArgs) Handles AllVe.Click
+        ShowAllTrips("", "")
     End Sub
-
     Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
-        Dim frm As New LichSuDatVe()
-        frm.Show()
+        Dim frmLichSu As New LichSu
+        frmLichSu.currentNguoiDungIdLS = currentNguoiDungId ' Truyền ID người dùng
+        frmLichSu.Show()
+    End Sub
+
+    Private Sub btnDatVe_Click(sender As Object, e As EventArgs) Handles btnDatVe.Click
+        If Not isViewingTrips Then
+            MessageBox.Show("Vui lòng chọn chuyến xe để đặt vé!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Return
+        End If
+
+        If DataGridView1.SelectedRows.Count = 0 Then
+            MessageBox.Show("Vui lòng chọn một chuyến xe để đặt vé!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Return
+        End If
+
+        Dim row = DataGridView1.SelectedRows(0)
+        Dim idXeKhach = Convert.ToInt32(row.Cells("Mã Xe").Value)
+        Dim tenXe = row.Cells("Tên Xe Khách").Value.ToString()
+        Dim gioDi = row.Cells("Giờ Khởi Hành").Value.ToString()
+
+        If MessageBox.Show($"Xác nhận đặt vé xe {tenXe}{vbCrLf}Khởi hành: {gioDi}{vbCrLf}Số lượng: {numSoLuongVe.Value}",
+                          "Xác nhận đặt vé", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+
+            Try
+                For i = 1 To numSoLuongVe.Value
+                    InsertVe(currentNguoiDungId, idXeKhach)
+                Next
+
+                MessageBox.Show("Đặt vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                ShowAllTrips() ' Refresh lại danh sách
+            Catch ex As Exception
+                MessageBox.Show("Có lỗi xảy ra khi đặt vé: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        End If
     End Sub
 End Class

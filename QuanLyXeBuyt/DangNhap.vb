@@ -76,4 +76,10 @@ Public Class DangNhap
     Private Sub DangNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
+        Me.Hide()
+        Dim frmDangKi As New DangKiVip()
+        frmDangKi.Show()
+    End Sub
 End Class
