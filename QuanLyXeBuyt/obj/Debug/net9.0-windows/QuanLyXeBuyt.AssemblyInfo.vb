@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("QuanLyXeBuyt"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c1ec20898b0f009416973635f393c9501ae76a3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a46a7bcab9fa77e65c7994343dacdccb357b95a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("QuanLyXeBuyt"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("QuanLyXeBuyt"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

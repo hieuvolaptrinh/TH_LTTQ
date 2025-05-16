@@ -180,4 +180,9 @@ Public Class DatVeNe
         txtDiemDen.Text = ""
         ShowAllTrips()
     End Sub
+
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        Dim frm As New LichSuDatVe()
+        frm.Show()
+    End Sub
 End Class

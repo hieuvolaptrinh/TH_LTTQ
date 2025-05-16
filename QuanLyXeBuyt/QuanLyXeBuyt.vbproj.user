@@ -7,6 +7,9 @@
     <Compile Update="DatVeNe.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="LichSuDatVe.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TrangChu-Admin.vb">
       <SubType>Form</SubType>
     </Compile>
