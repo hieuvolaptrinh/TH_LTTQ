@@ -41,6 +41,7 @@ Partial Class AdminTrangChu
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -99,6 +100,7 @@ Partial Class AdminTrangChu
         DanhSáchXeBuýtToolStripMenuItem = New ToolStripMenuItem()
         BổSungTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
         TrangChủToolStripMenuItem = New ToolStripMenuItem()
+        Panel1 = New Panel()
         PanelContainer.SuspendLayout()
         pnlBottom.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
@@ -108,6 +110,7 @@ Partial Class AdminTrangChu
         pnlTongTuyen.SuspendLayout()
         pnlVeDat.SuspendLayout()
         MenuStrip1.SuspendLayout()
+        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Timer1
@@ -152,6 +155,7 @@ Partial Class AdminTrangChu
         pnlBottom.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         pnlBottom.AutoSize = True
         pnlBottom.BackColor = Color.Transparent
+        pnlBottom.Controls.Add(Panel1)
         pnlBottom.Controls.Add(btnChiTietVe)
         pnlBottom.Controls.Add(Label10)
         pnlBottom.Controls.Add(timKiem)
@@ -166,13 +170,12 @@ Partial Class AdminTrangChu
         pnlBottom.Controls.Add(TextBoxTenXeKhach)
         pnlBottom.Controls.Add(Label1)
         pnlBottom.Controls.Add(TextBoxBienSo)
-        pnlBottom.Controls.Add(DataGridView1)
         pnlBottom.Controls.Add(pnlQuickActions)
         pnlBottom.CustomizableEdges = CustomizableEdges23
         pnlBottom.Location = New Point(232, 99)
         pnlBottom.Name = "pnlBottom"
         pnlBottom.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        pnlBottom.Size = New Size(1168, 670)
+        pnlBottom.Size = New Size(1171, 670)
         pnlBottom.TabIndex = 6
         ' 
         ' btnChiTietVe
@@ -188,7 +191,7 @@ Partial Class AdminTrangChu
         btnChiTietVe.FillColor2 = Color.ForestGreen
         btnChiTietVe.Font = New Font("Segoe UI", 12F)
         btnChiTietVe.ForeColor = Color.White
-        btnChiTietVe.Location = New Point(36, 302)
+        btnChiTietVe.Location = New Point(547, 145)
         btnChiTietVe.Name = "btnChiTietVe"
         btnChiTietVe.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnChiTietVe.Size = New Size(217, 60)
@@ -200,7 +203,7 @@ Partial Class AdminTrangChu
         Label10.AutoSize = True
         Label10.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label10.Location = New Point(30, 370)
+        Label10.Location = New Point(7, 308)
         Label10.Name = "Label10"
         Label10.Size = New Size(291, 54)
         Label10.TabIndex = 8
@@ -220,7 +223,7 @@ Partial Class AdminTrangChu
         timKiem.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         timKiem.ForeColor = Color.FromArgb(CByte(192), CByte(64), CByte(0))
         timKiem.Image = My.Resources.Resources.find
-        timKiem.Location = New Point(938, 379)
+        timKiem.Location = New Point(885, 328)
         timKiem.Margin = New Padding(3, 2, 3, 2)
         timKiem.Name = "timKiem"
         timKiem.ShadowDecoration.CustomizableEdges = CustomizableEdges4
@@ -245,7 +248,7 @@ Partial Class AdminTrangChu
         txtBienSo.Font = New Font("Segoe UI", 9F)
         txtBienSo.ForeColor = Color.Black
         txtBienSo.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBienSo.Location = New Point(337, 379)
+        txtBienSo.Location = New Point(315, 328)
         txtBienSo.Margin = New Padding(3, 5, 3, 5)
         txtBienSo.Name = "txtBienSo"
         txtBienSo.PlaceholderForeColor = Color.Black
@@ -425,11 +428,41 @@ Partial Class AdminTrangChu
         ' 
         ' DataGridView1
         ' 
+        DataGridView1.AllowUserToAddRows = False
+        DataGridView1.AllowUserToDeleteRows = False
+        DataGridView1.AllowUserToResizeColumns = False
+        DataGridView1.AllowUserToResizeRows = False
+        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        DataGridView1.BackgroundColor = Color.White
+        DataGridView1.BorderStyle = BorderStyle.None
+        DataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        DataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
+        DataGridViewCellStyle1.ForeColor = Color.White
+        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(36, 453)
+        DataGridView1.EnableHeadersVisualStyles = False
+        DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridView1.Location = New Point(14, 12)
+        DataGridView1.MultiSelect = False
         DataGridView1.Name = "DataGridView1"
+        DataGridView1.ReadOnly = True
+        DataGridView1.RowHeadersVisible = False
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(1094, 214)
+        DataGridView1.RowTemplate.DefaultCellStyle.BackColor = Color.White
+        DataGridView1.RowTemplate.DefaultCellStyle.Font = New Font("Segoe UI", 9F)
+        DataGridView1.RowTemplate.DefaultCellStyle.ForeColor = Color.Black
+        DataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Black
+        DataGridView1.RowTemplate.Height = 35
+        DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
+        DataGridView1.ShowEditingIcon = False
+        DataGridView1.Size = New Size(1135, 243)
         DataGridView1.TabIndex = 2
         ' 
         ' pnlQuickActions
@@ -445,7 +478,7 @@ Partial Class AdminTrangChu
         pnlQuickActions.ShadowColor = Color.Black
         pnlQuickActions.ShadowDepth = 10
         pnlQuickActions.ShadowShift = 0
-        pnlQuickActions.Size = New Size(279, 329)
+        pnlQuickActions.Size = New Size(279, 295)
         pnlQuickActions.TabIndex = 1
         ' 
         ' Guna2GradientButton1
@@ -744,6 +777,15 @@ Partial Class AdminTrangChu
         TrangChủToolStripMenuItem.Text = "Trang Chủ"
         TrangChủToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.Black
+        Panel1.Controls.Add(DataGridView1)
+        Panel1.Location = New Point(7, 394)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(1161, 264)
+        Panel1.TabIndex = 25
+        ' 
         ' AdminTrangChu
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -769,6 +811,7 @@ Partial Class AdminTrangChu
         pnlVeDat.PerformLayout()
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
+        Panel1.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
         '// [END] Resume Layout
@@ -820,5 +863,6 @@ Partial Class AdminTrangChu
     Friend WithEvents lblTongTuyenValue As Label
     Private WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
     Private WithEvents btnChiTietVe As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Panel1 As Panel
     '// [END] Control Declarations
 End Class

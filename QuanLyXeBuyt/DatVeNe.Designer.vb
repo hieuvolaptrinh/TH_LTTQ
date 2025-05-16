@@ -128,7 +128,7 @@ Partial Class DatVeNe
         btnHuy.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
         btnHuy.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         btnHuy.ForeColor = Color.White
-        btnHuy.Location = New Point(738, 591)
+        btnHuy.Location = New Point(905, 608)
         btnHuy.Name = "btnHuy"
         btnHuy.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnHuy.Size = New Size(200, 50)
@@ -149,12 +149,12 @@ Partial Class DatVeNe
         btnNhapLai.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
         btnNhapLai.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         btnNhapLai.ForeColor = Color.White
-        btnNhapLai.Location = New Point(905, 110)
+        btnNhapLai.Location = New Point(894, 142)
         btnNhapLai.Name = "btnNhapLai"
         btnNhapLai.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnNhapLai.Size = New Size(200, 50)
         btnNhapLai.TabIndex = 3
-        btnNhapLai.Text = "Nhập lại"
+        btnNhapLai.Text = "Xem Danh Sách Vé"
         ' 
         ' btnDatVe
         ' 
@@ -170,7 +170,7 @@ Partial Class DatVeNe
         btnDatVe.FillColor2 = Color.FromArgb(CByte(33), CByte(150), CByte(243))
         btnDatVe.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         btnDatVe.ForeColor = Color.White
-        btnDatVe.Location = New Point(1016, 591)
+        btnDatVe.Location = New Point(1155, 608)
         btnDatVe.Name = "btnDatVe"
         btnDatVe.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnDatVe.Size = New Size(200, 50)
@@ -185,7 +185,7 @@ Partial Class DatVeNe
         pnlCol2.Controls.Add(lblTongTienValue)
         pnlCol2.Controls.Add(numSoLuongVe)
         pnlCol2.CustomizableEdges = CustomizableEdges9
-        pnlCol2.Location = New Point(905, 285)
+        pnlCol2.Location = New Point(952, 269)
         pnlCol2.Name = "pnlCol2"
         pnlCol2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         pnlCol2.Size = New Size(412, 274)

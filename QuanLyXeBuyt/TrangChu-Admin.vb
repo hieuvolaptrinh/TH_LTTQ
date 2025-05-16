@@ -14,8 +14,27 @@ Public Class AdminTrangChu
 
     End Sub
 
+    Private Sub SetDataGridViewHeaders()
+        Try
+            With DataGridView1
+                If .Columns.Count > 0 Then
+                    .Columns("bien_So").HeaderText = "Biển Số Xe"
+                    .Columns("ten_XeKhach").HeaderText = "Tên Xe Khách"
+                    .Columns("gio_Di").HeaderText = "Giờ Đi"
+                    .Columns("gio_Den").HeaderText = "Giờ Đến"
+                    .Columns("id_TuyenDuong").HeaderText = "Mã Tuyến Đường"
+                    .Columns("diem_di").HeaderText = "Điểm Đi"
+                    .Columns("diem_den").HeaderText = "Điểm Đến"
+                End If
+            End With
+        Catch ex As Exception
+            MessageBox.Show("Lỗi khi thiết lập tiêu đề cột: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
     Private Sub ShowBusList()
         DataGridView1.DataSource = dao.LayDanhSachXeKhachCoTuyen()
+        SetDataGridViewHeaders()
         isViewingTickets = False
     End Sub
 
@@ -81,20 +100,24 @@ Public Class AdminTrangChu
     'done
     Private Sub btnThemXe_Click(sender As Object, e As EventArgs) Handles btnThemXe.Click
 
-        If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
-            MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Return
-        End If
+        Try
+            If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
 
-        Dim bienSo = TextBoxBienSo.Text.Trim
-        Dim tenXe = TextBoxTenXeKhach.Text.Trim
-        Dim gioDi = DateTimePickerNgayDi.Value
-        Dim gioDen = DateTimePickerNgayDen.Value
-        Dim maTuyen = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
+            Dim bienSo = TextBoxBienSo.Text.Trim
+            Dim tenXe = TextBoxTenXeKhach.Text.Trim
+            Dim gioDi = DateTimePickerNgayDi.Value
+            Dim gioDen = DateTimePickerNgayDen.Value
+            Dim maTuyen = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
 
-        dao.ThemXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
-        ShowBusList()
-        CapNhatThongKe()
+            dao.ThemXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
+            ShowBusList()
+            CapNhatThongKe()
+        Catch ex As Exception
+            MsgBox("Đã xảy ra lỗi: " & ex.Message, MsgBoxStyle.Critical, "Lỗi")
+        End Try
 
     End Sub
 
@@ -165,5 +188,35 @@ Public Class AdminTrangChu
         End Try
     End Sub
 
+    Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
+        If e.RowIndex >= 0 Then
+            Dim row As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
+
+            ' Populate TextBoxes with the selected row's data
+            TextBoxBienSo.Text = row.Cells("bien_So").Value.ToString()
+            TextBoxTenXeKhach.Text = row.Cells("ten_XeKhach").Value.ToString()
+
+            ' Set DateTimePickers if the columns exist and have valid values
+            Try
+                If Not IsDBNull(row.Cells("gio_Di").Value) Then
+                    DateTimePickerNgayDi.Value = Convert.ToDateTime(row.Cells("gio_Di").Value)
+                End If
+                If Not IsDBNull(row.Cells("gio_Den").Value) Then
+                    DateTimePickerNgayDen.Value = Convert.ToDateTime(row.Cells("gio_Den").Value)
+                End If
+            Catch ex As Exception
+                MessageBox.Show("Lỗi khi đọc thời gian: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+
+            ' Set ComboBox if the column exists and has a valid value
+            Try
+                If Not IsDBNull(row.Cells("id_TuyenDuong").Value) Then
+                    ComboBoxMaTuyenDuong.SelectedValue = row.Cells("id_TuyenDuong").Value
+                End If
+            Catch ex As Exception
+                MessageBox.Show("Lỗi khi chọn tuyến đường: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        End If
+    End Sub
 
 End Class

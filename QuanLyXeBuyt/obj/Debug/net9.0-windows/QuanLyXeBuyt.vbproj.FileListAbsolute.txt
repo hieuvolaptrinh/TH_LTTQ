@@ -585,7 +585,6 @@ D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DatVeNe.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.Resources.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.AdminTrangChu.resources
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.UserTrangChu.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.TuyenDuong.resources
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.vbproj.GenerateResource.cache
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.GeneratedMSBuildEditorConfig.editorconfig
@@ -599,4 +598,3 @@ D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.genruntimeconfig.cache
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\ref\QuanLyXeBuyt.dll
 D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.sourcelink.json
-D:\OneDrive - University of Technology and Education\Dai_hoc\2024-2025\kì 2\TH_LTTQ\QuanLyXeBuyt\obj\Debug\net9.0-windows\QuanLyXeBuyt.DanhSachXeBuyt.resources
