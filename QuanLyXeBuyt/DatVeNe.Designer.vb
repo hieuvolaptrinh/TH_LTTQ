@@ -22,29 +22,29 @@ Partial Class DatVeNe
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Panel1 = New Panel()
         Label1 = New Label()
         pnlCard = New Guna.UI2.WinForms.Guna2GroupBox()
@@ -53,6 +53,8 @@ Partial Class DatVeNe
         btnHuy = New Guna.UI2.WinForms.Guna2GradientButton()
         btnDatVe = New Guna.UI2.WinForms.Guna2GradientButton()
         pnlCol2 = New Guna.UI2.WinForms.Guna2Panel()
+        Label7 = New Label()
+        Label6 = New Label()
         Label2 = New Label()
         Label4 = New Label()
         lblTongTienValue = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -122,13 +124,13 @@ Partial Class DatVeNe
         pnlCard.Controls.Add(pnlCol2)
         pnlCard.Controls.Add(pnlCol1)
         pnlCard.Controls.Add(lblTitle)
-        pnlCard.CustomBorderColor = Color.Magenta
-        pnlCard.CustomizableEdges = CustomizableEdges39
+        pnlCard.CustomBorderColor = Color.DeepSkyBlue
+        pnlCard.CustomizableEdges = CustomizableEdges19
         pnlCard.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         pnlCard.ForeColor = Color.White
         pnlCard.Location = New Point(22, 71)
         pnlCard.Name = "pnlCard"
-        pnlCard.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        pnlCard.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         pnlCard.Size = New Size(1311, 698)
         pnlCard.TabIndex = 5
         pnlCard.Text = "Đặt Vé Xe Khách"
@@ -137,7 +139,7 @@ Partial Class DatVeNe
         ' 
         AllVe.BackColor = Color.Transparent
         AllVe.BorderRadius = 15
-        AllVe.CustomizableEdges = CustomizableEdges21
+        AllVe.CustomizableEdges = CustomizableEdges1
         AllVe.DisabledState.BorderColor = Color.DarkGray
         AllVe.DisabledState.CustomBorderColor = Color.DarkGray
         AllVe.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -145,11 +147,11 @@ Partial Class DatVeNe
         AllVe.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         AllVe.FillColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
         AllVe.FillColor2 = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        AllVe.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        AllVe.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         AllVe.ForeColor = Color.White
         AllVe.Location = New Point(965, 184)
         AllVe.Name = "AllVe"
-        AllVe.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        AllVe.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         AllVe.Size = New Size(217, 60)
         AllVe.TabIndex = 9
         AllVe.Text = "Tất Cả Vé"
@@ -158,7 +160,7 @@ Partial Class DatVeNe
         ' 
         Guna2GradientButton1.BackColor = Color.Transparent
         Guna2GradientButton1.BorderRadius = 15
-        Guna2GradientButton1.CustomizableEdges = CustomizableEdges23
+        Guna2GradientButton1.CustomizableEdges = CustomizableEdges3
         Guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray
         Guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -166,11 +168,11 @@ Partial Class DatVeNe
         Guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2GradientButton1.FillColor = Color.FromArgb(CByte(156), CByte(39), CByte(176))
         Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(156), CByte(39), CByte(176))
-        Guna2GradientButton1.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2GradientButton1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2GradientButton1.ForeColor = Color.White
         Guna2GradientButton1.Location = New Point(965, 89)
         Guna2GradientButton1.Name = "Guna2GradientButton1"
-        Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2GradientButton1.Size = New Size(217, 60)
         Guna2GradientButton1.TabIndex = 9
         Guna2GradientButton1.Text = "Xem Lịch Sử Đặt Vé"
@@ -179,7 +181,7 @@ Partial Class DatVeNe
         ' 
         btnHuy.BackColor = Color.Transparent
         btnHuy.BorderRadius = 15
-        btnHuy.CustomizableEdges = CustomizableEdges25
+        btnHuy.CustomizableEdges = CustomizableEdges5
         btnHuy.DisabledState.BorderColor = Color.DarkGray
         btnHuy.DisabledState.CustomBorderColor = Color.DarkGray
         btnHuy.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -187,11 +189,11 @@ Partial Class DatVeNe
         btnHuy.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnHuy.FillColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
         btnHuy.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        btnHuy.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        btnHuy.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         btnHuy.ForeColor = Color.White
         btnHuy.Location = New Point(883, 576)
         btnHuy.Name = "btnHuy"
-        btnHuy.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        btnHuy.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnHuy.Size = New Size(200, 50)
         btnHuy.TabIndex = 6
         btnHuy.Text = "Hủy Vé"
@@ -200,7 +202,7 @@ Partial Class DatVeNe
         ' 
         btnDatVe.BackColor = Color.Transparent
         btnDatVe.BorderRadius = 15
-        btnDatVe.CustomizableEdges = CustomizableEdges27
+        btnDatVe.CustomizableEdges = CustomizableEdges7
         btnDatVe.DisabledState.BorderColor = Color.DarkGray
         btnDatVe.DisabledState.CustomBorderColor = Color.DarkGray
         btnDatVe.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -208,11 +210,11 @@ Partial Class DatVeNe
         btnDatVe.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnDatVe.FillColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
         btnDatVe.FillColor2 = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        btnDatVe.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        btnDatVe.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         btnDatVe.ForeColor = Color.White
         btnDatVe.Location = New Point(1104, 576)
         btnDatVe.Name = "btnDatVe"
-        btnDatVe.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        btnDatVe.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnDatVe.Size = New Size(200, 50)
         btnDatVe.TabIndex = 4
         btnDatVe.Text = "Đặt Vé"
@@ -220,21 +222,43 @@ Partial Class DatVeNe
         ' pnlCol2
         ' 
         pnlCol2.BackColor = Color.Transparent
+        pnlCol2.Controls.Add(Label7)
+        pnlCol2.Controls.Add(Label6)
         pnlCol2.Controls.Add(Label2)
         pnlCol2.Controls.Add(Label4)
         pnlCol2.Controls.Add(lblTongTienValue)
         pnlCol2.Controls.Add(numSoLuongVe)
-        pnlCol2.CustomizableEdges = CustomizableEdges31
+        pnlCol2.CustomizableEdges = CustomizableEdges11
         pnlCol2.Location = New Point(883, 265)
         pnlCol2.Name = "pnlCol2"
-        pnlCol2.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        pnlCol2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         pnlCol2.Size = New Size(412, 274)
         pnlCol2.TabIndex = 8
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.ForeColor = Color.Red
+        Label7.Location = New Point(44, 201)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(135, 31)
+        Label7.TabIndex = 6
+        Label7.Text = "Thành tiền: "
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.ForeColor = Color.Red
+        Label6.Location = New Point(44, 61)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(148, 31)
+        Label6.TabIndex = 6
+        Label6.Text = "Số lượng đặt"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        Label2.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Label2.Location = New Point(40, 201)
         Label2.Name = "Label2"
         Label2.Size = New Size(114, 28)
@@ -244,7 +268,7 @@ Partial Class DatVeNe
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        Label4.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Label4.Location = New Point(40, 63)
         Label4.Name = "Label4"
         Label4.Size = New Size(125, 28)
@@ -254,9 +278,9 @@ Partial Class DatVeNe
         ' lblTongTienValue
         ' 
         lblTongTienValue.BackColor = Color.Transparent
-        lblTongTienValue.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        lblTongTienValue.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         lblTongTienValue.ForeColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        lblTongTienValue.Location = New Point(300, 201)
+        lblTongTienValue.Location = New Point(208, 201)
         lblTongTienValue.Name = "lblTongTienValue"
         lblTongTienValue.Size = New Size(65, 30)
         lblTongTienValue.TabIndex = 1
@@ -267,14 +291,14 @@ Partial Class DatVeNe
         numSoLuongVe.BackColor = Color.Transparent
         numSoLuongVe.BorderRadius = 10
         numSoLuongVe.Cursor = Cursors.IBeam
-        numSoLuongVe.CustomizableEdges = CustomizableEdges29
-        numSoLuongVe.Font = New Font("Segoe UI", 10.0F)
+        numSoLuongVe.CustomizableEdges = CustomizableEdges9
+        numSoLuongVe.Font = New Font("Segoe UI", 10F)
         numSoLuongVe.Location = New Point(40, 103)
         numSoLuongVe.Margin = New Padding(3, 4, 3, 4)
         numSoLuongVe.Maximum = New Decimal(New Integer() {10, 0, 0, 0})
         numSoLuongVe.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         numSoLuongVe.Name = "numSoLuongVe"
-        numSoLuongVe.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        numSoLuongVe.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         numSoLuongVe.Size = New Size(340, 36)
         numSoLuongVe.TabIndex = 1
         numSoLuongVe.Value = New Decimal(New Integer() {1, 0, 0, 0})
@@ -291,10 +315,10 @@ Partial Class DatVeNe
         pnlCol1.Controls.Add(lblXeKhach)
         pnlCol1.Controls.Add(lblDiemDi)
         pnlCol1.Controls.Add(lblDiemDen)
-        pnlCol1.CustomizableEdges = CustomizableEdges37
+        pnlCol1.CustomizableEdges = CustomizableEdges17
         pnlCol1.Location = New Point(12, 58)
         pnlCol1.Name = "pnlCol1"
-        pnlCol1.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        pnlCol1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         pnlCol1.Size = New Size(844, 609)
         pnlCol1.TabIndex = 7
         ' 
@@ -330,14 +354,14 @@ Partial Class DatVeNe
         txtDiemDen.BorderRadius = 15
         txtDiemDen.BorderThickness = 2
         txtDiemDen.Cursor = Cursors.IBeam
-        txtDiemDen.CustomizableEdges = CustomizableEdges33
+        txtDiemDen.CustomizableEdges = CustomizableEdges13
         txtDiemDen.DefaultText = ""
         txtDiemDen.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtDiemDen.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtDiemDen.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtDiemDen.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtDiemDen.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtDiemDen.Font = New Font("Segoe UI", 10.0F)
+        txtDiemDen.Font = New Font("Segoe UI", 10F)
         txtDiemDen.ForeColor = Color.Black
         txtDiemDen.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtDiemDen.Location = New Point(361, 66)
@@ -346,7 +370,7 @@ Partial Class DatVeNe
         txtDiemDen.PlaceholderForeColor = Color.Black
         txtDiemDen.PlaceholderText = ""
         txtDiemDen.SelectedText = ""
-        txtDiemDen.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        txtDiemDen.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtDiemDen.Size = New Size(272, 48)
         txtDiemDen.TabIndex = 20
         ' 
@@ -358,14 +382,14 @@ Partial Class DatVeNe
         txtDiemDi.BorderRadius = 15
         txtDiemDi.BorderThickness = 2
         txtDiemDi.Cursor = Cursors.IBeam
-        txtDiemDi.CustomizableEdges = CustomizableEdges35
+        txtDiemDi.CustomizableEdges = CustomizableEdges15
         txtDiemDi.DefaultText = ""
         txtDiemDi.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtDiemDi.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtDiemDi.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtDiemDi.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtDiemDi.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtDiemDi.Font = New Font("Segoe UI", 10.0F)
+        txtDiemDi.Font = New Font("Segoe UI", 10F)
         txtDiemDi.ForeColor = Color.Black
         txtDiemDi.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtDiemDi.Location = New Point(28, 67)
@@ -374,39 +398,39 @@ Partial Class DatVeNe
         txtDiemDi.PlaceholderForeColor = Color.Black
         txtDiemDi.PlaceholderText = ""
         txtDiemDi.SelectedText = ""
-        txtDiemDi.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        txtDiemDi.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         txtDiemDi.Size = New Size(272, 48)
         txtDiemDi.TabIndex = 19
         ' 
         ' DataGridView1
         ' 
-        DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = SystemColors.Control
-        DataGridViewCellStyle4.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
-        DataGridViewCellStyle4.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = Color.Black
-        DataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = DataGridViewTriState.True
-        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = SystemColors.Control
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        DataGridViewCellStyle1.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = Color.Black
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = SystemColors.Window
-        DataGridViewCellStyle5.Font = New Font("Segoe UI", 10.0F)
-        DataGridViewCellStyle5.ForeColor = Color.White
-        DataGridViewCellStyle5.SelectionBackColor = Color.Black
-        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.False
-        DataGridView1.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = SystemColors.Window
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 10F)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = Color.Black
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
+        DataGridView1.DefaultCellStyle = DataGridViewCellStyle2
         DataGridView1.Location = New Point(23, 162)
         DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = SystemColors.Control
-        DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        DataGridViewCellStyle6.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = Color.Black
-        DataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.True
-        DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = SystemColors.Control
+        DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle3.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = Color.Black
+        DataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.True
+        DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.Size = New Size(768, 438)
         DataGridView1.TabIndex = 4
@@ -425,7 +449,7 @@ Partial Class DatVeNe
         ' lblXeKhach
         ' 
         lblXeKhach.BackColor = Color.Transparent
-        lblXeKhach.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        lblXeKhach.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         lblXeKhach.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
         lblXeKhach.Location = New Point(28, 113)
         lblXeKhach.Name = "lblXeKhach"
@@ -437,7 +461,7 @@ Partial Class DatVeNe
         ' 
         lblDiemDi.AutoSize = True
         lblDiemDi.BackColor = Color.Transparent
-        lblDiemDi.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        lblDiemDi.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         lblDiemDi.Location = New Point(28, 18)
         lblDiemDi.Name = "lblDiemDi"
         lblDiemDi.Size = New Size(104, 28)
@@ -448,7 +472,7 @@ Partial Class DatVeNe
         ' 
         lblDiemDen.AutoSize = True
         lblDiemDen.BackColor = Color.Transparent
-        lblDiemDen.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        lblDiemDen.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         lblDiemDen.Location = New Point(397, 31)
         lblDiemDen.Name = "lblDiemDen"
         lblDiemDen.Size = New Size(121, 28)
@@ -458,7 +482,7 @@ Partial Class DatVeNe
         ' lblTitle
         ' 
         lblTitle.BackColor = Color.Transparent
-        lblTitle.Font = New Font("Segoe UI", 20.0F, FontStyle.Bold)
+        lblTitle.Font = New Font("Segoe UI", 20F, FontStyle.Bold)
         lblTitle.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
         lblTitle.Location = New Point(96, 50)
         lblTitle.Name = "lblTitle"
@@ -483,7 +507,7 @@ Partial Class DatVeNe
         ' MenuStrip1
         ' 
         MenuStrip1.BackColor = Color.White
-        MenuStrip1.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        MenuStrip1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         MenuStrip1.ImageScalingSize = New Size(20, 20)
         MenuStrip1.Items.AddRange(New ToolStripItem() {HỗTrợToolStripMenuItem, TinTứcToolStripMenuItem, GiớiThiệuToolStripMenuItem, QuảnLýVéĐãĐặtToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
@@ -568,7 +592,7 @@ Partial Class DatVeNe
         ' 
         ' DatVeNe
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
         ClientSize = New Size(1338, 800)
@@ -628,4 +652,6 @@ Partial Class DatVeNe
     Friend WithEvents TuyểnDụngNhânSựToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýVéĐãĐặtToolStripMenuItem As ToolStripMenuItem
     Private WithEvents AllVe As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
 End Class
