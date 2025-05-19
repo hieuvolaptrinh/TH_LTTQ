@@ -24,7 +24,6 @@ Partial Class TuyenDuong
     Private Sub InitializeComponent()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TuyenDuong))
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -43,23 +42,8 @@ Partial Class TuyenDuong
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TuyenDuong))
         pnlMenu = New Guna.UI2.WinForms.Guna2Panel()
-        MenuStrip1 = New MenuStrip()
-        HỗTrợToolStripMenuItem = New ToolStripMenuItem()
-        LiênHệToolStripMenuItem = New ToolStripMenuItem()
-        HướngDẫnSửDụngToolStripMenuItem = New ToolStripMenuItem()
-        ChínhSáchToolStripMenuItem = New ToolStripMenuItem()
-        BáoCáoSựCốToolStripMenuItem = New ToolStripMenuItem()
-        TinTứcToolStripMenuItem = New ToolStripMenuItem()
-        QuảnLýXeBuýtToolStripMenuItem = New ToolStripMenuItem()
-        LịchTrìnhVàTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
-        DanhSáchXeBuýtToolStripMenuItem = New ToolStripMenuItem()
-        BổSungTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
-        GiớiThiệuToolStripMenuItem = New ToolStripMenuItem()
-        CôngTyAToolStripMenuItem = New ToolStripMenuItem()
-        GiấyChứngNhậnHợpQuyToolStripMenuItem = New ToolStripMenuItem()
-        TuyểnDụngNhânSựToolStripMenuItem = New ToolStripMenuItem()
-        TrangChủToolStripMenuItem = New ToolStripMenuItem()
         Label1 = New Label()
         DataGridView1 = New DataGridView()
         Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
@@ -76,10 +60,26 @@ Partial Class TuyenDuong
         txtKhoangCach = New Guna.UI2.WinForms.Guna2TextBox()
         txtDiemDi = New Guna.UI2.WinForms.Guna2TextBox()
         Label6 = New Label()
+        HỗTrợToolStripMenuItem = New ToolStripMenuItem()
+        LiênHệToolStripMenuItem = New ToolStripMenuItem()
+        HướngDẫnSửDụngToolStripMenuItem = New ToolStripMenuItem()
+        ChínhSáchToolStripMenuItem = New ToolStripMenuItem()
+        BáoCáoSựCốToolStripMenuItem = New ToolStripMenuItem()
+        TinTứcToolStripMenuItem = New ToolStripMenuItem()
+        QuảnLýXeBuýtToolStripMenuItem = New ToolStripMenuItem()
+        LịchTrìnhVàTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
+        DanhSáchXeBuýtToolStripMenuItem = New ToolStripMenuItem()
+        BổSungTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
+        GiớiThiệuToolStripMenuItem = New ToolStripMenuItem()
+        CôngTyAToolStripMenuItem = New ToolStripMenuItem()
+        GiấyChứngNhậnHợpQuyToolStripMenuItem = New ToolStripMenuItem()
+        TuyểnDụngNhânSựToolStripMenuItem = New ToolStripMenuItem()
+        TrangChủToolStripMenuItem = New ToolStripMenuItem()
+        MenuStrip1 = New MenuStrip()
         pnlMenu.SuspendLayout()
-        MenuStrip1.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2GroupBox1.SuspendLayout()
+        MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' pnlMenu
@@ -97,19 +97,253 @@ Partial Class TuyenDuong
         pnlMenu.Size = New Size(1262, 106)
         pnlMenu.TabIndex = 10
         ' 
-        ' MenuStrip1
+        ' Label1
         ' 
-        MenuStrip1.BackColor = Color.White
-        MenuStrip1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        MenuStrip1.ImageScalingSize = New Size(20, 20)
-        MenuStrip1.Items.AddRange(New ToolStripItem() {HỗTrợToolStripMenuItem, TinTứcToolStripMenuItem, QuảnLýXeBuýtToolStripMenuItem, GiớiThiệuToolStripMenuItem, TrangChủToolStripMenuItem})
-        MenuStrip1.Location = New Point(0, 0)
-        MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.RenderMode = ToolStripRenderMode.System
-        MenuStrip1.RightToLeft = RightToLeft.Yes
-        MenuStrip1.Size = New Size(1262, 28)
-        MenuStrip1.TabIndex = 10
-        MenuStrip1.Text = "MenuStrip1"
+        Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
+        Label1.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold)
+        Label1.ForeColor = Color.White
+        Label1.Location = New Point(222, 37)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(781, 60)
+        Label1.TabIndex = 9
+        Label1.Text = "Quản Lý Tuyến Đường Cho Xe Khách"
+        ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Location = New Point(12, 163)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(550, 531)
+        DataGridView1.TabIndex = 13
+        ' 
+        ' Guna2GroupBox1
+        ' 
+        Guna2GroupBox1.Controls.Add(Label2)
+        Guna2GroupBox1.Controls.Add(btnSua)
+        Guna2GroupBox1.Controls.Add(btnXoa)
+        Guna2GroupBox1.Controls.Add(Label5)
+        Guna2GroupBox1.Controls.Add(txtMaTuyen)
+        Guna2GroupBox1.Controls.Add(Label4)
+        Guna2GroupBox1.Controls.Add(btnThem)
+        Guna2GroupBox1.Controls.Add(Label3)
+        Guna2GroupBox1.Controls.Add(btnLamMoi)
+        Guna2GroupBox1.Controls.Add(txtDiemDen)
+        Guna2GroupBox1.Controls.Add(txtKhoangCach)
+        Guna2GroupBox1.Controls.Add(txtDiemDi)
+        Guna2GroupBox1.CustomizableEdges = CustomizableEdges19
+        Guna2GroupBox1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2GroupBox1.ForeColor = Color.Black
+        Guna2GroupBox1.Location = New Point(626, 122)
+        Guna2GroupBox1.Name = "Guna2GroupBox1"
+        Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Guna2GroupBox1.Size = New Size(636, 572)
+        Guna2GroupBox1.TabIndex = 14
+        Guna2GroupBox1.Text = "Thông Tin Tuyến"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
+        Label2.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
+        Label2.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        Label2.Location = New Point(55, 94)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(145, 38)
+        Label2.TabIndex = 12
+        Label2.Text = "Mã Tuyến"
+        ' 
+        ' btnSua
+        ' 
+        btnSua.BorderRadius = 15
+        btnSua.CustomizableEdges = CustomizableEdges3
+        btnSua.DisabledState.BorderColor = Color.DarkGray
+        btnSua.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSua.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSua.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSua.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSua.FillColor = Color.FromArgb(CByte(255), CByte(152), CByte(0))
+        btnSua.FillColor2 = Color.FromArgb(CByte(255), CByte(152), CByte(0))
+        btnSua.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        btnSua.ForeColor = Color.White
+        btnSua.Location = New Point(174, 480)
+        btnSua.Name = "btnSua"
+        btnSua.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnSua.Size = New Size(130, 52)
+        btnSua.TabIndex = 4
+        btnSua.Text = "Sửa"
+        ' 
+        ' btnXoa
+        ' 
+        btnXoa.BorderRadius = 15
+        btnXoa.CustomizableEdges = CustomizableEdges5
+        btnXoa.DisabledState.BorderColor = Color.DarkGray
+        btnXoa.DisabledState.CustomBorderColor = Color.DarkGray
+        btnXoa.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnXoa.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnXoa.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnXoa.FillColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
+        btnXoa.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
+        btnXoa.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        btnXoa.ForeColor = Color.White
+        btnXoa.Location = New Point(480, 480)
+        btnXoa.Name = "btnXoa"
+        btnXoa.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        btnXoa.Size = New Size(130, 52)
+        btnXoa.TabIndex = 6
+        btnXoa.Text = "Xóa"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
+        Label5.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
+        Label5.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        Label5.Location = New Point(55, 330)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(266, 38)
+        Label5.TabIndex = 11
+        Label5.Text = "Khoảng Cách (km):"
+        ' 
+        ' txtMaTuyen
+        ' 
+        txtMaTuyen.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        txtMaTuyen.BorderRadius = 10
+        txtMaTuyen.CustomizableEdges = CustomizableEdges7
+        txtMaTuyen.DefaultText = ""
+        txtMaTuyen.Font = New Font("Segoe UI", 9F)
+        txtMaTuyen.Location = New Point(376, 94)
+        txtMaTuyen.Margin = New Padding(3, 4, 3, 4)
+        txtMaTuyen.Name = "txtMaTuyen"
+        txtMaTuyen.PlaceholderText = ""
+        txtMaTuyen.SelectedText = ""
+        txtMaTuyen.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtMaTuyen.Size = New Size(200, 37)
+        txtMaTuyen.TabIndex = 9
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
+        Label4.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        Label4.Location = New Point(55, 173)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(156, 38)
+        Label4.TabIndex = 11
+        Label4.Text = "Điểm Đến:"
+        ' 
+        ' btnThem
+        ' 
+        btnThem.BorderRadius = 15
+        btnThem.CustomizableEdges = CustomizableEdges9
+        btnThem.DisabledState.BorderColor = Color.DarkGray
+        btnThem.DisabledState.CustomBorderColor = Color.DarkGray
+        btnThem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnThem.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnThem.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnThem.FillColor = Color.FromArgb(CByte(76), CByte(175), CByte(80))
+        btnThem.FillColor2 = Color.FromArgb(CByte(76), CByte(175), CByte(80))
+        btnThem.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        btnThem.ForeColor = Color.White
+        btnThem.Location = New Point(21, 481)
+        btnThem.Name = "btnThem"
+        btnThem.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        btnThem.Size = New Size(130, 52)
+        btnThem.TabIndex = 7
+        btnThem.Text = "Thêm"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
+        Label3.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        Label3.Location = New Point(55, 252)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(132, 38)
+        Label3.TabIndex = 11
+        Label3.Text = "Điểm Đi:"
+        ' 
+        ' btnLamMoi
+        ' 
+        btnLamMoi.BorderRadius = 15
+        btnLamMoi.CustomizableEdges = CustomizableEdges11
+        btnLamMoi.DisabledState.BorderColor = Color.DarkGray
+        btnLamMoi.DisabledState.CustomBorderColor = Color.DarkGray
+        btnLamMoi.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnLamMoi.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnLamMoi.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnLamMoi.FillColor = Color.FromArgb(CByte(255), CByte(128), CByte(255))
+        btnLamMoi.FillColor2 = Color.FromArgb(CByte(255), CByte(128), CByte(255))
+        btnLamMoi.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        btnLamMoi.ForeColor = Color.White
+        btnLamMoi.Location = New Point(326, 481)
+        btnLamMoi.Name = "btnLamMoi"
+        btnLamMoi.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        btnLamMoi.Size = New Size(130, 52)
+        btnLamMoi.TabIndex = 6
+        btnLamMoi.Text = "Làm mới"
+        ' 
+        ' txtDiemDen
+        ' 
+        txtDiemDen.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        txtDiemDen.BorderRadius = 10
+        txtDiemDen.CustomizableEdges = CustomizableEdges13
+        txtDiemDen.DefaultText = ""
+        txtDiemDen.Font = New Font("Segoe UI", 9F)
+        txtDiemDen.Location = New Point(376, 174)
+        txtDiemDen.Margin = New Padding(3, 4, 3, 4)
+        txtDiemDen.Name = "txtDiemDen"
+        txtDiemDen.PlaceholderText = ""
+        txtDiemDen.SelectedText = ""
+        txtDiemDen.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtDiemDen.Size = New Size(200, 37)
+        txtDiemDen.TabIndex = 3
+        ' 
+        ' txtKhoangCach
+        ' 
+        txtKhoangCach.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        txtKhoangCach.BorderRadius = 10
+        txtKhoangCach.CustomizableEdges = CustomizableEdges15
+        txtKhoangCach.DefaultText = ""
+        txtKhoangCach.Font = New Font("Segoe UI", 9F)
+        txtKhoangCach.Location = New Point(376, 331)
+        txtKhoangCach.Margin = New Padding(3, 4, 3, 4)
+        txtKhoangCach.Name = "txtKhoangCach"
+        txtKhoangCach.PlaceholderText = ""
+        txtKhoangCach.SelectedText = ""
+        txtKhoangCach.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txtKhoangCach.Size = New Size(200, 37)
+        txtKhoangCach.TabIndex = 8
+        ' 
+        ' txtDiemDi
+        ' 
+        txtDiemDi.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        txtDiemDi.BorderRadius = 10
+        txtDiemDi.CustomizableEdges = CustomizableEdges17
+        txtDiemDi.DefaultText = ""
+        txtDiemDi.Font = New Font("Segoe UI", 9F)
+        txtDiemDi.Location = New Point(376, 252)
+        txtDiemDi.Margin = New Padding(3, 4, 3, 4)
+        txtDiemDi.Name = "txtDiemDi"
+        txtDiemDi.PlaceholderText = ""
+        txtDiemDi.SelectedText = ""
+        txtDiemDi.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        txtDiemDi.Size = New Size(200, 37)
+        txtDiemDi.TabIndex = 9
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
+        Label6.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        Label6.Location = New Point(12, 122)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(342, 38)
+        Label6.TabIndex = 15
+        Label6.Text = "Danh Sách Tuyến Đường"
         ' 
         ' HỗTrợToolStripMenuItem
         ' 
@@ -213,249 +447,19 @@ Partial Class TuyenDuong
         TrangChủToolStripMenuItem.Text = "Trang Chủ"
         TrangChủToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
-        ' Label1
+        ' MenuStrip1
         ' 
-        Label1.AutoSize = True
-        Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold)
-        Label1.ForeColor = Color.White
-        Label1.Location = New Point(222, 37)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(781, 60)
-        Label1.TabIndex = 9
-        Label1.Text = "Quản Lý Tuyến Đường Cho Xe Khách"
-        ' 
-        ' DataGridView1
-        ' 
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(12, 163)
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(550, 531)
-        DataGridView1.TabIndex = 13
-        ' 
-        ' Guna2GroupBox1
-        ' 
-        Guna2GroupBox1.Controls.Add(Label2)
-        Guna2GroupBox1.Controls.Add(btnSua)
-        Guna2GroupBox1.Controls.Add(btnXoa)
-        Guna2GroupBox1.Controls.Add(Label5)
-        Guna2GroupBox1.Controls.Add(txtMaTuyen)
-        Guna2GroupBox1.Controls.Add(Label4)
-        Guna2GroupBox1.Controls.Add(btnThem)
-        Guna2GroupBox1.Controls.Add(Label3)
-        Guna2GroupBox1.Controls.Add(btnLamMoi)
-        Guna2GroupBox1.Controls.Add(txtDiemDen)
-        Guna2GroupBox1.Controls.Add(txtKhoangCach)
-        Guna2GroupBox1.Controls.Add(txtDiemDi)
-        Guna2GroupBox1.CustomizableEdges = CustomizableEdges19
-        Guna2GroupBox1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2GroupBox1.ForeColor = Color.Black
-        Guna2GroupBox1.Location = New Point(626, 122)
-        Guna2GroupBox1.Name = "Guna2GroupBox1"
-        Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Guna2GroupBox1.Size = New Size(636, 572)
-        Guna2GroupBox1.TabIndex = 14
-        Guna2GroupBox1.Text = "Thông Tin Tuyến"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
-        Label2.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label2.Location = New Point(38, 69)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(145, 38)
-        Label2.TabIndex = 12
-        Label2.Text = "Mã Tuyến"
-        ' 
-        ' btnSua
-        ' 
-        btnSua.BorderRadius = 15
-        btnSua.CustomizableEdges = CustomizableEdges3
-        btnSua.DisabledState.BorderColor = Color.DarkGray
-        btnSua.DisabledState.CustomBorderColor = Color.DarkGray
-        btnSua.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnSua.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnSua.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnSua.FillColor = Color.FromArgb(CByte(255), CByte(152), CByte(0))
-        btnSua.FillColor2 = Color.FromArgb(CByte(255), CByte(152), CByte(0))
-        btnSua.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnSua.ForeColor = Color.White
-        btnSua.Location = New Point(158, 480)
-        btnSua.Name = "btnSua"
-        btnSua.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnSua.Size = New Size(130, 52)
-        btnSua.TabIndex = 4
-        btnSua.Text = "Sửa"
-        ' 
-        ' btnXoa
-        ' 
-        btnXoa.BorderRadius = 15
-        btnXoa.CustomizableEdges = CustomizableEdges5
-        btnXoa.DisabledState.BorderColor = Color.DarkGray
-        btnXoa.DisabledState.CustomBorderColor = Color.DarkGray
-        btnXoa.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnXoa.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnXoa.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnXoa.FillColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        btnXoa.FillColor2 = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        btnXoa.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnXoa.ForeColor = Color.White
-        btnXoa.Location = New Point(480, 480)
-        btnXoa.Name = "btnXoa"
-        btnXoa.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnXoa.Size = New Size(130, 52)
-        btnXoa.TabIndex = 6
-        btnXoa.Text = "Xóa"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
-        Label5.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label5.Location = New Point(38, 346)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(266, 38)
-        Label5.TabIndex = 11
-        Label5.Text = "Khoảng Cách (km):"
-        ' 
-        ' txtMaTuyen
-        ' 
-        txtMaTuyen.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        txtMaTuyen.BorderRadius = 10
-        txtMaTuyen.CustomizableEdges = CustomizableEdges7
-        txtMaTuyen.DefaultText = ""
-        txtMaTuyen.Font = New Font("Segoe UI", 9F)
-        txtMaTuyen.Location = New Point(359, 69)
-        txtMaTuyen.Margin = New Padding(3, 4, 3, 4)
-        txtMaTuyen.Name = "txtMaTuyen"
-        txtMaTuyen.PlaceholderText = ""
-        txtMaTuyen.SelectedText = ""
-        txtMaTuyen.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        txtMaTuyen.Size = New Size(200, 37)
-        txtMaTuyen.TabIndex = 9
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
-        Label4.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label4.Location = New Point(38, 148)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(156, 38)
-        Label4.TabIndex = 11
-        Label4.Text = "Điểm Đến:"
-        ' 
-        ' btnThem
-        ' 
-        btnThem.BorderRadius = 15
-        btnThem.CustomizableEdges = CustomizableEdges9
-        btnThem.DisabledState.BorderColor = Color.DarkGray
-        btnThem.DisabledState.CustomBorderColor = Color.DarkGray
-        btnThem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnThem.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnThem.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnThem.FillColor = Color.FromArgb(CByte(76), CByte(175), CByte(80))
-        btnThem.FillColor2 = Color.FromArgb(CByte(76), CByte(175), CByte(80))
-        btnThem.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnThem.ForeColor = Color.White
-        btnThem.Location = New Point(11, 481)
-        btnThem.Name = "btnThem"
-        btnThem.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        btnThem.Size = New Size(130, 52)
-        btnThem.TabIndex = 7
-        btnThem.Text = "Thêm"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
-        Label3.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label3.Location = New Point(38, 227)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(132, 38)
-        Label3.TabIndex = 11
-        Label3.Text = "Điểm Đi:"
-        ' 
-        ' btnLamMoi
-        ' 
-        btnLamMoi.BorderRadius = 15
-        btnLamMoi.CustomizableEdges = CustomizableEdges11
-        btnLamMoi.DisabledState.BorderColor = Color.DarkGray
-        btnLamMoi.DisabledState.CustomBorderColor = Color.DarkGray
-        btnLamMoi.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnLamMoi.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnLamMoi.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnLamMoi.FillColor = Color.FromArgb(CByte(255), CByte(128), CByte(255))
-        btnLamMoi.FillColor2 = Color.FromArgb(CByte(255), CByte(128), CByte(255))
-        btnLamMoi.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnLamMoi.ForeColor = Color.White
-        btnLamMoi.Location = New Point(326, 481)
-        btnLamMoi.Name = "btnLamMoi"
-        btnLamMoi.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        btnLamMoi.Size = New Size(130, 52)
-        btnLamMoi.TabIndex = 6
-        btnLamMoi.Text = "Làm mới"
-        ' 
-        ' txtDiemDen
-        ' 
-        txtDiemDen.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        txtDiemDen.BorderRadius = 10
-        txtDiemDen.CustomizableEdges = CustomizableEdges13
-        txtDiemDen.DefaultText = ""
-        txtDiemDen.Font = New Font("Segoe UI", 9F)
-        txtDiemDen.Location = New Point(359, 149)
-        txtDiemDen.Margin = New Padding(3, 4, 3, 4)
-        txtDiemDen.Name = "txtDiemDen"
-        txtDiemDen.PlaceholderText = ""
-        txtDiemDen.SelectedText = ""
-        txtDiemDen.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        txtDiemDen.Size = New Size(200, 37)
-        txtDiemDen.TabIndex = 3
-        ' 
-        ' txtKhoangCach
-        ' 
-        txtKhoangCach.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        txtKhoangCach.BorderRadius = 10
-        txtKhoangCach.CustomizableEdges = CustomizableEdges15
-        txtKhoangCach.DefaultText = ""
-        txtKhoangCach.Font = New Font("Segoe UI", 9F)
-        txtKhoangCach.Location = New Point(359, 347)
-        txtKhoangCach.Margin = New Padding(3, 4, 3, 4)
-        txtKhoangCach.Name = "txtKhoangCach"
-        txtKhoangCach.PlaceholderText = ""
-        txtKhoangCach.SelectedText = ""
-        txtKhoangCach.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        txtKhoangCach.Size = New Size(200, 37)
-        txtKhoangCach.TabIndex = 8
-        ' 
-        ' txtDiemDi
-        ' 
-        txtDiemDi.BorderColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        txtDiemDi.BorderRadius = 10
-        txtDiemDi.CustomizableEdges = CustomizableEdges17
-        txtDiemDi.DefaultText = ""
-        txtDiemDi.Font = New Font("Segoe UI", 9F)
-        txtDiemDi.Location = New Point(359, 227)
-        txtDiemDi.Margin = New Padding(3, 4, 3, 4)
-        txtDiemDi.Name = "txtDiemDi"
-        txtDiemDi.PlaceholderText = ""
-        txtDiemDi.SelectedText = ""
-        txtDiemDi.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        txtDiemDi.Size = New Size(200, 37)
-        txtDiemDi.TabIndex = 9
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
-        Label6.ForeColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        Label6.Location = New Point(12, 122)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(342, 38)
-        Label6.TabIndex = 15
-        Label6.Text = "Danh Sách Tuyến Đường"
+        MenuStrip1.BackColor = Color.White
+        MenuStrip1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        MenuStrip1.ImageScalingSize = New Size(20, 20)
+        MenuStrip1.Items.AddRange(New ToolStripItem() {HỗTrợToolStripMenuItem, TinTứcToolStripMenuItem, QuảnLýXeBuýtToolStripMenuItem, GiớiThiệuToolStripMenuItem, TrangChủToolStripMenuItem})
+        MenuStrip1.Location = New Point(0, 0)
+        MenuStrip1.Name = "MenuStrip1"
+        MenuStrip1.RenderMode = ToolStripRenderMode.System
+        MenuStrip1.RightToLeft = RightToLeft.Yes
+        MenuStrip1.Size = New Size(1262, 28)
+        MenuStrip1.TabIndex = 10
+        MenuStrip1.Text = "MenuStrip1"
         ' 
         ' TuyenDuong
         ' 
@@ -470,11 +474,11 @@ Partial Class TuyenDuong
         Text = "TuyenDuong"
         pnlMenu.ResumeLayout(False)
         pnlMenu.PerformLayout()
-        MenuStrip1.ResumeLayout(False)
-        MenuStrip1.PerformLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         Guna2GroupBox1.ResumeLayout(False)
         Guna2GroupBox1.PerformLayout()
+        MenuStrip1.ResumeLayout(False)
+        MenuStrip1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -495,6 +499,7 @@ Partial Class TuyenDuong
     Public WithEvents txtDiemDen As Guna.UI2.WinForms.Guna2TextBox
     Public WithEvents txtKhoangCach As Guna.UI2.WinForms.Guna2TextBox
     Public WithEvents txtDiemDi As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label6 As Label
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents HỗTrợToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LiênHệToolStripMenuItem As ToolStripMenuItem
@@ -511,5 +516,4 @@ Partial Class TuyenDuong
     Friend WithEvents GiấyChứngNhậnHợpQuyToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TuyểnDụngNhânSựToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TrangChủToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Label6 As Label
 End Class
