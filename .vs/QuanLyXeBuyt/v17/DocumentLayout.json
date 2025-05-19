@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th_lttq\\quanlyxebuyt\\trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th_lttq\\quanlyxebuyt\\trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th_lttq\\quanlyxebuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{B1862795-E4C8-4A06-AC03-D06BA67BF1C0}|QuanLyXeBuyt\\QuanLyXeBuyt.vbproj|solutionrelative:quanlyxebuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChu-Admin.vb",
+              "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb",
+              "RelativeDocumentMoniker": "QuanLyXeBuyt\\TrangChu-Admin.vb",
+              "ToolTip": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb",
+              "RelativeToolTip": "QuanLyXeBuyt\\TrangChu-Admin.vb",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAlwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-19T08:22:29.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TrangChu-Admin.vb [Design]",
+              "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb",
+              "RelativeDocumentMoniker": "QuanLyXeBuyt\\TrangChu-Admin.vb",
+              "ToolTip": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb [Design]",
+              "RelativeToolTip": "QuanLyXeBuyt\\TrangChu-Admin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-19T08:22:27.044Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LichSu.vb [Design]",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\LichSu.vb",
@@ -54,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LichSu.vb",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\LichSu.vb",
@@ -67,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DangNhap.vb",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\DangNhap.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\DangNhap.vb",
@@ -75,12 +108,11 @@
               "RelativeToolTip": "QuanLyXeBuyt\\DangNhap.vb",
               "ViewState": "AgIAAEAAAAAAAAAAAAAcwFIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-16T12:16:23.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:16:23.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DangKiVip.vb",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\DangKiVip.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\DangKiVip.vb",
@@ -88,12 +120,11 @@
               "RelativeToolTip": "QuanLyXeBuyt\\DangKiVip.vb",
               "ViewState": "AgIAABwAAAAAAAAAAADwv24AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-16T12:15:51.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:15:51.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DangKiVip.vb [Design]",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\DangKiVip.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\DangKiVip.vb",
@@ -105,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DangNhap.vb [Design]",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\DangNhap.vb",
               "RelativeDocumentMoniker": "QuanLyXeBuyt\\DangNhap.vb",

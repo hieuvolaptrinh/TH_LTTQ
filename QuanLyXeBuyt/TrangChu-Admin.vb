@@ -76,10 +76,7 @@ Public Class AdminTrangChu
 
 
     Private Sub btnXoaVe_Click_1(sender As Object, e As EventArgs) Handles btnXoaVe.Click
-        If Not isViewingTickets Then
-            MessageBox.Show("Chức năng xóa vé chỉ dùng khi đang xem danh sách vé!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            Return
-        End If
+
         If DataGridView1.SelectedRows.Count = 0 Then
             MessageBox.Show("Vui lòng chọn vé cần xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Return
@@ -164,11 +161,7 @@ Public Class AdminTrangChu
     End Sub
 
     Private Sub btnXemLichTrinh_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
-        Try
-            baseForm.LoadFormWithFade(New TuyenDuong, PanelContainer)
-        Catch ex As Exception
-            MessageBox.Show($"Đã xảy ra lỗi khi chuyển sang form Lịch Trình: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+
     End Sub
 
     Private Sub LịchTrìnhVàTuyếnĐườngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LịchTrìnhVàTuyếnĐườngToolStripMenuItem.Click
