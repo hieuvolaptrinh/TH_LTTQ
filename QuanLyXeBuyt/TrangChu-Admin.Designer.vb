@@ -25,6 +25,7 @@ Partial Class AdminTrangChu
         components = New ComponentModel.Container()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -41,7 +42,6 @@ Partial Class AdminTrangChu
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -58,6 +58,8 @@ Partial Class AdminTrangChu
         Label2 = New Label()
         lblClock = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlBottom = New Guna.UI2.WinForms.Guna2Panel()
+        Panel1 = New Panel()
+        DataGridView1 = New DataGridView()
         btnChiTietVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Label10 = New Label()
         timKiem = New Guna.UI2.WinForms.Guna2Button()
@@ -72,7 +74,6 @@ Partial Class AdminTrangChu
         TextBoxTenXeKhach = New Guna.UI2.WinForms.Guna2TextBox()
         Label1 = New Label()
         TextBoxBienSo = New Guna.UI2.WinForms.Guna2TextBox()
-        DataGridView1 = New DataGridView()
         pnlQuickActions = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         btnXoaVe = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -100,9 +101,9 @@ Partial Class AdminTrangChu
         DanhSáchXeBuýtToolStripMenuItem = New ToolStripMenuItem()
         BổSungTuyếnĐườngToolStripMenuItem = New ToolStripMenuItem()
         TrangChủToolStripMenuItem = New ToolStripMenuItem()
-        Panel1 = New Panel()
         PanelContainer.SuspendLayout()
         pnlBottom.SuspendLayout()
+        Panel1.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         pnlQuickActions.SuspendLayout()
         pnlNavigation.SuspendLayout()
@@ -110,7 +111,6 @@ Partial Class AdminTrangChu
         pnlTongTuyen.SuspendLayout()
         pnlVeDat.SuspendLayout()
         MenuStrip1.SuspendLayout()
-        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Timer1
@@ -177,6 +177,54 @@ Partial Class AdminTrangChu
         pnlBottom.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pnlBottom.Size = New Size(1171, 670)
         pnlBottom.TabIndex = 6
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.Black
+        Panel1.Controls.Add(DataGridView1)
+        Panel1.Location = New Point(7, 394)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(1161, 264)
+        Panel1.TabIndex = 25
+        ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.AllowUserToAddRows = False
+        DataGridView1.AllowUserToDeleteRows = False
+        DataGridView1.AllowUserToResizeColumns = False
+        DataGridView1.AllowUserToResizeRows = False
+        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        DataGridView1.BackgroundColor = Color.White
+        DataGridView1.BorderStyle = BorderStyle.None
+        DataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        DataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
+        DataGridViewCellStyle1.ForeColor = Color.White
+        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.EnableHeadersVisualStyles = False
+        DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridView1.Location = New Point(14, 12)
+        DataGridView1.MultiSelect = False
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.ReadOnly = True
+        DataGridView1.RowHeadersVisible = False
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.RowTemplate.DefaultCellStyle.BackColor = Color.White
+        DataGridView1.RowTemplate.DefaultCellStyle.Font = New Font("Segoe UI", 9F)
+        DataGridView1.RowTemplate.DefaultCellStyle.ForeColor = Color.Black
+        DataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Black
+        DataGridView1.RowTemplate.Height = 35
+        DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
+        DataGridView1.ShowEditingIcon = False
+        DataGridView1.Size = New Size(1135, 243)
+        DataGridView1.TabIndex = 2
         ' 
         ' btnChiTietVe
         ' 
@@ -425,45 +473,6 @@ Partial Class AdminTrangChu
         TextBoxBienSo.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         TextBoxBienSo.Size = New Size(151, 42)
         TextBoxBienSo.TabIndex = 12
-        ' 
-        ' DataGridView1
-        ' 
-        DataGridView1.AllowUserToAddRows = False
-        DataGridView1.AllowUserToDeleteRows = False
-        DataGridView1.AllowUserToResizeColumns = False
-        DataGridView1.AllowUserToResizeRows = False
-        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
-        DataGridView1.BackgroundColor = Color.White
-        DataGridView1.BorderStyle = BorderStyle.None
-        DataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        DataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        DataGridViewCellStyle1.ForeColor = Color.White
-        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
-        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.EnableHeadersVisualStyles = False
-        DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridView1.Location = New Point(14, 12)
-        DataGridView1.MultiSelect = False
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.ReadOnly = True
-        DataGridView1.RowHeadersVisible = False
-        DataGridView1.RowHeadersWidth = 51
-        DataGridView1.RowTemplate.DefaultCellStyle.BackColor = Color.White
-        DataGridView1.RowTemplate.DefaultCellStyle.Font = New Font("Segoe UI", 9F)
-        DataGridView1.RowTemplate.DefaultCellStyle.ForeColor = Color.Black
-        DataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Black
-        DataGridView1.RowTemplate.Height = 35
-        DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        DataGridView1.ShowEditingIcon = False
-        DataGridView1.Size = New Size(1135, 243)
-        DataGridView1.TabIndex = 2
         ' 
         ' pnlQuickActions
         ' 
@@ -777,15 +786,6 @@ Partial Class AdminTrangChu
         TrangChủToolStripMenuItem.Text = "Trang Chủ"
         TrangChủToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = Color.Black
-        Panel1.Controls.Add(DataGridView1)
-        Panel1.Location = New Point(7, 394)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1161, 264)
-        Panel1.TabIndex = 25
-        ' 
         ' AdminTrangChu
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -800,6 +800,7 @@ Partial Class AdminTrangChu
         PanelContainer.PerformLayout()
         pnlBottom.ResumeLayout(False)
         pnlBottom.PerformLayout()
+        Panel1.ResumeLayout(False)
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         pnlQuickActions.ResumeLayout(False)
         pnlNavigation.ResumeLayout(False)
@@ -811,7 +812,6 @@ Partial Class AdminTrangChu
         pnlVeDat.PerformLayout()
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
-        Panel1.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
         '// [END] Resume Layout

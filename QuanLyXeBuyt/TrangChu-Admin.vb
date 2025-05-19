@@ -48,7 +48,81 @@ Public Class AdminTrangChu
     Private Sub btnChiTietVe_Click_1(sender As Object, e As EventArgs) Handles btnChiTietVe.Click
         LoadAllTickets()
     End Sub
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        'sửa xe
+        Try
+            If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
 
+            Dim gioDi = DateTimePickerNgayDi.Value
+            Dim gioDen = DateTimePickerNgayDen.Value
+
+            If gioDi >= gioDen Then
+                MessageBox.Show("Thời gian đi phải nhỏ hơn thời gian đến!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
+
+            Dim bienSo = TextBoxBienSo.Text.Trim
+            Dim tenXe = TextBoxTenXeKhach.Text.Trim
+            Dim maTuyen = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
+
+            dao.SuaXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
+            ShowBusList()
+            CapNhatThongKe()
+            MessageBox.Show("Cập nhật thông tin xe thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Catch ex As Exception
+            MsgBox("Đã xảy ra lỗi: " & ex.Message, MsgBoxStyle.Critical, "Lỗi")
+        End Try
+    End Sub
+    Private Sub btnXoaVe_Click(sender As Object, e As EventArgs) Handles btnXoaVe.Click
+        'xóa xe
+        Try
+            If TextBoxBienSo.Text = "" Then
+                MessageBox.Show("Vui lòng chọn xe cần xóa!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
+
+            Dim result As DialogResult = MessageBox.Show("Bạn có chắc chắn muốn xóa xe này?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+            If result = DialogResult.Yes Then
+                Dim bienSo = TextBoxBienSo.Text.Trim
+                dao.XoaXeKhach(bienSo)
+                ShowBusList()
+                CapNhatThongKe()
+                MessageBox.Show("Xóa xe thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        Catch ex As Exception
+            MsgBox("Đã xảy ra lỗi: " & ex.Message, MsgBoxStyle.Critical, "Lỗi")
+        End Try
+    End Sub
+    Private Sub btnThemXe_Click(sender As Object, e As EventArgs) Handles btnThemXe.Click
+        Try
+            If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
+
+            Dim gioDi = DateTimePickerNgayDi.Value
+            Dim gioDen = DateTimePickerNgayDen.Value
+
+            If gioDi >= gioDen Then
+                MessageBox.Show("Thời gian đi phải nhỏ hơn thời gian đến!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
+
+            Dim bienSo = TextBoxBienSo.Text.Trim
+            Dim tenXe = TextBoxTenXeKhach.Text.Trim
+            Dim maTuyen = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
+
+            dao.ThemXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
+            ShowBusList()
+            CapNhatThongKe()
+            MessageBox.Show("Thêm xe thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Catch ex As Exception
+            MsgBox("Đã xảy ra lỗi: " & ex.Message, MsgBoxStyle.Critical, "Lỗi")
+        End Try
+    End Sub
 
     Private Sub LoadAllTickets()
         Dim query As String = "
@@ -75,48 +149,10 @@ Public Class AdminTrangChu
     End Sub
 
 
-    Private Sub btnXoaVe_Click_1(sender As Object, e As EventArgs) Handles btnXoaVe.Click
 
-        If DataGridView1.SelectedRows.Count = 0 Then
-            MessageBox.Show("Vui lòng chọn vé cần xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            Return
-        End If
-
-        Dim row As DataGridViewRow = DataGridView1.SelectedRows(0)
-        Dim maVe As Object = row.Cells("Mã vé").Value
-
-        Dim result = MessageBox.Show($"Bạn có chắc chắn muốn xóa vé có mã {maVe}?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-        If result = DialogResult.Yes Then
-            dao.XoaXeKhach(maVe)
-            MessageBox.Show("Đã xóa vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            LoadAllTickets()
-            CapNhatThongKe()
-        End If
-    End Sub
 
     'done
-    Private Sub btnThemXe_Click(sender As Object, e As EventArgs) Handles btnThemXe.Click
 
-        Try
-            If TextBoxBienSo.Text = "" OrElse TextBoxTenXeKhach.Text = "" Then
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-                Return
-            End If
-
-            Dim bienSo = TextBoxBienSo.Text.Trim
-            Dim tenXe = TextBoxTenXeKhach.Text.Trim
-            Dim gioDi = DateTimePickerNgayDi.Value
-            Dim gioDen = DateTimePickerNgayDen.Value
-            Dim maTuyen = Convert.ToInt32(ComboBoxMaTuyenDuong.SelectedValue)
-
-            dao.ThemXeKhach(bienSo, tenXe, gioDi, gioDen, maTuyen)
-            ShowBusList()
-            CapNhatThongKe()
-        Catch ex As Exception
-            MsgBox("Đã xảy ra lỗi: " & ex.Message, MsgBoxStyle.Critical, "Lỗi")
-        End Try
-
-    End Sub
 
     'done
     Private Sub timKiem_Click_1(sender As Object, e As EventArgs) Handles timKiem.Click
@@ -160,9 +196,7 @@ Public Class AdminTrangChu
         frmLogin.Show()
     End Sub
 
-    Private Sub btnXemLichTrinh_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
 
-    End Sub
 
     Private Sub LịchTrìnhVàTuyếnĐườngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LịchTrìnhVàTuyếnĐườngToolStripMenuItem.Click
         Try
@@ -211,5 +245,6 @@ Public Class AdminTrangChu
             End Try
         End If
     End Sub
+
 
 End Class
