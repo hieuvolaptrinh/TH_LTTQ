@@ -85,12 +85,12 @@ INSERT INTO TUYENDUONG (khoang_Cach_Km, diem_di, diem_den) VALUES
 (450.30, N'Hà Nội', N'Nghệ An');
 go
 -- Thêm dữ liệu vào bảng XEKHACH
-INSERT INTO XEKHACH (bien_So, ten_XeKhach, gio_Di, gio_Den, id_TuyenDuong) VALUES
-('29B-12345', N'Xe Hoàng Long', '2025-05-02 07:00:00', '2025-05-02 09:30:00', 1),
-('51H-67890', N'Xe Mai Linh', '2025-05-02 08:00:00', '2025-05-02 15:00:00', 2),
-('43A-11223', N'Xe Phương Trang', '2025-05-02 06:30:00', '2025-05-02 08:00:00', 3),
-('16B-44556', N'Xe Thống Nhất', '2025-05-02 09:00:00', '2025-05-02 11:30:00', 4),
-('29C-78901', N'Xe Kim Chi', '2025-05-02 05:00:00', '2025-05-02 12:00:00', 5);
+INSERT INTO XEKHACH (bien_So, ten_XeKhach, gio_Di, gio_Den,gia_Ve ,id_TuyenDuong) VALUES
+('29B-12345', N'Xe Hoàng Long', '2025-05-02 07:00:00', '2025-05-02 09:30:00',120000, 1),
+('51H-67890', N'Xe Mai Linh', '2025-05-02 08:00:00', '2025-05-02 15:00:00',115000 ,2),
+('43A-11223', N'Xe Phương Trang', '2025-05-02 06:30:00', '2025-05-02 08:00:00', 250000,3),
+('16B-44556', N'Xe Thống Nhất', '2025-05-02 09:00:00', '2025-05-02 11:30:00',200000 ,4),
+('29C-78901', N'Xe Kim Chi', '2025-05-02 05:00:00', '2025-05-02 12:00:00',175000 ,5);
 go
 -- Thêm dữ liệu vào bảng VE
 INSERT INTO VE (id_NguoiDung, id_XeKhach, ngay_Dat, trang_Thai) VALUES
