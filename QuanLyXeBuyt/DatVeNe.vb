@@ -232,4 +232,8 @@ Public Class DatVeNe
             End Try
         End If
     End Sub
+
+    Private Sub pnlCard_Click(sender As Object, e As EventArgs) Handles pnlCard.Click
+
+    End Sub
 End Class

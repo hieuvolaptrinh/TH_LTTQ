@@ -31,7 +31,6 @@ Partial Class LichSu
         Me.btnHuyVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnPrint = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.btnTroVeDatVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.pnlVeHuy = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.lblSoVeHuy = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -145,19 +144,6 @@ Partial Class LichSu
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(928, 475)
         Me.Panel1.TabIndex = 3
-        '
-        'btnTroVeDatVe
-        '
-        Me.btnTroVeDatVe.BorderRadius = 10
-        Me.btnTroVeDatVe.FillColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.btnTroVeDatVe.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.btnTroVeDatVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.btnTroVeDatVe.ForeColor = System.Drawing.Color.White
-        Me.btnTroVeDatVe.Location = New System.Drawing.Point(950, 54)
-        Me.btnTroVeDatVe.Name = "btnTroVeDatVe"
-        Me.btnTroVeDatVe.Size = New System.Drawing.Size(180, 40)
-        Me.btnTroVeDatVe.TabIndex = 0
-        Me.btnTroVeDatVe.Text = "Đặt Vé"
         '
         'pnlVeHuy
         '
@@ -374,10 +360,10 @@ Partial Class LichSu
         'ReportViewer1
         '
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyXeBuyt.InVe.rdlc"
-        Me.ReportViewer1.Location = New System.Drawing.Point(950, 262)
+        Me.ReportViewer1.Location = New System.Drawing.Point(950, 209)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.ServerReport.BearerToken = Nothing
-        Me.ReportViewer1.Size = New System.Drawing.Size(559, 246)
+        Me.ReportViewer1.Size = New System.Drawing.Size(559, 475)
         Me.ReportViewer1.TabIndex = 21
         '
         'btnInVe
@@ -390,7 +376,7 @@ Partial Class LichSu
         Me.btnInVe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btnInVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnInVe.ForeColor = System.Drawing.Color.White
-        Me.btnInVe.Location = New System.Drawing.Point(1157, 54)
+        Me.btnInVe.Location = New System.Drawing.Point(950, 68)
         Me.btnInVe.Name = "btnInVe"
         Me.btnInVe.Size = New System.Drawing.Size(184, 42)
         Me.btnInVe.TabIndex = 22
@@ -409,7 +395,6 @@ Partial Class LichSu
         Me.Controls.Add(Me.pnlTongTuyen)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnHuyVe)
-        Me.Controls.Add(Me.btnTroVeDatVe)
         Me.Controls.Add(Me.btnPrint)
         Me.Controls.Add(Me.cboTrangThai)
         Me.Controls.Add(Me.lblSearch)
@@ -436,7 +421,6 @@ Partial Class LichSu
     Friend WithEvents btnHuyVe As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnPrint As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents btnTroVeDatVe As Guna.UI2.WinForms.Guna2GradientButton
     Private WithEvents pnlVeHuy As Guna.UI2.WinForms.Guna2ShadowPanel
     Friend WithEvents lblSoVeHuy As Label
     Friend WithEvents Label9 As Label
