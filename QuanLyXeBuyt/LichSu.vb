@@ -2,14 +2,15 @@
 
 Public Class LichSu
     Public currentNguoiDungIdLS As Integer = -1
-    Private connStr As String = "Data Source=HIEUVO;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=sa;TrustServerCertificate=True"
+    Private conn As String = "Data Source=POTATO\SQLEXPRESS;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=12345;TrustServerCertificate=True"
 
     ' Hàm trả về SqlConnection
     Public Function ConnectDatabase() As SqlConnection
-        Return New SqlConnection(connStr)
+        Return New SqlConnection(conn)
     End Function
 
     Private Sub LichSu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ReportViewer1.Visible = False
         If currentNguoiDungIdLS <= 0 Then
             MessageBox.Show("Vui lòng đăng nhập để xem lịch sử!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Me.Close()
@@ -26,6 +27,8 @@ Public Class LichSu
 
         LoadTicketHistory()
         UpdateStatistics()
+        Me.ReportViewer1.RefreshReport()
+        Me.ReportViewer1.RefreshReport()
     End Sub
 
     Private Sub SetupDataGridView()
@@ -170,10 +173,6 @@ Public Class LichSu
         End If
     End Sub
 
-    Private Sub btnTroVeDatVe_Click(sender As Object, e As EventArgs) Handles btnTroVeDatVe.Click
-        Me.Close()
-    End Sub
-
     Private Sub lblTongSoVe_Click(sender As Object, e As EventArgs) Handles lblTongSoVe.Click
 
     End Sub
@@ -189,4 +188,57 @@ Public Class LichSu
     Private Sub cboTrangThai_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTrangThai.SelectedIndexChanged
         LoadTicketHistory()
     End Sub
+
+    Private Sub btnInVe_Click(sender As Object, e As EventArgs) Handles btnInVe.Click
+        ReportViewer1.Visible = True
+        If dgvTickets.Rows.Count = 0 Then
+            MessageBox.Show("Không có dữ liệu để in!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Return
+        End If
+
+        ' Tạo DataTable với tên cột không dấu (tuân thủ CLS)
+        Dim dt As New DataTable()
+        dt.Columns.Add("ThoiGianDat")
+        dt.Columns.Add("TrangThai")
+        dt.Columns.Add("BienSo")
+        dt.Columns.Add("TenXeKhach")
+        dt.Columns.Add("GioKhoiHanh")
+        dt.Columns.Add("GioDen")
+        dt.Columns.Add("GiaVe")
+        dt.Columns.Add("DiemDi")
+        dt.Columns.Add("DiemDen")
+
+        ' Copy dữ liệu từ DataGridView vào DataTable
+        For Each row As DataGridViewRow In dgvTickets.Rows
+            If Not row.IsNewRow AndAlso row.Cells("Trạng Thái").Value?.ToString() = "Đã đặt" Then
+                Dim newRow As DataRow = dt.NewRow()
+                newRow("ThoiGianDat") = row.Cells("Thời Gian Đặt").Value?.ToString()
+                newRow("TrangThai") = row.Cells("Trạng Thái").Value?.ToString()
+                newRow("BienSo") = row.Cells("Biển Số").Value?.ToString()
+                newRow("TenXeKhach") = row.Cells("Tên Xe Khách").Value?.ToString()
+                newRow("GioKhoiHanh") = row.Cells("Giờ Khởi Hành").Value?.ToString()
+                newRow("GioDen") = row.Cells("Giờ Đến").Value?.ToString()
+                newRow("GiaVe") = row.Cells("Giá Vé").Value?.ToString()
+                newRow("DiemDi") = row.Cells("Điểm Đi").Value?.ToString()
+                newRow("DiemDen") = row.Cells("Điểm Đến").Value?.ToString()
+                dt.Rows.Add(newRow)
+            End If
+        Next
+
+
+        ' Gán dữ liệu vào ReportViewer
+        Try
+            ReportViewer1.LocalReport.DataSources.Clear()
+            Dim rds As New Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt)
+            ReportViewer1.LocalReport.DataSources.Add(rds)
+            ReportViewer1.LocalReport.ReportPath = Application.StartupPath & "\InVe.rdlc"
+            ReportViewer1.LocalReport.Refresh()
+            ReportViewer1.RefreshReport()
+        Catch ex As Exception
+            MessageBox.Show("Lỗi khi in vé: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+
+
 End Class

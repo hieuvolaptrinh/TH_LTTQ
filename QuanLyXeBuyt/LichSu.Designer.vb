@@ -1,11 +1,11 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class LichSu
     Inherits System.Windows.Forms.Form
 
     Public currentNguoiDungId As Integer = -1 ' Thêm trường để nhận ID người dùng
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -22,400 +22,415 @@ Partial Class LichSu
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        dgvTickets = New Guna.UI2.WinForms.Guna2DataGridView()
-        btnHuyVe = New Guna.UI2.WinForms.Guna2GradientButton()
-        btnPrint = New Guna.UI2.WinForms.Guna2GradientButton()
-        Panel1 = New Panel()
-        btnTroVeDatVe = New Guna.UI2.WinForms.Guna2GradientButton()
-        pnlVeHuy = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        lblSoVeHuy = New Label()
-        Label9 = New Label()
-        pnlTongTuyen = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        lblTongSoVe = New Label()
-        Label4 = New Label()
-        MenuStrip1 = New MenuStrip()
-        HỗTrợToolStripMenuItem = New ToolStripMenuItem()
-        LiênHệToolStripMenuItem = New ToolStripMenuItem()
-        HướngDẫnSửDụngToolStripMenuItem = New ToolStripMenuItem()
-        ChínhSáchToolStripMenuItem = New ToolStripMenuItem()
-        BáoCáoSựCốToolStripMenuItem = New ToolStripMenuItem()
-        TinTứcToolStripMenuItem = New ToolStripMenuItem()
-        GiớiThiệuToolStripMenuItem = New ToolStripMenuItem()
-        CôngTyAToolStripMenuItem = New ToolStripMenuItem()
-        GiấyChứngNhậnHợpQuyToolStripMenuItem = New ToolStripMenuItem()
-        TuyểnDụngNhânSựToolStripMenuItem = New ToolStripMenuItem()
-        QuảnLýVéĐãĐặtToolStripMenuItem = New ToolStripMenuItem()
-        cboTrangThai = New Guna.UI2.WinForms.Guna2ComboBox()
-        lblSearch = New Label()
-        lblTrangThai = New Label()
-        lblFromDate = New Label()
-        lblToDate = New Label()
-        CType(dgvTickets, ComponentModel.ISupportInitialize).BeginInit()
-        Panel1.SuspendLayout()
-        pnlVeHuy.SuspendLayout()
-        pnlTongTuyen.SuspendLayout()
-        MenuStrip1.SuspendLayout()
-        SuspendLayout()
-        ' 
-        ' dgvTickets
-        ' 
-        DataGridViewCellStyle1.BackColor = Color.White
-        dgvTickets.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 8.25F)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        dgvTickets.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgvTickets.ColumnHeadersHeight = 40
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 8.25F)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        dgvTickets.DefaultCellStyle = DataGridViewCellStyle3
-        dgvTickets.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgvTickets.Location = New Point(23, 13)
-        dgvTickets.Name = "dgvTickets"
-        dgvTickets.RowHeadersVisible = False
-        dgvTickets.RowHeadersWidth = 51
-        dgvTickets.Size = New Size(1296, 459)
-        dgvTickets.TabIndex = 1
-        dgvTickets.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        dgvTickets.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        dgvTickets.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        dgvTickets.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        dgvTickets.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgvTickets.ThemeStyle.BackColor = Color.White
-        dgvTickets.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgvTickets.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        dgvTickets.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgvTickets.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 8.25F)
-        dgvTickets.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        dgvTickets.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        dgvTickets.ThemeStyle.HeaderStyle.Height = 40
-        dgvTickets.ThemeStyle.ReadOnly = False
-        dgvTickets.ThemeStyle.RowsStyle.BackColor = Color.White
-        dgvTickets.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgvTickets.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 8.25F)
-        dgvTickets.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        dgvTickets.ThemeStyle.RowsStyle.Height = 29
-        dgvTickets.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgvTickets.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' btnHuyVe
-        ' 
-        btnHuyVe.BorderRadius = 10
-        btnHuyVe.CustomizableEdges = CustomizableEdges1
-        btnHuyVe.FillColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        btnHuyVe.FillColor2 = Color.FromArgb(CByte(239), CByte(83), CByte(80))
-        btnHuyVe.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnHuyVe.ForeColor = Color.White
-        btnHuyVe.Location = New Point(1120, 145)
-        btnHuyVe.Name = "btnHuyVe"
-        btnHuyVe.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        btnHuyVe.Size = New Size(180, 40)
-        btnHuyVe.TabIndex = 1
-        btnHuyVe.Text = "Hủy vé"
-        ' 
-        ' btnPrint
-        ' 
-        btnPrint.CustomizableEdges = CustomizableEdges3
-        btnPrint.Font = New Font("Segoe UI", 9F)
-        btnPrint.ForeColor = Color.White
-        btnPrint.Location = New Point(-5, 679)
-        btnPrint.Name = "btnPrint"
-        btnPrint.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnPrint.Size = New Size(1336, 30)
-        btnPrint.TabIndex = 2
-        ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = SystemColors.ActiveCaption
-        Panel1.Controls.Add(dgvTickets)
-        Panel1.Location = New Point(0, 209)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1331, 475)
-        Panel1.TabIndex = 3
-        ' 
-        ' btnTroVeDatVe
-        ' 
-        btnTroVeDatVe.BorderRadius = 10
-        btnTroVeDatVe.CustomizableEdges = CustomizableEdges5
-        btnTroVeDatVe.FillColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        btnTroVeDatVe.FillColor2 = Color.FromArgb(CByte(76), CByte(175), CByte(80))
-        btnTroVeDatVe.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnTroVeDatVe.ForeColor = Color.White
-        btnTroVeDatVe.Location = New Point(1120, 54)
-        btnTroVeDatVe.Name = "btnTroVeDatVe"
-        btnTroVeDatVe.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnTroVeDatVe.Size = New Size(180, 40)
-        btnTroVeDatVe.TabIndex = 0
-        btnTroVeDatVe.Text = "Đặt Vé"
-        ' 
-        ' pnlVeHuy
-        ' 
-        pnlVeHuy.BackColor = Color.Transparent
-        pnlVeHuy.Controls.Add(lblSoVeHuy)
-        pnlVeHuy.Controls.Add(Label9)
-        pnlVeHuy.FillColor = Color.FromArgb(CByte(244), CByte(67), CByte(54))
-        pnlVeHuy.Location = New Point(817, 54)
-        pnlVeHuy.Name = "pnlVeHuy"
-        pnlVeHuy.Radius = 10
-        pnlVeHuy.ShadowColor = Color.Black
-        pnlVeHuy.ShadowDepth = 10
-        pnlVeHuy.ShadowShift = 0
-        pnlVeHuy.Size = New Size(209, 149)
-        pnlVeHuy.TabIndex = 6
-        ' 
-        ' lblSoVeHuy
-        ' 
-        lblSoVeHuy.AutoSize = True
-        lblSoVeHuy.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
-        lblSoVeHuy.ForeColor = Color.White
-        lblSoVeHuy.Location = New Point(20, 56)
-        lblSoVeHuy.Name = "lblSoVeHuy"
-        lblSoVeHuy.Size = New Size(46, 54)
-        lblSoVeHuy.TabIndex = 9
-        lblSoVeHuy.Text = "0"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI", 12F)
-        Label9.ForeColor = Color.White
-        Label9.Location = New Point(20, 14)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(102, 28)
-        Label9.TabIndex = 9
-        Label9.Text = "Vé Đã Hủy"
-        ' 
-        ' pnlTongTuyen
-        ' 
-        pnlTongTuyen.BackColor = Color.Transparent
-        pnlTongTuyen.Controls.Add(lblTongSoVe)
-        pnlTongTuyen.Controls.Add(Label4)
-        pnlTongTuyen.FillColor = Color.FromArgb(CByte(76), CByte(175), CByte(80))
-        pnlTongTuyen.Location = New Point(27, 55)
-        pnlTongTuyen.Name = "pnlTongTuyen"
-        pnlTongTuyen.Radius = 10
-        pnlTongTuyen.ShadowColor = Color.Black
-        pnlTongTuyen.ShadowDepth = 10
-        pnlTongTuyen.ShadowShift = 0
-        pnlTongTuyen.Size = New Size(263, 130)
-        pnlTongTuyen.TabIndex = 4
-        ' 
-        ' lblTongSoVe
-        ' 
-        lblTongSoVe.AutoSize = True
-        lblTongSoVe.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
-        lblTongSoVe.ForeColor = Color.White
-        lblTongSoVe.Location = New Point(20, 55)
-        lblTongSoVe.Name = "lblTongSoVe"
-        lblTongSoVe.Size = New Size(46, 54)
-        lblTongSoVe.TabIndex = 9
-        lblTongSoVe.Text = "0"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 12F)
-        Label4.ForeColor = Color.White
-        Label4.Location = New Point(20, 13)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(184, 28)
-        Label4.TabIndex = 9
-        Label4.Text = "Tổng Số Vé Đã Mua"
-        ' 
-        ' MenuStrip1
-        ' 
-        MenuStrip1.BackColor = Color.White
-        MenuStrip1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        MenuStrip1.ImageScalingSize = New Size(20, 20)
-        MenuStrip1.Items.AddRange(New ToolStripItem() {HỗTrợToolStripMenuItem, TinTứcToolStripMenuItem, GiớiThiệuToolStripMenuItem, QuảnLýVéĐãĐặtToolStripMenuItem})
-        MenuStrip1.Location = New Point(0, 0)
-        MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.RenderMode = ToolStripRenderMode.System
-        MenuStrip1.RightToLeft = RightToLeft.Yes
-        MenuStrip1.Size = New Size(1797, 28)
-        MenuStrip1.TabIndex = 12
-        MenuStrip1.Text = "MenuStrip1"
-        ' 
-        ' HỗTrợToolStripMenuItem
-        ' 
-        HỗTrợToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {LiênHệToolStripMenuItem, HướngDẫnSửDụngToolStripMenuItem, ChínhSáchToolStripMenuItem, BáoCáoSựCốToolStripMenuItem})
-        HỗTrợToolStripMenuItem.Image = My.Resources.Resources.question
-        HỗTrợToolStripMenuItem.Name = "HỗTrợToolStripMenuItem"
-        HỗTrợToolStripMenuItem.Size = New Size(88, 24)
-        HỗTrợToolStripMenuItem.Text = "Hỗ trợ"
-        ' 
-        ' LiênHệToolStripMenuItem
-        ' 
-        LiênHệToolStripMenuItem.Name = "LiênHệToolStripMenuItem"
-        LiênHệToolStripMenuItem.Size = New Size(231, 26)
-        LiênHệToolStripMenuItem.Text = "Liên hệ"
-        ' 
-        ' HướngDẫnSửDụngToolStripMenuItem
-        ' 
-        HướngDẫnSửDụngToolStripMenuItem.Name = "HướngDẫnSửDụngToolStripMenuItem"
-        HướngDẫnSửDụngToolStripMenuItem.Size = New Size(231, 26)
-        HướngDẫnSửDụngToolStripMenuItem.Text = "Hướng dẫn sử dụng"
-        ' 
-        ' ChínhSáchToolStripMenuItem
-        ' 
-        ChínhSáchToolStripMenuItem.Name = "ChínhSáchToolStripMenuItem"
-        ChínhSáchToolStripMenuItem.Size = New Size(231, 26)
-        ChínhSáchToolStripMenuItem.Text = "Chính sách "
-        ' 
-        ' BáoCáoSựCốToolStripMenuItem
-        ' 
-        BáoCáoSựCốToolStripMenuItem.Name = "BáoCáoSựCốToolStripMenuItem"
-        BáoCáoSựCốToolStripMenuItem.Size = New Size(231, 26)
-        BáoCáoSựCốToolStripMenuItem.Text = "Báo cáo sự cố"
-        ' 
-        ' TinTứcToolStripMenuItem
-        ' 
-        TinTứcToolStripMenuItem.Image = My.Resources.Resources.megaphone
-        TinTứcToolStripMenuItem.Name = "TinTứcToolStripMenuItem"
-        TinTứcToolStripMenuItem.Size = New Size(92, 24)
-        TinTứcToolStripMenuItem.Text = "Tin tức"
-        ' 
-        ' GiớiThiệuToolStripMenuItem
-        ' 
-        GiớiThiệuToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CôngTyAToolStripMenuItem, GiấyChứngNhậnHợpQuyToolStripMenuItem, TuyểnDụngNhânSựToolStripMenuItem})
-        GiớiThiệuToolStripMenuItem.Image = My.Resources.Resources.presentation
-        GiớiThiệuToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft
-        GiớiThiệuToolStripMenuItem.Name = "GiớiThiệuToolStripMenuItem"
-        GiớiThiệuToolStripMenuItem.Size = New Size(111, 24)
-        GiớiThiệuToolStripMenuItem.Text = "Giới thiệu"
-        ' 
-        ' CôngTyAToolStripMenuItem
-        ' 
-        CôngTyAToolStripMenuItem.Name = "CôngTyAToolStripMenuItem"
-        CôngTyAToolStripMenuItem.Size = New Size(271, 26)
-        CôngTyAToolStripMenuItem.Text = "Công ty A"
-        ' 
-        ' GiấyChứngNhậnHợpQuyToolStripMenuItem
-        ' 
-        GiấyChứngNhậnHợpQuyToolStripMenuItem.Name = "GiấyChứngNhậnHợpQuyToolStripMenuItem"
-        GiấyChứngNhậnHợpQuyToolStripMenuItem.Size = New Size(271, 26)
-        GiấyChứngNhậnHợpQuyToolStripMenuItem.Text = "Giấy chứng nhận hợp quy"
-        ' 
-        ' TuyểnDụngNhânSựToolStripMenuItem
-        ' 
-        TuyểnDụngNhânSựToolStripMenuItem.Name = "TuyểnDụngNhânSựToolStripMenuItem"
-        TuyểnDụngNhânSựToolStripMenuItem.Size = New Size(271, 26)
-        TuyểnDụngNhânSựToolStripMenuItem.Text = "Tuyển dụng nhân sự"
-        ' 
-        ' QuảnLýVéĐãĐặtToolStripMenuItem
-        ' 
-        QuảnLýVéĐãĐặtToolStripMenuItem.Name = "QuảnLýVéĐãĐặtToolStripMenuItem"
-        QuảnLýVéĐãĐặtToolStripMenuItem.Size = New Size(144, 24)
-        QuảnLýVéĐãĐặtToolStripMenuItem.Text = "Quản lý vé đã đặt"
-        ' 
-        ' cboTrangThai
-        ' 
-        cboTrangThai.BackColor = Color.Transparent
-        cboTrangThai.BorderRadius = 10
-        cboTrangThai.CustomizableEdges = CustomizableEdges7
-        cboTrangThai.DrawMode = DrawMode.OwnerDrawFixed
-        cboTrangThai.DropDownStyle = ComboBoxStyle.DropDownList
-        cboTrangThai.FocusedColor = Color.Empty
-        cboTrangThai.Font = New Font("Segoe UI", 10F)
-        cboTrangThai.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        cboTrangThai.ItemHeight = 30
-        cboTrangThai.Items.AddRange(New Object() {"Tất cả", "Đã đặt", "Đã hủy"})
-        cboTrangThai.Location = New Point(393, 94)
-        cboTrangThai.Name = "cboTrangThai"
-        cboTrangThai.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        cboTrangThai.Size = New Size(353, 36)
-        cboTrangThai.TabIndex = 14
-        ' 
-        ' lblSearch
-        ' 
-        lblSearch.AutoSize = True
-        lblSearch.Location = New Point(27, 10)
-        lblSearch.Name = "lblSearch"
-        lblSearch.Size = New Size(64, 19)
-        lblSearch.TabIndex = 17
-        lblSearch.Text = "Tìm kiếm"
-        ' 
-        ' lblTrangThai
-        ' 
-        lblTrangThai.AutoSize = True
-        lblTrangThai.Location = New Point(250, 10)
-        lblTrangThai.Name = "lblTrangThai"
-        lblTrangThai.Size = New Size(70, 19)
-        lblTrangThai.TabIndex = 18
-        lblTrangThai.Text = "Trạng thái"
-        ' 
-        ' lblFromDate
-        ' 
-        lblFromDate.AutoSize = True
-        lblFromDate.Location = New Point(420, 10)
-        lblFromDate.Name = "lblFromDate"
-        lblFromDate.Size = New Size(58, 19)
-        lblFromDate.TabIndex = 19
-        lblFromDate.Text = "Từ ngày"
-        ' 
-        ' lblToDate
-        ' 
-        lblToDate.AutoSize = True
-        lblToDate.Location = New Point(590, 10)
-        lblToDate.Name = "lblToDate"
-        lblToDate.Size = New Size(68, 19)
-        lblToDate.TabIndex = 20
-        lblToDate.Text = "Đến ngày"
-        ' 
-        ' LichSu
-        ' 
-        AutoScaleDimensions = New SizeF(8F, 19F)
-        AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        ClientSize = New Size(1797, 709)
-        Controls.Add(MenuStrip1)
-        Controls.Add(pnlVeHuy)
-        Controls.Add(pnlTongTuyen)
-        Controls.Add(Panel1)
-        Controls.Add(btnHuyVe)
-        Controls.Add(btnTroVeDatVe)
-        Controls.Add(btnPrint)
-        Controls.Add(cboTrangThai)
-        Controls.Add(lblSearch)
-        Controls.Add(lblTrangThai)
-        Controls.Add(lblFromDate)
-        Controls.Add(lblToDate)
-        Font = New Font("Segoe UI", 8.25F)
-        Name = "LichSu"
-        StartPosition = FormStartPosition.CenterScreen
-        Text = "Lịch sử đặt vé"
-        CType(dgvTickets, ComponentModel.ISupportInitialize).EndInit()
-        Panel1.ResumeLayout(False)
-        pnlVeHuy.ResumeLayout(False)
-        pnlVeHuy.PerformLayout()
-        pnlTongTuyen.ResumeLayout(False)
-        pnlTongTuyen.PerformLayout()
-        MenuStrip1.ResumeLayout(False)
-        MenuStrip1.PerformLayout()
-        ResumeLayout(False)
-        PerformLayout()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.dgvTickets = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.btnHuyVe = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnPrint = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnTroVeDatVe = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.pnlVeHuy = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.lblSoVeHuy = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.pnlTongTuyen = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.lblTongSoVe = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.HỗTrợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LiênHệToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HướngDẫnSửDụngToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChínhSáchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BáoCáoSựCốToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TinTứcToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GiớiThiệuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CôngTyAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GiấyChứngNhậnHợpQuyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TuyểnDụngNhânSựToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuảnLýVéĐãĐặtToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cboTrangThai = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.lblSearch = New System.Windows.Forms.Label()
+        Me.lblTrangThai = New System.Windows.Forms.Label()
+        Me.lblFromDate = New System.Windows.Forms.Label()
+        Me.lblToDate = New System.Windows.Forms.Label()
+        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
+        Me.btnInVe = New Guna.UI2.WinForms.Guna2GradientButton()
+        CType(Me.dgvTickets, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        Me.pnlVeHuy.SuspendLayout()
+        Me.pnlTongTuyen.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'dgvTickets
+        '
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        Me.dgvTickets.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvTickets.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        Me.dgvTickets.ColumnHeadersHeight = 40
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvTickets.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dgvTickets.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgvTickets.Location = New System.Drawing.Point(3, 13)
+        Me.dgvTickets.Name = "dgvTickets"
+        Me.dgvTickets.RowHeadersVisible = False
+        Me.dgvTickets.RowHeadersWidth = 51
+        Me.dgvTickets.RowTemplate.Height = 29
+        Me.dgvTickets.Size = New System.Drawing.Size(912, 459)
+        Me.dgvTickets.TabIndex = 1
+        Me.dgvTickets.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.dgvTickets.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.dgvTickets.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
+        Me.dgvTickets.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
+        Me.dgvTickets.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
+        Me.dgvTickets.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.dgvTickets.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgvTickets.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.dgvTickets.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.dgvTickets.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.dgvTickets.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.dgvTickets.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgvTickets.ThemeStyle.HeaderStyle.Height = 40
+        Me.dgvTickets.ThemeStyle.ReadOnly = False
+        Me.dgvTickets.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.dgvTickets.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.dgvTickets.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.dgvTickets.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.dgvTickets.ThemeStyle.RowsStyle.Height = 29
+        Me.dgvTickets.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgvTickets.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        '
+        'btnHuyVe
+        '
+        Me.btnHuyVe.BorderRadius = 10
+        Me.btnHuyVe.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnHuyVe.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.btnHuyVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnHuyVe.ForeColor = System.Drawing.Color.White
+        Me.btnHuyVe.Location = New System.Drawing.Point(950, 145)
+        Me.btnHuyVe.Name = "btnHuyVe"
+        Me.btnHuyVe.Size = New System.Drawing.Size(180, 40)
+        Me.btnHuyVe.TabIndex = 1
+        Me.btnHuyVe.Text = "Hủy vé"
+        '
+        'btnPrint
+        '
+        Me.btnPrint.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnPrint.ForeColor = System.Drawing.Color.White
+        Me.btnPrint.Location = New System.Drawing.Point(-5, 679)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(1336, 30)
+        Me.btnPrint.TabIndex = 2
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel1.Controls.Add(Me.dgvTickets)
+        Me.Panel1.Location = New System.Drawing.Point(0, 209)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(928, 475)
+        Me.Panel1.TabIndex = 3
+        '
+        'btnTroVeDatVe
+        '
+        Me.btnTroVeDatVe.BorderRadius = 10
+        Me.btnTroVeDatVe.FillColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.btnTroVeDatVe.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.btnTroVeDatVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnTroVeDatVe.ForeColor = System.Drawing.Color.White
+        Me.btnTroVeDatVe.Location = New System.Drawing.Point(950, 54)
+        Me.btnTroVeDatVe.Name = "btnTroVeDatVe"
+        Me.btnTroVeDatVe.Size = New System.Drawing.Size(180, 40)
+        Me.btnTroVeDatVe.TabIndex = 0
+        Me.btnTroVeDatVe.Text = "Đặt Vé"
+        '
+        'pnlVeHuy
+        '
+        Me.pnlVeHuy.BackColor = System.Drawing.Color.Transparent
+        Me.pnlVeHuy.Controls.Add(Me.lblSoVeHuy)
+        Me.pnlVeHuy.Controls.Add(Me.Label9)
+        Me.pnlVeHuy.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.pnlVeHuy.Location = New System.Drawing.Point(706, 54)
+        Me.pnlVeHuy.Name = "pnlVeHuy"
+        Me.pnlVeHuy.Radius = 10
+        Me.pnlVeHuy.ShadowColor = System.Drawing.Color.Black
+        Me.pnlVeHuy.ShadowDepth = 10
+        Me.pnlVeHuy.ShadowShift = 0
+        Me.pnlVeHuy.Size = New System.Drawing.Size(209, 149)
+        Me.pnlVeHuy.TabIndex = 6
+        '
+        'lblSoVeHuy
+        '
+        Me.lblSoVeHuy.AutoSize = True
+        Me.lblSoVeHuy.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold)
+        Me.lblSoVeHuy.ForeColor = System.Drawing.Color.White
+        Me.lblSoVeHuy.Location = New System.Drawing.Point(20, 56)
+        Me.lblSoVeHuy.Name = "lblSoVeHuy"
+        Me.lblSoVeHuy.Size = New System.Drawing.Size(46, 54)
+        Me.lblSoVeHuy.TabIndex = 9
+        Me.lblSoVeHuy.Text = "0"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(20, 14)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(102, 28)
+        Me.Label9.TabIndex = 9
+        Me.Label9.Text = "Vé Đã Hủy"
+        '
+        'pnlTongTuyen
+        '
+        Me.pnlTongTuyen.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTongTuyen.Controls.Add(Me.lblTongSoVe)
+        Me.pnlTongTuyen.Controls.Add(Me.Label4)
+        Me.pnlTongTuyen.FillColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.pnlTongTuyen.Location = New System.Drawing.Point(27, 55)
+        Me.pnlTongTuyen.Name = "pnlTongTuyen"
+        Me.pnlTongTuyen.Radius = 10
+        Me.pnlTongTuyen.ShadowColor = System.Drawing.Color.Black
+        Me.pnlTongTuyen.ShadowDepth = 10
+        Me.pnlTongTuyen.ShadowShift = 0
+        Me.pnlTongTuyen.Size = New System.Drawing.Size(263, 130)
+        Me.pnlTongTuyen.TabIndex = 4
+        '
+        'lblTongSoVe
+        '
+        Me.lblTongSoVe.AutoSize = True
+        Me.lblTongSoVe.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold)
+        Me.lblTongSoVe.ForeColor = System.Drawing.Color.White
+        Me.lblTongSoVe.Location = New System.Drawing.Point(20, 55)
+        Me.lblTongSoVe.Name = "lblTongSoVe"
+        Me.lblTongSoVe.Size = New System.Drawing.Size(46, 54)
+        Me.lblTongSoVe.TabIndex = 9
+        Me.lblTongSoVe.Text = "0"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(20, 13)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(184, 28)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Tổng Số Vé Đã Mua"
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.White
+        Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HỗTrợToolStripMenuItem, Me.TinTứcToolStripMenuItem, Me.GiớiThiệuToolStripMenuItem, Me.QuảnLýVéĐãĐặtToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        Me.MenuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.MenuStrip1.Size = New System.Drawing.Size(1521, 28)
+        Me.MenuStrip1.TabIndex = 12
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'HỗTrợToolStripMenuItem
+        '
+        Me.HỗTrợToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LiênHệToolStripMenuItem, Me.HướngDẫnSửDụngToolStripMenuItem, Me.ChínhSáchToolStripMenuItem, Me.BáoCáoSựCốToolStripMenuItem})
+        Me.HỗTrợToolStripMenuItem.Image = Global.QuanLyXeBuyt.My.Resources.Resources.question
+        Me.HỗTrợToolStripMenuItem.Name = "HỗTrợToolStripMenuItem"
+        Me.HỗTrợToolStripMenuItem.Size = New System.Drawing.Size(88, 24)
+        Me.HỗTrợToolStripMenuItem.Text = "Hỗ trợ"
+        '
+        'LiênHệToolStripMenuItem
+        '
+        Me.LiênHệToolStripMenuItem.Name = "LiênHệToolStripMenuItem"
+        Me.LiênHệToolStripMenuItem.Size = New System.Drawing.Size(231, 26)
+        Me.LiênHệToolStripMenuItem.Text = "Liên hệ"
+        '
+        'HướngDẫnSửDụngToolStripMenuItem
+        '
+        Me.HướngDẫnSửDụngToolStripMenuItem.Name = "HướngDẫnSửDụngToolStripMenuItem"
+        Me.HướngDẫnSửDụngToolStripMenuItem.Size = New System.Drawing.Size(231, 26)
+        Me.HướngDẫnSửDụngToolStripMenuItem.Text = "Hướng dẫn sử dụng"
+        '
+        'ChínhSáchToolStripMenuItem
+        '
+        Me.ChínhSáchToolStripMenuItem.Name = "ChínhSáchToolStripMenuItem"
+        Me.ChínhSáchToolStripMenuItem.Size = New System.Drawing.Size(231, 26)
+        Me.ChínhSáchToolStripMenuItem.Text = "Chính sách "
+        '
+        'BáoCáoSựCốToolStripMenuItem
+        '
+        Me.BáoCáoSựCốToolStripMenuItem.Name = "BáoCáoSựCốToolStripMenuItem"
+        Me.BáoCáoSựCốToolStripMenuItem.Size = New System.Drawing.Size(231, 26)
+        Me.BáoCáoSựCốToolStripMenuItem.Text = "Báo cáo sự cố"
+        '
+        'TinTứcToolStripMenuItem
+        '
+        Me.TinTứcToolStripMenuItem.Image = Global.QuanLyXeBuyt.My.Resources.Resources.megaphone
+        Me.TinTứcToolStripMenuItem.Name = "TinTứcToolStripMenuItem"
+        Me.TinTứcToolStripMenuItem.Size = New System.Drawing.Size(92, 24)
+        Me.TinTứcToolStripMenuItem.Text = "Tin tức"
+        '
+        'GiớiThiệuToolStripMenuItem
+        '
+        Me.GiớiThiệuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CôngTyAToolStripMenuItem, Me.GiấyChứngNhậnHợpQuyToolStripMenuItem, Me.TuyểnDụngNhânSựToolStripMenuItem})
+        Me.GiớiThiệuToolStripMenuItem.Image = Global.QuanLyXeBuyt.My.Resources.Resources.presentation
+        Me.GiớiThiệuToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.GiớiThiệuToolStripMenuItem.Name = "GiớiThiệuToolStripMenuItem"
+        Me.GiớiThiệuToolStripMenuItem.Size = New System.Drawing.Size(111, 24)
+        Me.GiớiThiệuToolStripMenuItem.Text = "Giới thiệu"
+        '
+        'CôngTyAToolStripMenuItem
+        '
+        Me.CôngTyAToolStripMenuItem.Name = "CôngTyAToolStripMenuItem"
+        Me.CôngTyAToolStripMenuItem.Size = New System.Drawing.Size(271, 26)
+        Me.CôngTyAToolStripMenuItem.Text = "Công ty A"
+        '
+        'GiấyChứngNhậnHợpQuyToolStripMenuItem
+        '
+        Me.GiấyChứngNhậnHợpQuyToolStripMenuItem.Name = "GiấyChứngNhậnHợpQuyToolStripMenuItem"
+        Me.GiấyChứngNhậnHợpQuyToolStripMenuItem.Size = New System.Drawing.Size(271, 26)
+        Me.GiấyChứngNhậnHợpQuyToolStripMenuItem.Text = "Giấy chứng nhận hợp quy"
+        '
+        'TuyểnDụngNhânSựToolStripMenuItem
+        '
+        Me.TuyểnDụngNhânSựToolStripMenuItem.Name = "TuyểnDụngNhânSựToolStripMenuItem"
+        Me.TuyểnDụngNhânSựToolStripMenuItem.Size = New System.Drawing.Size(271, 26)
+        Me.TuyểnDụngNhânSựToolStripMenuItem.Text = "Tuyển dụng nhân sự"
+        '
+        'QuảnLýVéĐãĐặtToolStripMenuItem
+        '
+        Me.QuảnLýVéĐãĐặtToolStripMenuItem.Name = "QuảnLýVéĐãĐặtToolStripMenuItem"
+        Me.QuảnLýVéĐãĐặtToolStripMenuItem.Size = New System.Drawing.Size(144, 24)
+        Me.QuảnLýVéĐãĐặtToolStripMenuItem.Text = "Quản lý vé đã đặt"
+        '
+        'cboTrangThai
+        '
+        Me.cboTrangThai.BackColor = System.Drawing.Color.Transparent
+        Me.cboTrangThai.BorderRadius = 10
+        Me.cboTrangThai.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboTrangThai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboTrangThai.FocusedColor = System.Drawing.Color.Empty
+        Me.cboTrangThai.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.cboTrangThai.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.cboTrangThai.ItemHeight = 30
+        Me.cboTrangThai.Items.AddRange(New Object() {"Tất cả", "Đã đặt", "Đã hủy"})
+        Me.cboTrangThai.Location = New System.Drawing.Point(318, 96)
+        Me.cboTrangThai.Name = "cboTrangThai"
+        Me.cboTrangThai.Size = New System.Drawing.Size(353, 36)
+        Me.cboTrangThai.TabIndex = 14
+        '
+        'lblSearch
+        '
+        Me.lblSearch.AutoSize = True
+        Me.lblSearch.Location = New System.Drawing.Point(27, 10)
+        Me.lblSearch.Name = "lblSearch"
+        Me.lblSearch.Size = New System.Drawing.Size(64, 19)
+        Me.lblSearch.TabIndex = 17
+        Me.lblSearch.Text = "Tìm kiếm"
+        '
+        'lblTrangThai
+        '
+        Me.lblTrangThai.AutoSize = True
+        Me.lblTrangThai.Location = New System.Drawing.Point(250, 10)
+        Me.lblTrangThai.Name = "lblTrangThai"
+        Me.lblTrangThai.Size = New System.Drawing.Size(70, 19)
+        Me.lblTrangThai.TabIndex = 18
+        Me.lblTrangThai.Text = "Trạng thái"
+        '
+        'lblFromDate
+        '
+        Me.lblFromDate.AutoSize = True
+        Me.lblFromDate.Location = New System.Drawing.Point(420, 10)
+        Me.lblFromDate.Name = "lblFromDate"
+        Me.lblFromDate.Size = New System.Drawing.Size(58, 19)
+        Me.lblFromDate.TabIndex = 19
+        Me.lblFromDate.Text = "Từ ngày"
+        '
+        'lblToDate
+        '
+        Me.lblToDate.AutoSize = True
+        Me.lblToDate.Location = New System.Drawing.Point(590, 10)
+        Me.lblToDate.Name = "lblToDate"
+        Me.lblToDate.Size = New System.Drawing.Size(68, 19)
+        Me.lblToDate.TabIndex = 20
+        Me.lblToDate.Text = "Đến ngày"
+        '
+        'ReportViewer1
+        '
+        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyXeBuyt.InVe.rdlc"
+        Me.ReportViewer1.Location = New System.Drawing.Point(950, 262)
+        Me.ReportViewer1.Name = "ReportViewer1"
+        Me.ReportViewer1.ServerReport.BearerToken = Nothing
+        Me.ReportViewer1.Size = New System.Drawing.Size(559, 246)
+        Me.ReportViewer1.TabIndex = 21
+        '
+        'btnInVe
+        '
+        Me.btnInVe.BorderRadius = 10
+        Me.btnInVe.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnInVe.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnInVe.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnInVe.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnInVe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnInVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnInVe.ForeColor = System.Drawing.Color.White
+        Me.btnInVe.Location = New System.Drawing.Point(1157, 54)
+        Me.btnInVe.Name = "btnInVe"
+        Me.btnInVe.Size = New System.Drawing.Size(184, 42)
+        Me.btnInVe.TabIndex = 22
+        Me.btnInVe.Text = "In Vé"
+        '
+        'LichSu
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(1521, 709)
+        Me.Controls.Add(Me.btnInVe)
+        Me.Controls.Add(Me.ReportViewer1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.pnlVeHuy)
+        Me.Controls.Add(Me.pnlTongTuyen)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.btnHuyVe)
+        Me.Controls.Add(Me.btnTroVeDatVe)
+        Me.Controls.Add(Me.btnPrint)
+        Me.Controls.Add(Me.cboTrangThai)
+        Me.Controls.Add(Me.lblSearch)
+        Me.Controls.Add(Me.lblTrangThai)
+        Me.Controls.Add(Me.lblFromDate)
+        Me.Controls.Add(Me.lblToDate)
+        Me.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.Name = "LichSu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Lịch sử đặt vé"
+        CType(Me.dgvTickets, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.pnlVeHuy.ResumeLayout(False)
+        Me.pnlVeHuy.PerformLayout()
+        Me.pnlTongTuyen.ResumeLayout(False)
+        Me.pnlTongTuyen.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
     Friend WithEvents dgvTickets As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents btnHuyVe As Guna.UI2.WinForms.Guna2GradientButton
@@ -448,4 +463,6 @@ Partial Class LichSu
     Friend WithEvents lblTrangThai As Label
     Friend WithEvents lblFromDate As Label
     Friend WithEvents lblToDate As Label
+    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
+    Friend WithEvents btnInVe As Guna.UI2.WinForms.Guna2GradientButton
 End Class

@@ -157,5 +157,435 @@ QuanLyXeBuyt
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="T:QuanLyXeBuyt.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.DataSet1.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.DataSet1.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.DataSet1.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.BENXEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.CHUYENDIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.GHEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.LOAIGHEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.NGUOIDUNGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.TUYENDUONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.VEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.XEBUYTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.BENXERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.CHUYENDIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.GHERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.LOAIGHERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.NGUOIDUNGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.TUYENDUONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.VERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.XEBUYTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.BENXERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.CHUYENDIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.GHERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.LOAIGHERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.NGUOIDUNGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.TUYENDUONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.VERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet.XEBUYTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.BENXETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.CHUYENDITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.GHETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.LOAIGHETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.NGUOIDUNGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TUYENDUONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.VETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.XEBUYTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QuanLyXeBuyt.dbQuanLyVeKhachDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QuanLyXeBuyt.dbQuanLyVeKhachDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QuanLyXeBuyt.dbQuanLyVeKhachDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.UpdateAll(QuanLyXeBuyt.dbQuanLyVeKhachDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.BENXEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.CHUYENDIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.GHEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.LOAIGHEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.NGUOIDUNGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.TUYENDUONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.VEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.XEBUYTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.BENXERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.CHUYENDIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.GHERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.LOAIGHERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.NGUOIDUNGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.TUYENDUONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.VERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.XEBUYTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.BENXERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.CHUYENDIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.GHERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.LOAIGHERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.NGUOIDUNGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.TUYENDUONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.VERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1.XEBUYTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.BENXETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.CHUYENDITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.GHETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.LOAIGHETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.NGUOIDUNGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TUYENDUONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.VETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.XEBUYTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(QuanLyXeBuyt.dbQuanLyVeKhachDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(QuanLyXeBuyt.dbQuanLyVeKhachDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(QuanLyXeBuyt.dbQuanLyVeKhachDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.UpdateAll(QuanLyXeBuyt.dbQuanLyVeKhachDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.dbQuanLyVeKhachDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
