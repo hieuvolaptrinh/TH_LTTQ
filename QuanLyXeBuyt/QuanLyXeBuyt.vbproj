@@ -1,66 +1,252 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49884B72-9289-46EA-9E4B-74B60FC7BA2F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net9.0-windows</TargetFramework>
     <StartupObject>QuanLyXeBuyt.My.MyApplication</StartupObject>
-    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>QuanLyXeBuyt</RootNamespace>
+    <AssemblyName>QuanLyXeBuyt</AssemblyName>
+    <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <ImportedNamespaces>Microsoft.Data.SqlClient=False,System.Data=False,System.Drawing=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,QuanLyXeBuyt=True</ImportedNamespaces>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
-
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QuanLyXeBuyt.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QuanLyXeBuyt.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
   <ItemGroup>
-    <Content Include="Resources\find.png" />
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
   </ItemGroup>
-
   <ItemGroup>
-    <Import Include="Microsoft.Data.SqlClient" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
     <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
-    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.Winforms" Version="150.1652.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="My Project\Application.Designer.vb">
-      <DesignTime>True</DesignTime>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BaseForm.vb" />
+    <Compile Include="DangKiVip.Designer.vb">
+      <DependentUpon>DangKiVip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DangKiVip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.vb">
+      <DependentUpon>DangNhap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseConnection.vb" />
+    <Compile Include="DatVeNe.Designer.vb">
+      <DependentUpon>DatVeNe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatVeNe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSu.Designer.vb">
+      <DependentUpon>LichSu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LichSu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Update="My Project\Resources.Designer.vb">
-      <DesignTime>True</DesignTime>
+    <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Update="QuanLyVeKhachDataSet.Designer.vb">
-      <DesignTime>True</DesignTime>
+    <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
-      <DependentUpon>QuanLyVeKhachDataSet.xsd</DependentUpon>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sql\TrangChuDAO.vb" />
+    <Compile Include="testreport.Designer.vb">
+      <DependentUpon>testreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="testreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangChu-Admin.Designer.vb">
+      <DependentUpon>TrangChu-Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu-Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuyenDuong.Designer.vb">
+      <DependentUpon>TuyenDuong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TuyenDuong.vb">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
-    <EmbeddedResource Update="My Project\Resources.resx">
-      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKiVip.resx">
+      <DependentUpon>DangKiVip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatVeNe.resx">
+      <DependentUpon>DatVeNe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSu.resx">
+      <DependentUpon>LichSu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testreport.resx">
+      <DependentUpon>testreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrangChu-Admin.resx">
+      <DependentUpon>TrangChu-Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TuyenDuong.resx">
+      <DependentUpon>TuyenDuong.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-
   <ItemGroup>
-    <None Update="My Project\Application.myapp">
+    <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Update="QuanLyVeKhachDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QuanLyVeKhachDataSet.Designer.vb</LastGenOutput>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
-
+  <ItemGroup>
+    <None Include="Resources\z6440214645039_15c7f23b3f0fb15ef725367aeb112394.jpg" />
+    <None Include="Resources\wrench.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\ticket.png" />
+    <None Include="Resources\telephone.png" />
+    <None Include="Resources\sky.jpg" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\project-management.png" />
+    <None Include="Resources\previous.png" />
+    <None Include="Resources\presentation.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\next-button.png" />
+    <None Include="Resources\megaphone.png" />
+    <None Include="Resources\magnifying-glass.png" />
+    <None Include="Resources\location.png" />
+    <None Include="Resources\like.png" />
+    <None Include="Resources\hinh-anh-Xe-Bus-Vinhomes-Ocean-Park-Thong-tin-moi-nhat-ve-lo-trinh-gia-ve-so-1.jpg" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\cup-sao-khue.jpg" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\cancle.png" />
+    <None Include="Resources\arrow %281%29.png" />
+    <None Include="Resources\account.png" />
+    <None Include="Resources\8997.png_860.png" />
+    <None Include="Resources\2023-04-21.jpg" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

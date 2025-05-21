@@ -1,8 +1,13 @@
-﻿Imports Microsoft.Data.SqlClient
+﻿Imports System.Data.SqlClient
 
 Public Class LichSu
     Public currentNguoiDungIdLS As Integer = -1
-    Private ReadOnly connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"
+    Private connStr As String = "Data Source=HIEUVO;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=sa;TrustServerCertificate=True"
+
+    ' Hàm trả về SqlConnection
+    Public Function ConnectDatabase() As SqlConnection
+        Return New SqlConnection(connStr)
+    End Function
 
     Private Sub LichSu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If currentNguoiDungIdLS <= 0 Then
@@ -65,7 +70,7 @@ Public Class LichSu
     End Sub
 
     Private Sub LoadTicketHistory()
-        Using conn As New SqlConnection(connectionString)
+        Using conn As SqlConnection = ConnectDatabase()
             conn.Open()
             Dim sql As String = "
                 SELECT 
@@ -115,7 +120,7 @@ Public Class LichSu
     End Sub
 
     Private Sub UpdateStatistics()
-        Using conn As New SqlConnection(connectionString)
+        Using conn As SqlConnection = ConnectDatabase()
             conn.Open()
             ' Đếm tổng số vé
             Using cmdTotal As New SqlCommand("SELECT COUNT(*) FROM VE WHERE id_NguoiDung = @userId", conn)
@@ -149,7 +154,7 @@ Public Class LichSu
 
         If MessageBox.Show("Bạn có chắc chắn muốn hủy vé này không?", "Xác nhận hủy",
                           MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
-            Using conn As New SqlConnection(connectionString)
+            Using conn As SqlConnection = ConnectDatabase()
                 conn.Open()
                 Using cmd As New SqlCommand("UPDATE VE SET trang_Thai = N'Đã hủy' WHERE id_NguoiDung = @userId AND ngay_Dat = @ngayDat AND id_XeKhach = (SELECT id_XeKhach FROM XEKHACH WHERE bien_So = @bienSo)", conn)
                     cmd.Parameters.AddWithValue("@userId", currentNguoiDungIdLS)

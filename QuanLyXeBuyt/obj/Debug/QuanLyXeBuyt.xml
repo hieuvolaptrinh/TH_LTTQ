@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QuanLyXeBuyt
+</name>
+</assembly>
+<members>
+<member name="T:QuanLyXeBuyt.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources._2023_04_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources._8997_png_860">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources._like">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.account">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.arrow__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.cancle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.clock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.cup_sao_khue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.hinh_anh_Xe_Bus_Vinhomes_Ocean_Park_Thong_tin_moi_nhat_ve_lo_trinh_gia_ve_so_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.magnifying_glass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.megaphone">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.next_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.presentation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.previous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.project_management">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.question">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.telephone">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.ticket">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.wrench">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuanLyXeBuyt.My.Resources.Resources.z6440214645039_15c7f23b3f0fb15ef725367aeb112394">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

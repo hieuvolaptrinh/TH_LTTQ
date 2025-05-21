@@ -1,4 +1,6 @@
-﻿Public Class TuyenDuong
+﻿Imports System.Data.SqlClient
+
+Public Class TuyenDuong
     ' Chuỗi kết nối đến cơ sở dữ liệu SQL Server
     Dim connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"
 

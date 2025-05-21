@@ -1,4 +1,4 @@
-﻿Imports Microsoft.Data.SqlClient
+﻿Imports System.Data.SqlClient
 
 Public Class DatVeNe
     Private ReadOnly connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"

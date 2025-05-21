@@ -22,164 +22,141 @@ Partial Class DangKiVip
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        lblTitle = New Label()
-        txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
-        txtFullName = New Guna.UI2.WinForms.Guna2TextBox()
-        txtPhone = New Guna.UI2.WinForms.Guna2TextBox()
-        txtPassword = New Guna.UI2.WinForms.Guna2TextBox()
-        txtConfirmPassword = New Guna.UI2.WinForms.Guna2TextBox()
-        btnRegister = New Guna.UI2.WinForms.Guna2GradientButton()
-        btnBack = New Guna.UI2.WinForms.Guna2GradientButton()
-        SuspendLayout()
-        ' 
-        ' lblTitle
-        ' 
-        lblTitle.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
-        lblTitle.ForeColor = Color.Blue
-        lblTitle.Location = New Point(12, 26)
-        lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(500, 50)
-        lblTitle.TabIndex = 0
-        lblTitle.Text = "ĐĂNG KÝ TÀI KHOẢN"
-        lblTitle.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' txtUsername
-        ' 
-        txtUsername.BorderRadius = 10
-        txtUsername.CustomizableEdges = CustomizableEdges1
-        txtUsername.DefaultText = ""
-        txtUsername.Font = New Font("Segoe UI", 12F)
-        txtUsername.Location = New Point(62, 96)
-        txtUsername.Margin = New Padding(3, 4, 3, 4)
-        txtUsername.Name = "txtUsername"
-        txtUsername.PlaceholderText = "Tên tài khoản"
-        txtUsername.SelectedText = ""
-        txtUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtUsername.Size = New Size(400, 45)
-        txtUsername.TabIndex = 1
-        ' 
-        ' txtFullName
-        ' 
-        txtFullName.BorderRadius = 10
-        txtFullName.CustomizableEdges = CustomizableEdges3
-        txtFullName.DefaultText = ""
-        txtFullName.Font = New Font("Segoe UI", 12F)
-        txtFullName.Location = New Point(62, 172)
-        txtFullName.Margin = New Padding(3, 4, 3, 4)
-        txtFullName.Name = "txtFullName"
-        txtFullName.PlaceholderText = "Họ và tên"
-        txtFullName.SelectedText = ""
-        txtFullName.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        txtFullName.Size = New Size(400, 45)
-        txtFullName.TabIndex = 2
-        ' 
-        ' txtPhone
-        ' 
-        txtPhone.BorderRadius = 10
-        txtPhone.CustomizableEdges = CustomizableEdges5
-        txtPhone.DefaultText = ""
-        txtPhone.Font = New Font("Segoe UI", 12F)
-        txtPhone.Location = New Point(62, 241)
-        txtPhone.Margin = New Padding(3, 4, 3, 4)
-        txtPhone.Name = "txtPhone"
-        txtPhone.PlaceholderText = "Số điện thoại"
-        txtPhone.SelectedText = ""
-        txtPhone.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        txtPhone.Size = New Size(400, 45)
-        txtPhone.TabIndex = 3
-        ' 
-        ' txtPassword
-        ' 
-        txtPassword.BorderRadius = 10
-        txtPassword.CustomizableEdges = CustomizableEdges7
-        txtPassword.DefaultText = ""
-        txtPassword.Font = New Font("Segoe UI", 12F)
-        txtPassword.Location = New Point(62, 318)
-        txtPassword.Margin = New Padding(3, 4, 3, 4)
-        txtPassword.Name = "txtPassword"
-        txtPassword.PasswordChar = "*"c
-        txtPassword.PlaceholderText = "Mật khẩu"
-        txtPassword.SelectedText = ""
-        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        txtPassword.Size = New Size(400, 45)
-        txtPassword.TabIndex = 4
-        ' 
-        ' txtConfirmPassword
-        ' 
-        txtConfirmPassword.BorderRadius = 10
-        txtConfirmPassword.CustomizableEdges = CustomizableEdges9
-        txtConfirmPassword.DefaultText = ""
-        txtConfirmPassword.Font = New Font("Segoe UI", 12F)
-        txtConfirmPassword.Location = New Point(62, 393)
-        txtConfirmPassword.Margin = New Padding(3, 4, 3, 4)
-        txtConfirmPassword.Name = "txtConfirmPassword"
-        txtConfirmPassword.PasswordChar = "*"c
-        txtConfirmPassword.PlaceholderText = "Xác nhận mật khẩu"
-        txtConfirmPassword.SelectedText = ""
-        txtConfirmPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        txtConfirmPassword.Size = New Size(400, 45)
-        txtConfirmPassword.TabIndex = 5
-        ' 
-        ' btnRegister
-        ' 
-        btnRegister.BorderRadius = 10
-        btnRegister.CustomizableEdges = CustomizableEdges9
-        btnRegister.FillColor = Color.FromArgb(CByte(255), CByte(192), CByte(255))
-        btnRegister.FillColor2 = Color.Fuchsia
-        btnRegister.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnRegister.ForeColor = Color.White
-        btnRegister.Location = New Point(62, 465)
-        btnRegister.Name = "btnRegister"
-        btnRegister.ShadowDecoration.CustomizableEdges = CustomizableEdges11
-        btnRegister.Size = New Size(400, 45)
-        btnRegister.TabIndex = 6
-        btnRegister.Text = "Đăng Ký"
-        ' 
-        ' btnBack
-        ' 
-        btnBack.BorderRadius = 10
-        btnBack.CustomizableEdges = CustomizableEdges12
-        btnBack.FillColor = Color.FromArgb(CByte(158), CByte(158), CByte(158))
-        btnBack.FillColor2 = Color.FromArgb(CByte(97), CByte(97), CByte(97))
-        btnBack.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        btnBack.ForeColor = Color.White
-        btnBack.Location = New Point(62, 544)
-        btnBack.Name = "btnBack"
-        btnBack.ShadowDecoration.CustomizableEdges = CustomizableEdges13
-        btnBack.Size = New Size(400, 45)
-        btnBack.TabIndex = 7
-        btnBack.Text = "Quay Lại"
-        ' 
-        ' DangKiVip
-        ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
-        AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.FromArgb(CByte(33), CByte(150), CByte(243))
-        ClientSize = New Size(524, 636)
-        Controls.Add(btnBack)
-        Controls.Add(btnRegister)
-        Controls.Add(txtConfirmPassword)
-        Controls.Add(txtPassword)
-        Controls.Add(txtPhone)
-        Controls.Add(txtFullName)
-        Controls.Add(txtUsername)
-        Controls.Add(lblTitle)
-        Name = "DangKiVip"
-        Text = "DangKiVip"
-        ResumeLayout(False)
+        Me.lblTitle = New System.Windows.Forms.Label()
+        Me.txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtFullName = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPhone = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPassword = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtConfirmPassword = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.btnRegister = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnBack = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.SuspendLayout()
+        '
+        'lblTitle
+        '
+        Me.lblTitle.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold)
+        Me.lblTitle.ForeColor = System.Drawing.Color.Blue
+        Me.lblTitle.Location = New System.Drawing.Point(12, 9)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(500, 65)
+        Me.lblTitle.TabIndex = 0
+        Me.lblTitle.Text = "ĐĂNG KÝ TÀI KHOẢN"
+        Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'txtUsername
+        '
+        Me.txtUsername.BorderRadius = 10
+        Me.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtUsername.DefaultText = ""
+        Me.txtUsername.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.txtUsername.Location = New System.Drawing.Point(62, 77)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.PlaceholderText = "Tên tài khoản"
+        Me.txtUsername.SelectedText = ""
+        Me.txtUsername.Size = New System.Drawing.Size(400, 36)
+        Me.txtUsername.TabIndex = 1
+        '
+        'txtFullName
+        '
+        Me.txtFullName.BorderRadius = 10
+        Me.txtFullName.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtFullName.DefaultText = ""
+        Me.txtFullName.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.txtFullName.Location = New System.Drawing.Point(62, 138)
+        Me.txtFullName.Name = "txtFullName"
+        Me.txtFullName.PlaceholderText = "Họ và tên"
+        Me.txtFullName.SelectedText = ""
+        Me.txtFullName.Size = New System.Drawing.Size(400, 36)
+        Me.txtFullName.TabIndex = 2
+        '
+        'txtPhone
+        '
+        Me.txtPhone.BorderRadius = 10
+        Me.txtPhone.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPhone.DefaultText = ""
+        Me.txtPhone.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.txtPhone.Location = New System.Drawing.Point(62, 193)
+        Me.txtPhone.Name = "txtPhone"
+        Me.txtPhone.PlaceholderText = "Số điện thoại"
+        Me.txtPhone.SelectedText = ""
+        Me.txtPhone.Size = New System.Drawing.Size(400, 36)
+        Me.txtPhone.TabIndex = 3
+        '
+        'txtPassword
+        '
+        Me.txtPassword.BorderRadius = 10
+        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPassword.DefaultText = ""
+        Me.txtPassword.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.txtPassword.Location = New System.Drawing.Point(62, 254)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtPassword.PlaceholderText = "Mật khẩu"
+        Me.txtPassword.SelectedText = ""
+        Me.txtPassword.Size = New System.Drawing.Size(400, 36)
+        Me.txtPassword.TabIndex = 4
+        '
+        'txtConfirmPassword
+        '
+        Me.txtConfirmPassword.BorderRadius = 10
+        Me.txtConfirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtConfirmPassword.DefaultText = ""
+        Me.txtConfirmPassword.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.txtConfirmPassword.Location = New System.Drawing.Point(62, 314)
+        Me.txtConfirmPassword.Name = "txtConfirmPassword"
+        Me.txtConfirmPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtConfirmPassword.PlaceholderText = "Xác nhận mật khẩu"
+        Me.txtConfirmPassword.SelectedText = ""
+        Me.txtConfirmPassword.Size = New System.Drawing.Size(400, 36)
+        Me.txtConfirmPassword.TabIndex = 5
+        '
+        'btnRegister
+        '
+        Me.btnRegister.BorderRadius = 10
+        Me.btnRegister.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnRegister.FillColor2 = System.Drawing.Color.Fuchsia
+        Me.btnRegister.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnRegister.ForeColor = System.Drawing.Color.White
+        Me.btnRegister.Location = New System.Drawing.Point(62, 372)
+        Me.btnRegister.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnRegister.Name = "btnRegister"
+        Me.btnRegister.Size = New System.Drawing.Size(400, 36)
+        Me.btnRegister.TabIndex = 6
+        Me.btnRegister.Text = "Đăng Ký"
+        '
+        'btnBack
+        '
+        Me.btnBack.BorderRadius = 10
+        Me.btnBack.FillColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.btnBack.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(97, Byte), Integer), CType(CType(97, Byte), Integer), CType(CType(97, Byte), Integer))
+        Me.btnBack.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnBack.ForeColor = System.Drawing.Color.White
+        Me.btnBack.Location = New System.Drawing.Point(62, 435)
+        Me.btnBack.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(400, 36)
+        Me.btnBack.TabIndex = 7
+        Me.btnBack.Text = "Quay Lại"
+        '
+        'DangKiVip
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(524, 509)
+        Me.Controls.Add(Me.btnBack)
+        Me.Controls.Add(Me.btnRegister)
+        Me.Controls.Add(Me.txtConfirmPassword)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.txtPhone)
+        Me.Controls.Add(Me.txtFullName)
+        Me.Controls.Add(Me.txtUsername)
+        Me.Controls.Add(Me.lblTitle)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Name = "DangKiVip"
+        Me.Text = "DangKiVip"
+        Me.ResumeLayout(False)
+
     End Sub
     Friend WithEvents lblTitle As Label
     Friend WithEvents txtUsername As Guna.UI2.WinForms.Guna2TextBox
