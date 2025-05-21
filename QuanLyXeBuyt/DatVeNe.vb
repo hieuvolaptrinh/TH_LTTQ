@@ -215,10 +215,39 @@ Public Class DatVeNe
         Dim row = DataGridView1.SelectedRows(0)
         Dim idXeKhach = Convert.ToInt32(row.Cells("Mã Xe").Value)
         Dim tenXe = row.Cells("Tên Xe Khách").Value.ToString()
-        Dim gioDi = row.Cells("Giờ Khởi Hành").Value.ToString()
+        Dim gioKhoiHanhStr = row.Cells("Giờ Khởi Hành").Value.ToString()
 
-        If MessageBox.Show($"Xác nhận đặt vé xe {tenXe}{vbCrLf}Khởi hành: {gioDi}{vbCrLf}Số lượng: {numSoLuongVe.Value}",
-                          "Xác nhận đặt vé", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+        ' Kiểm tra ràng buộc thời gian
+        Dim gioKhoiHanh As DateTime
+        Dim formatProvider As New System.Globalization.CultureInfo("vi-VN")
+
+        If DateTime.TryParseExact(gioKhoiHanhStr, "dd/MM/yyyy HH:mm", formatProvider, Globalization.DateTimeStyles.None, gioKhoiHanh) Then
+            Dim thoiGianHienTai As DateTime = DateTime.Now
+
+            ' So sánh thời gian hiện tại với thời gian khởi hành
+            If thoiGianHienTai >= gioKhoiHanh Then
+                MessageBox.Show("Không đặt được vì quá thời gian khởi hành!",
+                           "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Return
+            End If
+        Else
+            ' Nếu không thể chuyển đổi định dạng ngày giờ, thử cách khác
+            Try
+                gioKhoiHanh = DateTime.Parse(gioKhoiHanhStr)
+                If DateTime.Now >= gioKhoiHanh Then
+                    MessageBox.Show("Không đặt được vì quá thời gian khởi hành!",
+                               "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    Return
+                End If
+            Catch ex As Exception
+                MessageBox.Show("Không thể xác định thời gian khởi hành, vui lòng thử lại!",
+                           "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Return
+            End Try
+        End If
+
+        If MessageBox.Show($"Xác nhận đặt vé xe {tenXe}{vbCrLf}Khởi hành: {gioKhoiHanhStr}{vbCrLf}Số lượng: {numSoLuongVe.Value}",
+                      "Xác nhận đặt vé", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
 
             Try
                 For i = 1 To numSoLuongVe.Value

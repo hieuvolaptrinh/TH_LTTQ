@@ -1,42 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TH_LTTQ\\QuanLyXeBuyt\\",
+  "WorkspaceRootPath": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\th_lttq\\quanlyxebuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\inve.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:inve.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\cntt-spkt\\cntt-spkt\\ki 4\\thlttq\\th_lttq\\quanlyxebuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\datvene.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\datvene.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:datvene.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\datvene.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\datvene.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:datvene.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\cntt-spkt\\cntt-spkt\\ki 4\\thlttq\\th_lttq\\quanlyxebuyt\\tuyenduong.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:tuyenduong.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\cntt-spkt\\cntt-spkt\\ki 4\\thlttq\\th_lttq\\quanlyxebuyt\\dangkivip.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:dangkivip.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\tuyenduong.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:tuyenduong.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\TH_LTTQ\\QuanLyXeBuyt\\trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:trangchu-admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\cntt-spkt\\cntt-spkt\\ki 4\\thlttq\\th_lttq\\quanlyxebuyt\\dangnhap.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:dangnhap.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,65 +38,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "TuyenDuong.vb [Design]",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\TuyenDuong.vb",
+              "RelativeDocumentMoniker": "TuyenDuong.vb",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\TuyenDuong.vb [Design]",
+              "RelativeToolTip": "TuyenDuong.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T16:37:56.019Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DangNhap.vb [Design]",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DangNhap.vb",
+              "RelativeDocumentMoniker": "DangNhap.vb",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DangNhap.vb [Design]",
+              "RelativeToolTip": "DangNhap.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T16:18:27.341Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangKiVip.vb [Design]",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DangKiVip.vb",
+              "RelativeDocumentMoniker": "DangKiVip.vb",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DangKiVip.vb [Design]",
+              "RelativeToolTip": "DangKiVip.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T16:18:23.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DatVeNe.vb",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb",
               "RelativeDocumentMoniker": "DatVeNe.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb",
               "RelativeToolTip": "DatVeNe.vb",
-              "ViewState": "AgIAADsAAAAAAAAAAAAiwEgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAgwOkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-21T11:22:30.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LichSu.vb",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
               "RelativeDocumentMoniker": "LichSu.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
               "RelativeToolTip": "LichSu.vb",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAmwJUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAgwAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-21T09:28:50.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InVe.rdlc [Design]",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\InVe.rdlc",
-              "RelativeDocumentMoniker": "InVe.rdlc",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\InVe.rdlc [Design]",
-              "RelativeToolTip": "InVe.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-05-21T09:24:07.83Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LichSu.vb [Design]",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
               "RelativeDocumentMoniker": "LichSu.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb [Design]",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb [Design]",
               "RelativeToolTip": "LichSu.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-21T09:16:47.206Z",
@@ -112,62 +124,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationEvents.vb",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\ApplicationEvents.vb",
-              "RelativeDocumentMoniker": "ApplicationEvents.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\ApplicationEvents.vb",
-              "RelativeToolTip": "ApplicationEvents.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T04:16:31.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DatVeNe.vb [Design]",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb",
+              "DocumentMoniker": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb",
               "RelativeDocumentMoniker": "DatVeNe.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb [Design]",
+              "ToolTip": "D:\\CNTT-SPKT\\CNTT-SPKT\\KI 4\\THLTTQ\\TH_LTTQ\\QuanLyXeBuyt\\DatVeNe.vb [Design]",
               "RelativeToolTip": "DatVeNe.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-21T04:15:03.825Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TuyenDuong.vb",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TuyenDuong.vb",
-              "RelativeDocumentMoniker": "TuyenDuong.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TuyenDuong.vb",
-              "RelativeToolTip": "TuyenDuong.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T04:17:25.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TrangChu-Admin.vb [Design]",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb",
-              "RelativeDocumentMoniker": "TrangChu-Admin.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb [Design]",
-              "RelativeToolTip": "TrangChu-Admin.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T04:16:24.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TrangChu-Admin.vb",
-              "DocumentMoniker": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb",
-              "RelativeDocumentMoniker": "TrangChu-Admin.vb",
-              "ToolTip": "D:\\TH_LTTQ\\QuanLyXeBuyt\\TrangChu-Admin.vb",
-              "RelativeToolTip": "TrangChu-Admin.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T04:16:18.148Z"
             }
           ]
         },

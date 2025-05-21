@@ -2,7 +2,7 @@
 
 Public Class LichSu
     Public currentNguoiDungIdLS As Integer = -1
-    Private conn As String = "Data Source=POTATO\SQLEXPRESS;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=12345;TrustServerCertificate=True"
+    Private conn As String = "Data Source=DESKTOP-QI5KS6I\NGYENNUKHANHNGOC;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=123456;TrustServerCertificate=True"
 
     ' Hàm trả về SqlConnection
     Public Function ConnectDatabase() As SqlConnection
