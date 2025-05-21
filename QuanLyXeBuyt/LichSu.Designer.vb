@@ -133,7 +133,7 @@ Partial Class LichSu
         Me.btnPrint.ForeColor = System.Drawing.Color.White
         Me.btnPrint.Location = New System.Drawing.Point(-5, 679)
         Me.btnPrint.Name = "btnPrint"
-        Me.btnPrint.Size = New System.Drawing.Size(1336, 30)
+        Me.btnPrint.Size = New System.Drawing.Size(933, 30)
         Me.btnPrint.TabIndex = 2
         '
         'Panel1

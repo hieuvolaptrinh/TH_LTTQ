@@ -117,25 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="MenuStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="TrangChủToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAD1SURBVDhPpdGx
-        zgFREAXgmyj2DTyEQqtWiFJEoxQPoCTxDhKdXuMBttlElHolHU9AIjqsc2TmGruXbLjJl3/MPTPh/i5N
-        078EmwqnSuZzHbpQ8z0tsnBGcIM7jKW3ARaJz2nhG85FMJfgSrBewFbq8AKcMqwlNIO+YM2eyi/A4e89
-        wBUGMAEdYM0e7/ILcFpwhiO0IQEdVuzxjpkLa5l1Q+Bj7aApf7PDymb4uHxotxQdOEFo0GKGWZ17vnoJ
-        Ql/7E2Y5E9lHzC7Yw1SwtnfB/0J2wSv07a5QqOCC2ATeQ/kFsb8zoQr0jIa5a5g+VfydFr9J3QPxWJgu
-        O1C1pgAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>
