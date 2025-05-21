@@ -3,7 +3,7 @@
 Public Class DatVeNe
     Private ReadOnly connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"
     Public currentNguoiDungId As Integer = -1
-    Private Const GIA_VE_MAC_DINH As Decimal = 100000D
+
     Private isViewingTrips As Boolean = True
 
     Private Sub DatVeNe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -72,14 +72,14 @@ Public Class DatVeNe
                     T.diem_di AS [Điểm Đi],
                     T.diem_den AS [Điểm Đến],
                     T.khoang_Cach_Km AS [Khoảng Cách (km)],
-                    @giaVe AS [Giá Vé]
+                    X.gia_Ve AS [Giá Vé]
                 FROM XEKHACH X
                 INNER JOIN TUYENDUONG T ON X.id_TuyenDuong = T.id_TuyenDuong
                 WHERE (T.diem_di LIKE @diemDi OR @diemDi = '')
                   AND (T.diem_den LIKE @diemDen OR @diemDen = '')
             "
             Using cmd As New SqlCommand(sql, conn)
-                cmd.Parameters.AddWithValue("@giaVe", GIA_VE_MAC_DINH)
+
                 cmd.Parameters.AddWithValue("@diemDi", "%" & diemDi & "%")
                 cmd.Parameters.AddWithValue("@diemDen", "%" & diemDen & "%")
 
@@ -125,7 +125,7 @@ Public Class DatVeNe
         End If
 
         Try
-            Dim giaVe As Decimal = GIA_VE_MAC_DINH
+            Dim giaVe As Decimal = 0
             If DataGridView1.SelectedRows(0).Cells("Giá Vé").Value IsNot Nothing Then
                 giaVe = Convert.ToDecimal(DataGridView1.SelectedRows(0).Cells("Giá Vé").Value)
             End If
@@ -233,7 +233,5 @@ Public Class DatVeNe
         End If
     End Sub
 
-    Private Sub pnlCard_Click(sender As Object, e As EventArgs) Handles pnlCard.Click
 
-    End Sub
 End Class

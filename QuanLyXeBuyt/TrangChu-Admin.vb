@@ -246,5 +246,8 @@ Public Class AdminTrangChu
         End If
     End Sub
 
-
+    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles btnThongKe.Click
+        Dim f As New Chart()
+        f.Show()
+    End Sub
 End Class

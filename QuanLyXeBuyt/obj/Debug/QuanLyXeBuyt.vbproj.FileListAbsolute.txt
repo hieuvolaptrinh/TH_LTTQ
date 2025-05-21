@@ -385,3 +385,4 @@ D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyXeBuyt\obj\Debug\QuanLyXe.3AC19
 D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyXeBuyt\obj\Debug\QuanLyXeBuyt.exe
 D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyXeBuyt\obj\Debug\QuanLyXeBuyt.xml
 D:\CNTT-SPKT\CNTT-SPKT\KI 4\THLTTQ\TH_LTTQ\QuanLyXeBuyt\obj\Debug\QuanLyXeBuyt.pdb
+D:\TH_LTTQ\QuanLyXeBuyt\obj\Debug\QuanLyXeBuyt.Chart.resources

@@ -2,7 +2,7 @@
 
 Public Class LichSu
     Public currentNguoiDungIdLS As Integer = -1
-    Private conn As String = "Data Source=DESKTOP-QI5KS6I\NGYENNUKHANHNGOC;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=123456;TrustServerCertificate=True"
+    Private conn As String = "Data Source=POTATO\SQLEXPRESS;Initial Catalog=QuanLyVeKhach;Persist Security Info=True;User ID=sa;Password=12345;TrustServerCertificate=True"
 
     ' Hàm trả về SqlConnection
     Public Function ConnectDatabase() As SqlConnection
@@ -77,6 +77,7 @@ Public Class LichSu
             conn.Open()
             Dim sql As String = "
                 SELECT 
+                    VE.id_Ve AS [ID_Ve],
                     FORMAT(VE.ngay_Dat, 'dd/MM/yyyy HH:mm') AS [Thời Gian Đặt],
                     VE.trang_Thai AS [Trạng Thái],
                     X.bien_So AS [Biển Số],
@@ -93,6 +94,7 @@ Public Class LichSu
                 AND (@trangThai = N'Tất cả' OR VE.trang_Thai = @trangThai)
                 ORDER BY VE.ngay_Dat DESC
             "
+
             Using cmd As New SqlCommand(sql, conn)
                 cmd.Parameters.AddWithValue("@userId", currentNguoiDungIdLS)
                 cmd.Parameters.AddWithValue("@trangThai", cboTrangThai.Text)
@@ -147,8 +149,7 @@ Public Class LichSu
 
         Dim row = dgvTickets.SelectedRows(0)
         Dim trangThai = row.Cells("Trạng Thái").Value.ToString()
-        Dim thoiGianDat = row.Cells("Thời Gian Đặt").Value.ToString()
-        Dim bienSo = row.Cells("Biển Số").Value.ToString()
+        Dim idVe As Integer = Convert.ToInt32(row.Cells("ID_Ve").Value)
 
         If trangThai = "Đã hủy" Then
             MessageBox.Show("Vé này đã được hủy trước đó!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
@@ -156,33 +157,24 @@ Public Class LichSu
         End If
 
         If MessageBox.Show("Bạn có chắc chắn muốn hủy vé này không?", "Xác nhận hủy",
-                          MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                       MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             Using conn As SqlConnection = ConnectDatabase()
                 conn.Open()
-                Using cmd As New SqlCommand("UPDATE VE SET trang_Thai = N'Đã hủy' WHERE id_NguoiDung = @userId AND ngay_Dat = @ngayDat AND id_XeKhach = (SELECT id_XeKhach FROM XEKHACH WHERE bien_So = @bienSo)", conn)
+                Using cmd As New SqlCommand("UPDATE VE SET trang_Thai = N'Đã hủy' WHERE id_Ve = @idVe AND id_NguoiDung = @userId", conn)
+                    cmd.Parameters.AddWithValue("@idVe", idVe)
                     cmd.Parameters.AddWithValue("@userId", currentNguoiDungIdLS)
-                    cmd.Parameters.AddWithValue("@ngayDat", DateTime.ParseExact(thoiGianDat, "dd/MM/yyyy HH:mm", Nothing))
-                    cmd.Parameters.AddWithValue("@bienSo", bienSo)
-                    cmd.ExecuteNonQuery()
+
+                    Dim rowsAffected As Integer = cmd.ExecuteNonQuery()
+                    If rowsAffected > 0 Then
+                        MessageBox.Show("Hủy vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        LoadTicketHistory()
+                        UpdateStatistics()
+                    Else
+                        MessageBox.Show("Không thể hủy vé! Vui lòng thử lại sau.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    End If
                 End Using
             End Using
-
-            MessageBox.Show("Hủy vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            LoadTicketHistory()
-            UpdateStatistics()
         End If
-    End Sub
-
-    Private Sub lblTongSoVe_Click(sender As Object, e As EventArgs) Handles lblTongSoVe.Click
-
-    End Sub
-
-    Private Sub lblSoVeHuy_Click(sender As Object, e As EventArgs) Handles lblSoVeHuy.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
     End Sub
 
     Private Sub cboTrangThai_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTrangThai.SelectedIndexChanged
@@ -238,7 +230,4 @@ Public Class LichSu
             MessageBox.Show("Lỗi khi in vé: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
-
-
-
 End Class
