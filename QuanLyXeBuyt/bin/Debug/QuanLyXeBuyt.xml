@@ -157,6 +157,186 @@ QuanLyXeBuyt
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="T:QuanLyXeBuyt.test">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.test.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.test.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.test.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.NGUOIDUNGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.TUYENDUONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.VEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.XEKHACHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.NGUOIDUNGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.TUYENDUONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.VERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.XEKHACHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.NGUOIDUNGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.TUYENDUONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.VERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.XEKHACHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKe.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.NGUOIDUNGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.TUYENDUONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.VETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.XEKHACHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.UpdateUpdatedRows(QuanLyXeBuyt.ThongKe,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.UpdateInsertedRows(QuanLyXeBuyt.ThongKe,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.UpdateDeletedRows(QuanLyXeBuyt.ThongKe,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.UpdateAll(QuanLyXeBuyt.ThongKe)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeDoanhThuDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeDoanhThuDataSet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeDoanhThuDataSet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyXeBuyt.ThongKeDoanhThuDataSet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:QuanLyXeBuyt.DataSet1">
 <summary>
 Represents a strongly typed in-memory cache of data.

@@ -23,17 +23,19 @@ Partial Class AdminTrangChu
     <System.Diagnostics.DebuggerStepThrough()>
     Public Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminTrangChu))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.PanelContainer = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblClock = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.pnlBottom = New Guna.UI2.WinForms.Guna2Panel()
+        Me.btnInThongKe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.btnChiTietVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.timKiem = New Guna.UI2.WinForms.Guna2Button()
         Me.txtBienSo = New Guna.UI2.WinForms.Guna2TextBox()
         Me.DateTimePickerNgayDen = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.DateTimePickerNgayDi = New Guna.UI2.WinForms.Guna2DateTimePicker()
@@ -50,6 +52,7 @@ Partial Class AdminTrangChu
         Me.btnXoaVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnThemXe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.pnlNavigation = New Guna.UI2.WinForms.Guna2Panel()
+        Me.btnThongKe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.pnlVeHuy = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.lblVeHuyValue = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -72,8 +75,6 @@ Partial Class AdminTrangChu
         Me.DanhSáchXeBuýtToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BổSungTuyếnĐườngToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TrangChủToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.timKiem = New Guna.UI2.WinForms.Guna2Button()
-        Me.btnThongKe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.PanelContainer.SuspendLayout()
         Me.pnlBottom.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -109,7 +110,7 @@ Partial Class AdminTrangChu
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(478, 10)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(735, 60)
+        Me.Label2.Size = New System.Drawing.Size(725, 59)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "CHÀO MỪNG ĐẾN VỚI HỆ THỐNG"
         '
@@ -132,6 +133,7 @@ Partial Class AdminTrangChu
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlBottom.AutoSize = True
         Me.pnlBottom.BackColor = System.Drawing.Color.Transparent
+        Me.pnlBottom.Controls.Add(Me.btnInThongKe)
         Me.pnlBottom.Controls.Add(Me.Panel1)
         Me.pnlBottom.Controls.Add(Me.btnChiTietVe)
         Me.pnlBottom.Controls.Add(Me.Label10)
@@ -154,6 +156,24 @@ Partial Class AdminTrangChu
         Me.pnlBottom.Size = New System.Drawing.Size(1171, 536)
         Me.pnlBottom.TabIndex = 6
         '
+        'btnInThongKe
+        '
+        Me.btnInThongKe.BorderRadius = 15
+        Me.btnInThongKe.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnInThongKe.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnInThongKe.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnInThongKe.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnInThongKe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnInThongKe.FillColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnInThongKe.FillColor2 = System.Drawing.Color.Red
+        Me.btnInThongKe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnInThongKe.ForeColor = System.Drawing.Color.White
+        Me.btnInThongKe.Location = New System.Drawing.Point(547, 188)
+        Me.btnInThongKe.Name = "btnInThongKe"
+        Me.btnInThongKe.Size = New System.Drawing.Size(217, 47)
+        Me.btnInThongKe.TabIndex = 5
+        Me.btnInThongKe.Text = "In thống kê"
+        '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Black
@@ -175,14 +195,14 @@ Partial Class AdminTrangChu
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.EnableHeadersVisualStyles = False
         Me.DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -233,6 +253,26 @@ Partial Class AdminTrangChu
         Me.Label10.Size = New System.Drawing.Size(291, 54)
         Me.Label10.TabIndex = 8
         Me.Label10.Text = "Danh Sách Xe "
+        '
+        'timKiem
+        '
+        Me.timKiem.BackColor = System.Drawing.Color.Transparent
+        Me.timKiem.BorderRadius = 20
+        Me.timKiem.DisabledState.BorderColor = System.Drawing.Color.Black
+        Me.timKiem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.timKiem.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.timKiem.DisabledState.ForeColor = System.Drawing.Color.Black
+        Me.timKiem.FillColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.timKiem.FocusedColor = System.Drawing.Color.Green
+        Me.timKiem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.timKiem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.timKiem.Image = Global.QuanLyXeBuyt.My.Resources.Resources.find
+        Me.timKiem.Location = New System.Drawing.Point(885, 262)
+        Me.timKiem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.timKiem.Name = "timKiem"
+        Me.timKiem.Size = New System.Drawing.Size(172, 36)
+        Me.timKiem.TabIndex = 24
+        Me.timKiem.Text = "Tìm Kiếm"
         '
         'txtBienSo
         '
@@ -506,6 +546,24 @@ Partial Class AdminTrangChu
         Me.pnlNavigation.Size = New System.Drawing.Size(233, 613)
         Me.pnlNavigation.TabIndex = 4
         '
+        'btnThongKe
+        '
+        Me.btnThongKe.BorderRadius = 15
+        Me.btnThongKe.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnThongKe.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnThongKe.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnThongKe.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnThongKe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnThongKe.FillColor = System.Drawing.Color.Pink
+        Me.btnThongKe.FillColor2 = System.Drawing.Color.HotPink
+        Me.btnThongKe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnThongKe.ForeColor = System.Drawing.Color.White
+        Me.btnThongKe.Location = New System.Drawing.Point(7, 402)
+        Me.btnThongKe.Name = "btnThongKe"
+        Me.btnThongKe.Size = New System.Drawing.Size(219, 80)
+        Me.btnThongKe.TabIndex = 5
+        Me.btnThongKe.Text = "Thống kê"
+        '
         'pnlVeHuy
         '
         Me.pnlVeHuy.BackColor = System.Drawing.Color.Transparent
@@ -729,44 +787,6 @@ Partial Class AdminTrangChu
         Me.TrangChủToolStripMenuItem.Text = "Trang Chủ"
         Me.TrangChủToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'timKiem
-        '
-        Me.timKiem.BackColor = System.Drawing.Color.Transparent
-        Me.timKiem.BorderRadius = 20
-        Me.timKiem.DisabledState.BorderColor = System.Drawing.Color.Black
-        Me.timKiem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.timKiem.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.timKiem.DisabledState.ForeColor = System.Drawing.Color.Black
-        Me.timKiem.FillColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.timKiem.FocusedColor = System.Drawing.Color.Green
-        Me.timKiem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timKiem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.timKiem.Image = Global.QuanLyXeBuyt.My.Resources.Resources.find
-        Me.timKiem.Location = New System.Drawing.Point(885, 262)
-        Me.timKiem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.timKiem.Name = "timKiem"
-        Me.timKiem.Size = New System.Drawing.Size(172, 36)
-        Me.timKiem.TabIndex = 24
-        Me.timKiem.Text = "Tìm Kiếm"
-        '
-        'btnThongKe
-        '
-        Me.btnThongKe.BorderRadius = 15
-        Me.btnThongKe.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnThongKe.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnThongKe.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnThongKe.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnThongKe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnThongKe.FillColor = System.Drawing.Color.Pink
-        Me.btnThongKe.FillColor2 = System.Drawing.Color.HotPink
-        Me.btnThongKe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnThongKe.ForeColor = System.Drawing.Color.White
-        Me.btnThongKe.Location = New System.Drawing.Point(7, 402)
-        Me.btnThongKe.Name = "btnThongKe"
-        Me.btnThongKe.Size = New System.Drawing.Size(223, 88)
-        Me.btnThongKe.TabIndex = 5
-        Me.btnThongKe.Text = "Thống kê"
-        '
         'AdminTrangChu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -847,5 +867,6 @@ Partial Class AdminTrangChu
     Private WithEvents btnChiTietVe As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnThongKe As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnInThongKe As Guna.UI2.WinForms.Guna2GradientButton
     '// [END] Control Declarations
 End Class
