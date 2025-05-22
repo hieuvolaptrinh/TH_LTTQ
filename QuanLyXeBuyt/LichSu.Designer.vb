@@ -24,9 +24,9 @@ Partial Class LichSu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.dgvTickets = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.btnHuyVe = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnPrint = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -54,7 +54,6 @@ Partial Class LichSu
         Me.lblTrangThai = New System.Windows.Forms.Label()
         Me.lblFromDate = New System.Windows.Forms.Label()
         Me.lblToDate = New System.Windows.Forms.Label()
-        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.btnInVe = New Guna.UI2.WinForms.Guna2GradientButton()
         CType(Me.dgvTickets, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -65,25 +64,25 @@ Partial Class LichSu
         '
         'dgvTickets
         '
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        Me.dgvTickets.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvTickets.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.dgvTickets.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvTickets.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgvTickets.ColumnHeadersHeight = 40
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvTickets.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvTickets.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvTickets.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgvTickets.Location = New System.Drawing.Point(3, 13)
         Me.dgvTickets.Name = "dgvTickets"
@@ -121,7 +120,7 @@ Partial Class LichSu
         Me.btnHuyVe.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(80, Byte), Integer))
         Me.btnHuyVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.btnHuyVe.ForeColor = System.Drawing.Color.White
-        Me.btnHuyVe.Location = New System.Drawing.Point(950, 145)
+        Me.btnHuyVe.Location = New System.Drawing.Point(735, 150)
         Me.btnHuyVe.Name = "btnHuyVe"
         Me.btnHuyVe.Size = New System.Drawing.Size(180, 40)
         Me.btnHuyVe.TabIndex = 1
@@ -151,13 +150,13 @@ Partial Class LichSu
         Me.pnlVeHuy.Controls.Add(Me.lblSoVeHuy)
         Me.pnlVeHuy.Controls.Add(Me.Label9)
         Me.pnlVeHuy.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.pnlVeHuy.Location = New System.Drawing.Point(706, 54)
+        Me.pnlVeHuy.Location = New System.Drawing.Point(290, 55)
         Me.pnlVeHuy.Name = "pnlVeHuy"
         Me.pnlVeHuy.Radius = 10
         Me.pnlVeHuy.ShadowColor = System.Drawing.Color.Black
         Me.pnlVeHuy.ShadowDepth = 10
         Me.pnlVeHuy.ShadowShift = 0
-        Me.pnlVeHuy.Size = New System.Drawing.Size(209, 149)
+        Me.pnlVeHuy.Size = New System.Drawing.Size(209, 135)
         Me.pnlVeHuy.TabIndex = 6
         '
         'lblSoVeHuy
@@ -194,7 +193,7 @@ Partial Class LichSu
         Me.pnlTongTuyen.ShadowColor = System.Drawing.Color.Black
         Me.pnlTongTuyen.ShadowDepth = 10
         Me.pnlTongTuyen.ShadowShift = 0
-        Me.pnlTongTuyen.Size = New System.Drawing.Size(263, 130)
+        Me.pnlTongTuyen.Size = New System.Drawing.Size(227, 130)
         Me.pnlTongTuyen.TabIndex = 4
         '
         'lblTongSoVe
@@ -229,7 +228,7 @@ Partial Class LichSu
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
         Me.MenuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.MenuStrip1.Size = New System.Drawing.Size(1905, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(926, 28)
         Me.MenuStrip1.TabIndex = 12
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -316,7 +315,7 @@ Partial Class LichSu
         Me.cboTrangThai.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.cboTrangThai.ItemHeight = 30
         Me.cboTrangThai.Items.AddRange(New Object() {"Tất cả", "Đã đặt", "Đã hủy"})
-        Me.cboTrangThai.Location = New System.Drawing.Point(318, 96)
+        Me.cboTrangThai.Location = New System.Drawing.Point(534, 69)
         Me.cboTrangThai.Name = "cboTrangThai"
         Me.cboTrangThai.Size = New System.Drawing.Size(353, 36)
         Me.cboTrangThai.TabIndex = 14
@@ -357,15 +356,6 @@ Partial Class LichSu
         Me.lblToDate.TabIndex = 20
         Me.lblToDate.Text = "Đến ngày"
         '
-        'ReportViewer1
-        '
-        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyXeBuyt.InVe.rdlc"
-        Me.ReportViewer1.Location = New System.Drawing.Point(950, 209)
-        Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.ServerReport.BearerToken = Nothing
-        Me.ReportViewer1.Size = New System.Drawing.Size(943, 475)
-        Me.ReportViewer1.TabIndex = 21
-        '
         'btnInVe
         '
         Me.btnInVe.BorderRadius = 10
@@ -376,7 +366,7 @@ Partial Class LichSu
         Me.btnInVe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btnInVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnInVe.ForeColor = System.Drawing.Color.White
-        Me.btnInVe.Location = New System.Drawing.Point(950, 68)
+        Me.btnInVe.Location = New System.Drawing.Point(520, 148)
         Me.btnInVe.Name = "btnInVe"
         Me.btnInVe.Size = New System.Drawing.Size(184, 42)
         Me.btnInVe.TabIndex = 22
@@ -387,9 +377,8 @@ Partial Class LichSu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1905, 709)
+        Me.ClientSize = New System.Drawing.Size(926, 709)
         Me.Controls.Add(Me.btnInVe)
-        Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.pnlVeHuy)
         Me.Controls.Add(Me.pnlTongTuyen)
@@ -447,6 +436,5 @@ Partial Class LichSu
     Friend WithEvents lblTrangThai As Label
     Friend WithEvents lblFromDate As Label
     Friend WithEvents lblToDate As Label
-    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents btnInVe As Guna.UI2.WinForms.Guna2GradientButton
 End Class

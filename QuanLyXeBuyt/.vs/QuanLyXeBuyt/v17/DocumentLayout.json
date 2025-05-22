@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th_lttq\\quanlyxebuyt\\lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:lichsu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th_lttq\\quanlyxebuyt\\reportinve.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:reportinve.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|d:\\onedrive - university of technology and education\\dai_hoc\\2024-2025\\k\u00EC 2\\th_lttq\\quanlyxebuyt\\reportinve.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\reportinve.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{49884B72-9289-46EA-9E4B-74B60FC7BA2F}|QuanLyXeBuyt.vbproj|solutionrelative:reportinve.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -27,27 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LichSu.vb [Design]",
+              "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb",
+              "RelativeDocumentMoniker": "LichSu.vb",
+              "ToolTip": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\LichSu.vb [Design]",
+              "RelativeToolTip": "LichSu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-22T13:57:09.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReportInVe.vb",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\ReportInVe.vb",
               "RelativeDocumentMoniker": "ReportInVe.vb",
               "ToolTip": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\ReportInVe.vb",
               "RelativeToolTip": "ReportInVe.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-22T13:49:46.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ReportInVe.vb [Design]",
               "DocumentMoniker": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\ReportInVe.vb",
               "RelativeDocumentMoniker": "ReportInVe.vb",
               "ToolTip": "D:\\OneDrive - University of Technology and Education\\Dai_hoc\\2024-2025\\k\u00EC 2\\TH_LTTQ\\QuanLyXeBuyt\\ReportInVe.vb [Design]",
               "RelativeToolTip": "ReportInVe.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-22T13:49:17.165Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-22T13:49:17.165Z"
             }
           ]
         },
