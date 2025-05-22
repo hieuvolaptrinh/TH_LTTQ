@@ -91,7 +91,7 @@ Partial Class DatVeNe
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(308, 6)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(735, 60)
+        Me.Label1.Size = New System.Drawing.Size(725, 59)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "CHÀO MỪNG ĐẾN VỚI HỆ THỐNG"
         '
@@ -168,12 +168,12 @@ Partial Class DatVeNe
         Me.btnHuy.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
         Me.btnHuy.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.btnHuy.ForeColor = System.Drawing.Color.White
-        Me.btnHuy.Location = New System.Drawing.Point(883, 461)
+        Me.btnHuy.Location = New System.Drawing.Point(993, 507)
         Me.btnHuy.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnHuy.Name = "btnHuy"
         Me.btnHuy.Size = New System.Drawing.Size(200, 40)
         Me.btnHuy.TabIndex = 6
-        Me.btnHuy.Text = "Hủy Vé"
+        Me.btnHuy.Text = "Thoát"
         '
         'btnDatVe
         '
@@ -188,7 +188,7 @@ Partial Class DatVeNe
         Me.btnDatVe.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
         Me.btnDatVe.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.btnDatVe.ForeColor = System.Drawing.Color.White
-        Me.btnDatVe.Location = New System.Drawing.Point(1104, 461)
+        Me.btnDatVe.Location = New System.Drawing.Point(993, 449)
         Me.btnDatVe.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnDatVe.Name = "btnDatVe"
         Me.btnDatVe.Size = New System.Drawing.Size(200, 40)
@@ -269,6 +269,7 @@ Partial Class DatVeNe
         Me.numSoLuongVe.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.numSoLuongVe.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.numSoLuongVe.Location = New System.Drawing.Point(40, 82)
+        Me.numSoLuongVe.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.numSoLuongVe.Maximum = New Decimal(New Integer() {10, 0, 0, 0})
         Me.numSoLuongVe.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.numSoLuongVe.Name = "numSoLuongVe"

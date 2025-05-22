@@ -4,7 +4,7 @@ Imports Microsoft.Reporting
 
 Public Class Chart
     ' Thay chuỗi kết nối dưới đây cho phù hợp với máy của bạn
-    Dim connectionString As String = "Data Source=POTATO\SQLEXPRESS;Initial Catalog=QuanLyVeKhach;Integrated Security=True"
+    Private connectionString As String = "Server=localhost;Database=QuanLyVeKhach;Trusted_Connection=True;TrustServerCertificate=True;"
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadChart()

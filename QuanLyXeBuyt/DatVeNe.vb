@@ -262,5 +262,9 @@ Public Class DatVeNe
         End If
     End Sub
 
-
+    Private Sub btnHuy_Click(sender As Object, e As EventArgs) Handles btnHuy.Click
+        Me.Hide()
+        Dim frmLogin As New DangNhap()
+        frmLogin.Show()
+    End Sub
 End Class

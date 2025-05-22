@@ -234,6 +234,33 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DatabaseConnection.vb" />
+    <Compile Include="InThongKe.Designer.vb">
+      <DependentUpon>InThongKe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InThongKe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>test.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKe.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThongKe.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKe.vb">
+      <DependentUpon>ThongKe.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeDoanhThuDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThongKeDoanhThuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeDoanhThuDataSet.vb">
+      <DependentUpon>ThongKeDoanhThuDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TicketReportDataset.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -309,6 +336,10 @@
     <EmbeddedResource Include="DatVeNe.resx">
       <DependentUpon>DatVeNe.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InThongKe.resx">
+      <DependentUpon>InThongKe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InThongKeDoanhThu.rdlc" />
     <EmbeddedResource Include="InVe.rdlc" />
     <EmbeddedResource Include="LichSu.resx">
       <DependentUpon>LichSu.vb</DependentUpon>
@@ -327,6 +358,39 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="test.xsc">
+      <DependentUpon>test.xsd</DependentUpon>
+    </None>
+    <None Include="test.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>test.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="test.xss">
+      <DependentUpon>test.xsd</DependentUpon>
+    </None>
+    <None Include="ThongKe.xsc">
+      <DependentUpon>ThongKe.xsd</DependentUpon>
+    </None>
+    <None Include="ThongKe.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThongKe.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThongKe.xss">
+      <DependentUpon>ThongKe.xsd</DependentUpon>
+    </None>
+    <None Include="ThongKeDoanhThuDataSet.xsc">
+      <DependentUpon>ThongKeDoanhThuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ThongKeDoanhThuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThongKeDoanhThuDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThongKeDoanhThuDataSet.xss">
+      <DependentUpon>ThongKeDoanhThuDataSet.xsd</DependentUpon>
+    </None>
     <None Include="TicketReportDataset.xsc">
       <DependentUpon>TicketReportDataset.xsd</DependentUpon>
     </None>
