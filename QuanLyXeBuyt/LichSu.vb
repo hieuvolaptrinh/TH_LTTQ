@@ -10,7 +10,6 @@ Public Class LichSu
     End Function
 
     Private Sub LichSu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ReportViewer1.Visible = False
         If currentNguoiDungIdLS <= 0 Then
             MessageBox.Show("Vui lòng đăng nhập để xem lịch sử!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Me.Close()
@@ -27,8 +26,6 @@ Public Class LichSu
 
         LoadTicketHistory()
         UpdateStatistics()
-        Me.ReportViewer1.RefreshReport()
-        Me.ReportViewer1.RefreshReport()
     End Sub
 
     Private Sub SetupDataGridView()
@@ -182,7 +179,6 @@ Public Class LichSu
     End Sub
 
     Private Sub btnInVe_Click(sender As Object, e As EventArgs) Handles btnInVe.Click
-        ReportViewer1.Visible = True
         If dgvTickets.Rows.Count = 0 Then
             MessageBox.Show("Không có dữ liệu để in!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Return
@@ -217,17 +213,9 @@ Public Class LichSu
             End If
         Next
 
-
-        ' Gán dữ liệu vào ReportViewer
-        Try
-            ReportViewer1.LocalReport.DataSources.Clear()
-            Dim rds As New Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt)
-            ReportViewer1.LocalReport.DataSources.Add(rds)
-            ReportViewer1.LocalReport.ReportPath = Application.StartupPath & "\InVe.rdlc"
-            ReportViewer1.LocalReport.Refresh()
-            ReportViewer1.RefreshReport()
-        Catch ex As Exception
-            MessageBox.Show("Lỗi khi in vé: " & ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+        ' Mở form ReportInVe và truyền dữ liệu vào
+        Dim frmReport As New ReportInVe()
+        frmReport.SetReportData(dt)
+        frmReport.Show()
     End Sub
 End Class

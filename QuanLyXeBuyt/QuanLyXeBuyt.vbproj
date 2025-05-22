@@ -240,6 +240,12 @@
     <Compile Include="InThongKe.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ReportInVe.Designer.vb">
+      <DependentUpon>ReportInVe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportInVe.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="test.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -349,6 +355,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportInVe.resx">
+      <DependentUpon>ReportInVe.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu-Admin.resx">
       <DependentUpon>TrangChu-Admin.vb</DependentUpon>
